@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""
-MCP server exposing Swagger API docs from Qdrant to Claude Code.
+"""MCP server exposing Swagger/OpenAPI docs from Qdrant to Claude Code.
 
 Tools:
   - search_api_docs  : semantic vector search over all indexed endpoints
@@ -10,17 +9,33 @@ Tools:
 
 import asyncio
 import json
+from pathlib import Path
+
 import requests
-from qdrant_client import QdrantClient
-from qdrant_client.models import Filter, FieldCondition, MatchValue
 from mcp.server import Server
 from mcp.server.stdio import stdio_server
 from mcp.types import Tool, TextContent
+from qdrant_client import QdrantClient
+from qdrant_client.models import FieldCondition, Filter, MatchValue
 
-OLLAMA_URL = "http://localhost:11434/api/embeddings"
+# ---------------------------------------------------------------------------
+# Config — written by setup.sh
+# ---------------------------------------------------------------------------
+
+_CONFIG_FILE = Path(__file__).parent.parent / "config.json"
+
+
+def _load_config() -> dict:
+    if _CONFIG_FILE.exists():
+        return json.loads(_CONFIG_FILE.read_text())
+    return {}
+
+
+_CFG = _load_config()
+OLLAMA_URL  = "http://localhost:11434/api/embeddings"
 EMBED_MODEL = "nomic-embed-text"
-QDRANT_URL = "http://localhost:6333"
-COLLECTION = "swagger_docs"
+QDRANT_URL  = _CFG.get("qdrant_url", "http://localhost:6333")
+COLLECTION  = "swagger_docs"
 
 qdrant = QdrantClient(url=QDRANT_URL)
 server = Server("swagger-docs")
@@ -125,11 +140,11 @@ async def list_tools() -> list[Tool]:
 @server.call_tool()
 async def call_tool(name: str, arguments: dict) -> list[TextContent]:
     if name == "search_api_docs":
-        query = arguments["query"]
-        limit = min(int(arguments.get("limit", 5)), 20)
+        query  = arguments["query"]
+        limit  = min(int(arguments.get("limit", 5)), 20)
         source = arguments.get("source")
 
-        vector = embed(query)
+        vector      = embed(query)
         filter_cond = None
         if source:
             filter_cond = Filter(
@@ -152,12 +167,12 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
 
     elif name == "get_endpoint":
         method = arguments["method"].upper()
-        path = arguments["path"]
+        path   = arguments["path"]
         source = arguments.get("source")
 
         must = [
             FieldCondition(key="method", match=MatchValue(value=method)),
-            FieldCondition(key="path", match=MatchValue(value=path)),
+            FieldCondition(key="path",   match=MatchValue(value=path)),
         ]
         if source:
             must.append(FieldCondition(key="source", match=MatchValue(value=source)))
@@ -177,7 +192,7 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
 
     elif name == "list_api_sources":
         sources = {}
-        offset = None
+        offset  = None
         while True:
             batch, offset = qdrant.scroll(
                 collection_name=COLLECTION,
@@ -186,14 +201,14 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
                 with_payload=["source", "api_title"],
             )
             for pt in batch:
-                src = pt.payload.get("source", "unknown")
+                src   = pt.payload.get("source", "unknown")
                 title = pt.payload.get("api_title", src)
                 sources[src] = title
             if offset is None:
                 break
 
         if not sources:
-            return [TextContent(type="text", text="No API sources indexed yet. Run ingest.py first.")]
+            return [TextContent(type="text", text="No API sources indexed yet. Run indexer/index.py first.")]
 
         lines = ["Indexed API services:\n"]
         for src, title in sorted(sources.items()):
@@ -206,6 +221,7 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
 async def main():
     async with stdio_server() as (read_stream, write_stream):
         await server.run(read_stream, write_stream, server.create_initialization_options())
+
 
 if __name__ == "__main__":
     asyncio.run(main())
