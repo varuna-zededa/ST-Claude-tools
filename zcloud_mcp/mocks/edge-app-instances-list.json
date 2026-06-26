@@ -1,0 +1,543 @@
+{
+    "list": [
+        {
+            "id": "3daf49d6-de26-4e94-bc30-4ffb2d125a2d",
+            "name": "000-feb1--rag-cluster-test1-seedserver",
+            "deviceId": "46120f17-cc28-4b13-8daf-f2396952591d",
+            "deviceName": "0000001_Vlan_rag_test_1",
+            "appId": "01917db0-4d14-4e3d-a0c7-2248202ddb4d",
+            "appName": "001-test123-zkssle-micro_e2_0.3.0",
+            "projectId": "b8552e75-54ee-4607-a715-1469dd132004",
+            "projectName": "default-project",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_VM",
+            "userDefinedVersion": "0.3.0",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "5",
+                "nextBundleVersion": "5",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": true
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_K3S",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 6,
+                "memory": 12582912,
+                "mode": "HV_HVM",
+                "vnc": true,
+                "vncDisplay": 1,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "d2a47243-f4ee-40db-8b54-1aea09bf4c68",
+            "name": "0000000_Rag_app_inst1",
+            "deviceId": "395bf91b-da8c-46bf-a2ae-b2892777064a",
+            "deviceName": "00000001_NTP_test2",
+            "appId": "385d4bab-2340-4e80-8a30-abcd7e177dbf",
+            "appName": "0001_adapter_label_tes_app",
+            "projectId": "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d",
+            "projectName": "01-demo-project",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "3",
+                "nextBundleVersion": "37",
+                "transitionAction": "INSTANCE_TA_UPDATEWITHPURGE",
+                "params": {},
+                "details": {
+                    "cause": "TRANS_CAUSE_APP_DRIVE_CHANGED",
+                    "severity": "WARNING",
+                    "scope": {
+                        "type": "OBJECT_TYPE_EDGE_APP_INSTANCE",
+                        "id": "d2a47243-f4ee-40db-8b54-1aea09bf4c68"
+                    }
+                },
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 593920,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 0,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "732765c4-432f-4d77-9c9c-07efb5b71922",
+            "name": "000001_rag_app_inst_2",
+            "deviceId": "395bf91b-da8c-46bf-a2ae-b2892777064a",
+            "deviceName": "00000001_NTP_test2",
+            "appId": "81212387-0bfd-45ad-a924-e8acb53319d1",
+            "appName": "aws-greengrass",
+            "projectId": "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d",
+            "projectName": "01-demo-project",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_VM",
+            "userDefinedVersion": "7",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "11",
+                "nextBundleVersion": "11",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": true
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 2,
+                "memory": 2097152,
+                "mode": "HV_HVM",
+                "vnc": true,
+                "vncDisplay": 1,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "11b8982d-06c9-4641-9b6d-3054449b9711",
+            "name": "00001_TEST_ABC_123",
+            "deviceId": "aa291e7f-82b7-47d3-b0c1-01cd82871af9",
+            "deviceName": "0000001_ABC_TEST_NI",
+            "appId": "385d4bab-2340-4e80-8a30-abcd7e177dbf",
+            "appName": "0001_adapter_label_tes_app",
+            "projectId": "b8552e75-54ee-4607-a715-1469dd132004",
+            "projectName": "default-project",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "2",
+                "nextBundleVersion": "37",
+                "transitionAction": "INSTANCE_TA_UPDATEWITHPURGE",
+                "params": {},
+                "details": {
+                    "cause": "TRANS_CAUSE_APP_DRIVE_CHANGED",
+                    "severity": "WARNING",
+                    "scope": {
+                        "type": "OBJECT_TYPE_EDGE_APP_INSTANCE",
+                        "id": "11b8982d-06c9-4641-9b6d-3054449b9711"
+                    }
+                },
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 524288,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 0,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "61de4bde-8b7d-42d6-b549-e91e24953410",
+            "name": "00001_TEST_ENC",
+            "deviceId": "60760df9-e669-47a0-8a08-58e9a0b1bd19",
+            "deviceName": "0001_Aa_rag_vlanid_device_1",
+            "appId": "41702b2b-ef4d-4abc-93d6-94fc0d855b90",
+            "appName": "001-fortios-6.4.11",
+            "projectId": "21cc1acd-050b-4073-a261-a99ffd53acae",
+            "projectName": "0001_AA_rag_dep_vlanId",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_VM",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "13",
+                "nextBundleVersion": "13",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": true
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 1048576,
+                "mode": "HV_HVM",
+                "vnc": true,
+                "vncDisplay": 2,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "9aa8554f-45a7-4660-b1af-5747eaaae04a",
+            "name": "00001_TEST_rag",
+            "deviceId": "6bf03718-d2f5-466d-8fc2-038e35ebb76a",
+            "deviceName": "00002_adapter_label_test",
+            "appId": "385d4bab-2340-4e80-8a30-abcd7e177dbf",
+            "appName": "0001_adapter_label_tes_app",
+            "projectId": "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d",
+            "projectName": "01-demo-project",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "35",
+                "nextBundleVersion": "37",
+                "transitionAction": "INSTANCE_TA_UPDATEWITHPURGE",
+                "params": {},
+                "details": {
+                    "cause": "TRANS_CAUSE_APP_DRIVE_CHANGED",
+                    "severity": "WARNING",
+                    "scope": {
+                        "type": "OBJECT_TYPE_EDGE_APP_INSTANCE",
+                        "id": "9aa8554f-45a7-4660-b1af-5747eaaae04a"
+                    }
+                },
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 2,
+                "memory": 608174080,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 0,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "012d688b-51c0-4904-9009-386c3ddd7fb9",
+            "name": "00002_TEST_ENC",
+            "deviceId": "611df2bb-daf4-4c53-ae7b-7c2b4d5733ac",
+            "deviceName": "000001_mar24_rag1_dev2",
+            "appId": "385d4bab-2340-4e80-8a30-abcd7e177dbf",
+            "appName": "0001_adapter_label_tes_app",
+            "projectId": "c66a6aa6-2a51-44be-9e75-7b5b6e710775",
+            "projectName": "000-legacy-test2",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "37",
+                "nextBundleVersion": "37",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_AZURE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 2,
+                "memory": 593920,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 1,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "4f17146b-cf30-47a2-92df-0dbaaa757389",
+            "name": "0000_arga_agu11_test4",
+            "deviceId": "6c278c8e-d667-4f59-8c9a-ba15b2ca8f81",
+            "deviceName": "AAA_test_1_new",
+            "appId": "9e367086-34a5-40b4-bca6-ffdb5403f22b",
+            "appName": "0000_aaa_rag_aug7_test_1",
+            "projectId": "c66a6aa6-2a51-44be-9e75-7b5b6e710775",
+            "projectName": "000-legacy-test2",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "1",
+                "nextBundleVersion": "1",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 524288,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 0,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "46f7b9cd-b0c3-4d10-9eb6-2aedb59666ad",
+            "name": "0001_adpater_label_test_inst",
+            "deviceId": "3da9c803-bedd-46bb-bdfe-f07b363d770c",
+            "deviceName": "000_123_TEST",
+            "appId": "385d4bab-2340-4e80-8a30-abcd7e177dbf",
+            "appName": "0001_adapter_label_tes_app",
+            "projectId": "56a9385f-dbca-4065-b3a9-b4a71552c309",
+            "projectName": "000-dep-test2",
+            "runState": "RUN_STATE_UNKNOWN",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": "NaN",
+            "storageUtilization": 0,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "N/A",
+            "swState": "SW_STATE_UNSPECIFIED",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "3",
+                "nextBundleVersion": "37",
+                "transitionAction": "INSTANCE_TA_UPDATEWITHPURGE",
+                "params": {},
+                "details": {
+                    "cause": "TRANS_CAUSE_APP_DRIVE_CHANGED",
+                    "severity": "WARNING",
+                    "scope": {
+                        "type": "OBJECT_TYPE_EDGE_APP_INSTANCE",
+                        "id": "46f7b9cd-b0c3-4d10-9eb6-2aedb59666ad"
+                    }
+                },
+                "enablevnc": false
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 593920,
+                "mode": "HV_PV",
+                "vnc": false,
+                "vncDisplay": 0,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        },
+        {
+            "id": "c401b61d-9ade-48fd-ac4b-98741a52480a",
+            "name": "Log-Test",
+            "deviceId": "0f6354fb-bebc-449c-ad4f-072913e4d77f",
+            "deviceName": "JetsonOrinDevKit-rsp",
+            "appId": "0e7d2afc-219a-4c7c-8bef-f1765dd333cc",
+            "appName": "alpine-sshd-rsp-arm64",
+            "projectId": "2f0f4094-62fa-44f6-b280-75ff37f9d470",
+            "projectName": "Berlin-Lab",
+            "runState": "RUN_STATE_ONLINE",
+            "Storage": null,
+            "cpuUtilization": 0,
+            "memoryUtilization": 41.42,
+            "storageUtilization": 100,
+            "appType": "APP_TYPE_CONTAINER",
+            "userDefinedVersion": "2",
+            "swState": "SW_STATE_RUNNING",
+            "swInfo": [],
+            "manifestInfo": {
+                "bundleVersion": "4",
+                "nextBundleVersion": "4",
+                "transitionAction": "INSTANCE_TA_NONE",
+                "params": {},
+                "details": null,
+                "enablevnc": true
+            },
+            "patchEnvelopeId": "",
+            "patchEnvelopeName": "",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "netStatusList": [
+                {
+                    "up": true,
+                    "macAddr": "52:0a:45:cc:5e:12",
+                    "ifName": "SSHD",
+                    "ipAddrs": [
+                        "10.2.0.129"
+                    ],
+                    "defaultRouters": [
+                        "10.2.0.1"
+                    ],
+                    "dns": {
+                        "servers": [
+                            "10.2.0.1"
+                        ],
+                        "domain": "",
+                        "search": []
+                    },
+                    "location": null,
+                    "uplink": false,
+                    "proxy": null,
+                    "errInfo": null,
+                    "gpsLocation": null,
+                    "cellular": null,
+                    "mtu": 0,
+                    "configSource": null
+                }
+            ],
+            "vminfo": {
+                "cpus": 1,
+                "memory": 524288,
+                "mode": "HV_PV",
+                "vnc": true,
+                "vncDisplay": 1,
+                "cpuPinningEnabled": false,
+                "vmmMaxmem": 0,
+                "bootloaderMode": "VM_BOOTLOADER_MODE_UNSPECIFIED",
+                "enableOemWinLicenseKey": false,
+                "disableVTPM": false
+            },
+            "remoteConsole": false
+        }
+    ],
+    "summaryByState": {
+        "description": "App Instance Summary",
+        "total": 264,
+        "values": {
+            "Error": 3,
+            "Init": 0,
+            "Online": 28,
+            "Other": 1,
+            "Suspect": 117,
+            "Unknown": 116
+        }
+    },
+    "totalCount": 264,
+    "summaryByAppType": {
+        "description": "App instance summary count by app type",
+        "total": 264,
+        "values": {
+            "APP_TYPE_CONTAINER": 134,
+            "APP_TYPE_DOCKER_COMPOSE": 4,
+            "APP_TYPE_MODULE": 0,
+            "APP_TYPE_UNSPECIFIED": 0,
+            "APP_TYPE_VM": 126,
+            "APP_TYPE_VM_RUNTIME": 0,
+            "Other": 0
+        }
+    },
+    "summaryByPatchEnvelope": {
+        "description": "App instance patch envelope summary",
+        "total": 264,
+        "values": {
+            "CHECK_NOT_REFERENCING_PATCH": 258,
+            "CHECK_REFERENCING_PATCH": 6,
+            "CHECK_UNSPECIFIED": 0
+        }
+    },
+    "next": {
+        "pageToken": "10",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 10,
+        "totalPages": 27
+    }
+}

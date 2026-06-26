@@ -1,0 +1,104 @@
+{
+    "id": "c401b61d-9ade-48fd-ac4b-98741a52480a",
+    "name": "Log-Test",
+    "deviceId": "0f6354fb-bebc-449c-ad4f-072913e4d77f",
+    "appId": "0e7d2afc-219a-4c7c-8bef-f1765dd333cc",
+    "tags": {},
+    "adminState": "ADMIN_STATE_ACTIVE",
+    "errInfo": [],
+    "bootTime": "1970-01-01T00:01:25.026005856Z",
+    "lastUpdate": "2025-11-06T09:26:07.698432438Z",
+    "IoStatusList": [],
+    "swInfo": [],
+    "runState": "RUN_STATE_ONLINE",
+    "netCounterList": [
+        {
+            "ifName": "SSHD",
+            "txBytes": "1892428",
+            "rxBytes": "1418322",
+            "txPkts": "11605",
+            "rxPkts": "9959",
+            "txErrors": "0",
+            "rxErrors": "0",
+            "txDrops": "0",
+            "rxDrops": "0",
+            "txAclDrops": "0",
+            "rxAclDrops": "0",
+            "txAclRateLimitDrops": "0",
+            "rxAclRateLimitDrops": "0"
+        }
+    ],
+    "Memory": {
+        "TotalMB": 898,
+        "UsedMB": 372,
+        "AllocatedMB": 898
+    },
+    "Storage": {
+        "TotalMB": 15,
+        "UsedMB": 15,
+        "AllocatedMB": 15,
+        "sharedStorageSummary": [],
+        "Id": "c401b61d-9ade-48fd-ac4b-98741a52480a",
+        "Name": "Log-Test"
+    },
+    "netStatusList": [
+        {
+            "up": true,
+            "macAddr": "52:0a:45:cc:5e:12",
+            "ifName": "SSHD",
+            "ipAddrs": [
+                "10.2.0.129"
+            ],
+            "defaultRouters": [
+                "10.2.0.1"
+            ],
+            "dns": {
+                "servers": [
+                    "10.2.0.1"
+                ],
+                "domain": "",
+                "search": []
+            },
+            "location": null,
+            "uplink": false,
+            "proxy": null,
+            "errInfo": null,
+            "gpsLocation": null,
+            "cellular": null,
+            "mtu": 0,
+            "configSource": null
+        }
+    ],
+    "upTime": "2025-11-06T09:24:43.780054889Z",
+    "swState": "SW_STATE_RUNNING",
+    "Cpu": {
+        "Utilization": 2.819235267497383
+    },
+    "projectId": "2f0f4094-62fa-44f6-b280-75ff37f9d470",
+    "title": "Log-Test",
+    "appStatusFromTPController": null,
+    "appType": "APP_TYPE_CONTAINER",
+    "clusterId": "",
+    "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+    "memorySummary": {
+        "AllocatedMB": 898,
+        "UsedMB": 372,
+        "AvailableMB": 526
+    },
+    "volumeRefs": [
+        "dbf047d6-a471-4dfe-93d5-b36006cecdcc"
+    ],
+    "zpoolMetrics": null,
+    "patchEnvelopeUsageInfo": [],
+    "containerStatusList": [],
+    "runtimePlatformVersions": null,
+    "app": {
+        "appId": "0e7d2afc-219a-4c7c-8bef-f1765dd333cc",
+        "appName": "alpine-sshd-rsp-arm64"
+    },
+    "device": {
+        "deviceId": "0f6354fb-bebc-449c-ad4f-072913e4d77f",
+        "deviceName": "JetsonOrinDevKit-rsp",
+        "rawStatus": "{\"machineArch\":\"aarch64\",\"cpuArch\":\"aarch64\",\"platform\":\"aarch64\",\"ncpu\":6,\"memory\":\"7619\",\"storage\":\"936753\",\"powerCycleCounter\":\"-1\",\"minfo\":{\"manufacturer\":\"NVIDIA\",\"productName\":\"NVIDIA Jetson Orin Nano Developer Kit\",\"version\":\"Not Specified\",\"serialNumber\":\"1421225029958\",\"UUID\":\"Not Settable\",\"compatible\":\"nvidia,p3768-0000+p3767-0005.nvidia,p3767-0005.nvidia,tegra234\",\"biosVendor\":\"EDK II\",\"biosVersion\":\"36.3.0-gcid-36191598\",\"biosReleaseDate\":\"05/06/2024\"},\"network\":[{\"macAddr\":\"3c:6d:66:1e:bf:35\",\"devName\":\"eth0\",\"alias\":\"\",\"IPAddrs\":[\"10.208.13.95\",\"fe80::ff88:f5ee:c71f:3662\"],\"defaultRouters\":[\"10.208.13.254\"],\"dns\":{\"DNSservers\":[\"10.208.13.254\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"ipv4Up\":true,\"location\":{\"UnderlayIP\":\"62.96.37.222\",\"Hostname\":\"h-62.96.37.222.host.de.colt.net\",\"City\":\"Berlin\",\"Region\":\"\",\"Country\":\"DE\",\"Loc\":\"52.5244,13.4105\",\"Org\":\"AS8220 COLT Technology Services Group Limited\",\"Postal\":\"10119\"},\"uplink\":true,\"networkErr\":{\"description\":\"\",\"timestamp\":\"2025-11-06T09:18:40.590621500Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"localName\":\"eth0\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"ipAddrMisMatch\":false,\"ntpServers\":[\"194.164.164.175\",\"49.12.199.148\"]},{\"macAddr\":\"a8:e2:91:d9:90:4f\",\"devName\":\"wlan0\",\"alias\":\"\",\"IPAddrs\":[\"172.16.18.109\",\"fe80::adef:43bc:eadc:da8b\"],\"defaultRouters\":[\"172.16.18.1\"],\"dns\":{\"DNSservers\":[\"172.16.18.1\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"ipv4Up\":true,\"location\":{\"UnderlayIP\":\"62.96.37.222\",\"Hostname\":\"h-62.96.37.222.host.de.colt.net\",\"City\":\"Berlin\",\"Region\":\"\",\"Country\":\"DE\",\"Loc\":\"52.5244,13.4105\",\"Org\":\"AS8220 COLT Technology Services Group Limited\",\"Postal\":\"10119\"},\"uplink\":true,\"networkErr\":{\"description\":\"\",\"timestamp\":\"2025-11-06T09:13:40.220579988Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"localName\":\"wlan0\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"ipAddrMisMatch\":false,\"ntpServers\":[\"194.164.164.175\",\"49.12.199.148\"]}],\"assignableAdapters\":[{\"type\":\"PhyIoCOM\",\"name\":\"COM1\",\"members\":[\"COM1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM2\",\"members\":[\"COM2\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM3\",\"members\":[\"COM3\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM4\",\"members\":[\"COM4\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoHDMI\",\"name\":\"gpu-container0\",\"members\":[\"GPU0\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoHDMI\",\"name\":\"gpu-container1\",\"members\":[\"GPU1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoHDMI\",\"name\":\"gpu-container2\",\"members\":[\"GPU2\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoHDMI\",\"name\":\"gpu-container3\",\"members\":[\"GPU3\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSBController\",\"name\":\"USB\",\"members\":[\"USB\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCAN\",\"name\":\"\",\"members\":[\"can0\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoLCAN\",\"name\":\"can0.1\",\"members\":[\"can0.1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoNetEth\",\"name\":\"ethernet\",\"members\":[\"eth0\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[{\"macAddress\":\"3c:6d:66:1e:bf:35\",\"vfInfo\":null}],\"usage\":\"PhyIoUsageMgmtAndApps\",\"err\":null},{\"type\":\"PhyIoNetWLAN\",\"name\":\"wireless\",\"members\":[\"wlan0\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[{\"macAddress\":\"a8:e2:91:d9:90:4f\",\"vfInfo\":null}],\"usage\":\"PhyIoUsageMgmtAndApps\",\"err\":null}],\"dns\":{\"DNSservers\":[\"10.208.13.254:53\",\"172.16.18.1:53\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"storageList\":[{\"device\":\"\",\"mountPath\":\"/persist/memory-monitor/output\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/linuxkit-eve-cache.tar\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/patchEnvelopesUsageCache\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/installer\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/ingested\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nvme0n1\",\"mountPath\":\"\",\"total\":\"953870\",\"storageLocation\":false},{\"device\":\"nvme0n1p1\",\"mountPath\":\"\",\"total\":\"36\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/containerd\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/patchEnvelopesCache\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/verifier\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.1.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/agentdebug\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist\",\"total\":\"936753\",\"storageLocation\":true},{\"device\":\"\",\"mountPath\":\"/persist/tmp\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nvme0n1p4\",\"mountPath\":\"\",\"total\":\"1\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/hostfs\",\"total\":\"427\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/certs\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/clear\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/eve-info\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/pubsub-large\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nvme0n1p2\",\"mountPath\":\"\",\"total\":\"512\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/netdump\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/status\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/checkpoint\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/\",\"total\":\"3810\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/containerd-system-root\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/config\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/log\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/volumes\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/downloader\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.6.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.9.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/clear/volumes\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.8.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nvme0n1p3\",\"mountPath\":\"\",\"total\":\"512\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/newlog\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.3.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nvme0n1p9\",\"mountPath\":\"\",\"total\":\"952808\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.5.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.4.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.2.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"/persist/monitor/log/1970-01-01-00-00-57/monitor.7.log\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false}],\"bootTime\":\"2025-09-03T15:04:56Z\",\"swList\":[{\"activated\":true,\"partitionLabel\":\"IMGA\",\"partitionDevice\":\"/dev/nvme0n1p2\",\"partitionState\":\"active\",\"status\":\"INSTALLED\",\"shortVersion\":\"0.0.0-14.5-stable-a054fad4-nvidia-jp6-kvm-arm64\",\"longVersion\":\"\",\"swErr\":null,\"downloadProgress\":100,\"userStatus\":\"UPDATED\",\"subStatusStr\":\"\",\"subStatus\":\"NONE_SUBSTATUS\",\"subStatusProgress\":0},{\"activated\":false,\"partitionLabel\":\"IMGB\",\"partitionDevice\":\"/dev/nvme0n1p3\",\"partitionState\":\"unused\",\"status\":\"INSTALLED\",\"shortVersion\":\"14.5.0-k-arm64-v5.15.136-nvidia-jp6-9de2549cb6d7-rene-gcc-nvidia-jp6-kvm-arm64\",\"longVersion\":\"\",\"swErr\":null,\"downloadProgress\":100,\"userStatus\":\"NONE\",\"subStatusStr\":\"\",\"subStatus\":\"NONE_SUBSTATUS\",\"subStatusProgress\":0}],\"HostName\":\"0f6354fb-bebc-449c-ad4f-072913e4d77f\",\"metricItems\":[],\"lastRebootReason\":\"Unknown reboot reason - power failure or crash - at 1970-01-01T00:01:03.617958304Z\",\"lastRebootTime\":\"1970-01-01T00:01:03.617958304Z\",\"systemAdapter\":{\"currentIndex\":0,\"status\":[{\"version\":1,\"key\":\"zedagent\",\"timePriority\":\"2025-04-21T14:29:44.764123096Z\",\"lastFailed\":\"2025-08-04T12:39:19.322962709Z\",\"lastSucceeded\":\"2025-11-06T09:18:40.590688221Z\",\"ports\":[{\"ifname\":\"eth0\",\"name\":\"eth0\",\"isMgmt\":true,\"free\":true,\"dhcpType\":4,\"subnet\":\"10.208.13.0/24\",\"gateway\":\"\",\"domainname\":\"\",\"ntpServer\":\"194.164.164.175\",\"moreNtpServers\":[\"49.12.199.148\"],\"dnsServers\":[],\"dhcpRangeLow\":\"\",\"dhcpRangeHigh\":\"\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"macAddr\":\"3c:6d:66:1e:bf:35\",\"IPAddrs\":[\"10.208.13.95\",\"fe80::ff88:f5ee:c71f:3662\"],\"defaultRouters\":[\"10.208.13.254\"],\"dns\":{\"DNSservers\":[\"10.208.13.254\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"up\":true,\"location\":{\"UnderlayIP\":\"62.96.37.222\",\"Hostname\":\"h-62.96.37.222.host.de.colt.net\",\"City\":\"Berlin\",\"Region\":\"\",\"Country\":\"DE\",\"Loc\":\"52.5244,13.4105\",\"Org\":\"AS8220 COLT Technology Services Group Limited\",\"Postal\":\"10119\"},\"err\":{\"description\":\"\",\"timestamp\":\"2025-11-06T09:18:40.590621500Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"usage\":\"PhyIoUsageMgmtAndApps\",\"networkUUID\":\"2e6038c1-ece6-4ffd-b95b-a7302c219d59\",\"cost\":0,\"wirelessStatus\":null,\"mtu\":1500,\"configSource\":null},{\"ifname\":\"wlan0\",\"name\":\"wlan0\",\"isMgmt\":true,\"free\":true,\"dhcpType\":4,\"subnet\":\"172.16.18.0/24\",\"gateway\":\"\",\"domainname\":\"\",\"ntpServer\":\"194.164.164.175\",\"moreNtpServers\":[\"49.12.199.148\"],\"dnsServers\":[],\"dhcpRangeLow\":\"\",\"dhcpRangeHigh\":\"\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"macAddr\":\"a8:e2:91:d9:90:4f\",\"IPAddrs\":[\"172.16.18.109\",\"fe80::adef:43bc:eadc:da8b\"],\"defaultRouters\":[\"172.16.18.1\"],\"dns\":{\"DNSservers\":[\"172.16.18.1\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"up\":true,\"location\":{\"UnderlayIP\":\"62.96.37.222\",\"Hostname\":\"h-62.96.37.222.host.de.colt.net\",\"City\":\"Berlin\",\"Region\":\"\",\"Country\":\"DE\",\"Loc\":\"52.5244,13.4105\",\"Org\":\"AS8220 COLT Technology Services Group Limited\",\"Postal\":\"10119\"},\"err\":{\"description\":\"\",\"timestamp\":\"2025-11-06T09:13:40.220579988Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"usage\":\"PhyIoUsageMgmtAndApps\",\"networkUUID\":\"f67f3381-32e6-4104-a032-46a5885f81bb\",\"cost\":0,\"wirelessStatus\":{\"type\":\"WIRELESS_TYPE_WIFI\",\"cellular\":null},\"mtu\":1500,\"configSource\":null}],\"lastError\":\"\"}]},\"restartCounter\":22,\"HSMStatus\":\"NOTFOUND\",\"HSMInfo\":\"Not Available\",\"lastRebootStack\":\"\",\"dataSecAtRestInfo\":{\"status\":\"DATASEC_AT_REST_DISABLED\",\"info\":\"TPM is either absent or not in use\",\"vaultList\":[{\"name\":\"Application Data Store\",\"status\":\"DATASEC_AT_REST_DISABLED\",\"vaultErr\":{\"description\":\"TPM is either absent or not in use\",\"timestamp\":\"1970-01-01T00:01:04.389379456Z\",\"severity\":\"SEVERITY_ERROR\",\"entities\":[],\"retryCondition\":\"\"},\"pcrStatus\":\"PCR_DISABLED\"}]},\"secInfo\":{\"shaRootCa\":\"ok1Ia/Y4FAHrsRINbfU3vQgrrNWvrgKrL1A8I4C4o0E=\",\"shaTlsRootCa\":\"uxRRuDNc0O8PjW5RUVTJTXZPHd0LJH9eYZmuOy3uyTA=\"},\"configItemStatus\":{\"configItems\":{\"app.allow.vnc\":{\"value\":\"true\",\"error\":\"\"},\"debug.enable.ssh\":{\"value\":\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT9Kv9a7Fj4AACa9JQOY7YnxzL0bMh+84111OFDthjrDgeTcWVrpyUifvoSOn94+TtwqxMlIWAU8llgeDlaNJMTpGd5WYcd22o3TYCaOClM/zraIaaGtDeJnXnvu18BAsgYCaiXaGBukbGPzy5xe1kOi1bF68q43QGbeGzMEKvUpqjUbDRiCybhxjl9wjDubOcNOxVjA18Uek4lf1A+S4BLLxzmQpNX1ketmhakRF0RqZe5zR7i83Ct/ME1FZZBu4ovrl/dzntsq0e0hAbIuWwZaokGzEWuNJjajWx7pTMAIJWE3zbec2rRWYMArhECqnt+mk78tnvojMkZcEh8fH1 kalyan@AdminisatorsMBP.T-mobile.com\",\"error\":\"\"},\"debug.enable.usb\":{\"value\":\"true\",\"error\":\"\"},\"debug.enable.vga\":{\"value\":\"true\",\"error\":\"\"}},\"unknownConfigItems\":{}},\"appInstances\":[{\"uuid\":\"c401b61d-9ade-48fd-ac4b-98741a52480a\",\"name\":\"Log-Test\",\"domainName\":\"c401b61d-9ade-48fd-ac4b-98741a52480a.1.2\"},{\"uuid\":\"e30db90e-bf75-4ceb-b04d-b372c3dc121b\",\"name\":\"GH-Runner-arm64-rsp2\",\"domainName\":\"e30db90e-bf75-4ceb-b04d-b372c3dc121b.2.1\"}],\"rebootConfigCounter\":1000,\"lastBootReason\":\"BOOT_REASON_UNKNOWN\",\"cellRadios\":[],\"sims\":[],\"tasks\":[],\"maintenanceMode\":false,\"maintenanceModeReason\":\"MAINTENANCE_MODE_REASON_NONE\",\"hardwareWatchdogPresent\":true,\"rebootInprogress\":false,\"capabilities\":{\"HWAssistedVirtualization\":true,\"IOVirtualization\":true},\"baseosUpdateCounter\":0,\"state\":\"ZDEVICE_STATE_ONLINE\",\"localProfile\":\"\",\"maintenanceModeReasons\":[],\"dormantTime\":\"\",\"storageInfo\":[{\"poolName\":\"/persist\",\"storageType\":\"STORAGE_TYPE_INFO_EXT4\",\"zfsVersion\":\"\",\"currentRaid\":\"STORAGE_RAID_TYPE_UNSPECIFIED\",\"compressionRatio\":0,\"zpoolSize\":\"0\",\"countZvols\":0,\"storageState\":\"STORAGE_STATUS_ONLINE\",\"disks\":[{\"diskName\":{\"name\":\"/dev/nvme0n1p9\",\"logicalName\":\"\",\"serial\":\"24434BCDDE39\"},\"status\":\"STORAGE_STATUS_ONLINE\",\"state\":\"\",\"smartStatus\":\"passed\"}],\"collectorErrors\":\"\",\"children\":[],\"poolStatusMsg\":\"\"}],\"shutdownConfigCounter\":1,\"attestationInfo\":{\"state\":\"ATTESTATION_STATE_COMPLETE\",\"error\":null},\"apiCapability\":\"API_CAPABILITY_ENCRYPTED_PATCH_ENVELOPE\",\"remoteAccessDisabled\":false,\"optionalCapabilities\":{\"hvTypeKubevirt\":false},\"deviceName\":\"\",\"enterpriseName\":\"\",\"enterpriseId\":\"\",\"projectName\":\"\",\"projectId\":\"\"}"
+    }
+}

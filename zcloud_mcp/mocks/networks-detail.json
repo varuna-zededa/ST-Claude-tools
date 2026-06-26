@@ -1,0 +1,55 @@
+{
+    "id": "87eeb4a4-fe38-4c83-aefa-fd497e39c752",
+    "name": "defaultIPv4-net",
+    "title": "default-network",
+    "description": "default network",
+    "revision": {
+        "prev": "",
+        "curr": "2",
+        "createdAt": "2025-10-16T09:07:31.051614Z",
+        "createdBy": "test.root@zededa.com",
+        "updatedAt": "2025-10-16T10:55:47.692374Z",
+        "updatedBy": "test.root@zededa.com"
+    },
+    "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+    "kind": "NETWORK_KIND_V4",
+    "ip": {
+        "deprecatedDhcp": true,
+        "dhcp": "NETWORK_DHCP_TYPE_CLIENT",
+        "subnet": "",
+        "mask": "",
+        "gateway": "",
+        "domain": "",
+        "ntp": "",
+        "dns": [],
+        "dhcpRange": null,
+        "ntpServers": [],
+        "ntpServerExclusively": false
+    },
+    "dnsList": [],
+    "proxy": {
+        "networkProxy": false,
+        "proxies": [],
+        "exceptions": "",
+        "pacfile": "",
+        "networkProxyURL": "",
+        "networkProxyCerts": []
+    },
+    "enterpriseDefault": false,
+    "mtu": 0,
+    "wireless": {
+        "type": "NETWORK_WIRELESS_TYPE_UNSPECIFIED",
+        "cellularCfg": {
+            "APN": "",
+            "probe": null,
+            "locationTracking": false,
+            "accessPoints": [],
+            "activatedSimSlot": 0
+        },
+        "wifiCfg": null
+    },
+    "project": {
+        "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+        "projectName": "default-project"
+    }
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+config.json
+*.log
+.DS_Store
+.pytest_cache/
+.deepeval/
+htmlcov/
+.coverage

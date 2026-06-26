@@ -1,0 +1,22 @@
+{
+    "id": "4ed94bc5-f271-4ae8-a14e-2e84fe0bf9bc",
+    "name": "Supermicro",
+    "title": "Supermicro",
+    "description": "",
+    "svg": "",
+    "attr": {},
+    "state": "SYS_MODEL_STATE_ACTIVE",
+    "revision": {
+        "prev": "",
+        "curr": "1",
+        "createdAt": "2025-10-16T09:05:11.136510Z",
+        "createdBy": "test.root@zededa.com",
+        "updatedAt": "2025-10-16T09:05:11.136510Z",
+        "updatedBy": "test.root@zededa.com"
+    },
+    "systemMfgName": "Supermicro",
+    "logo": {
+        "logo": "37eb8e62-aa6f-11f0-adef-6045bdaa334c_logo"
+    },
+    "originType": "ORIGIN_GLOBAL"
+}

@@ -1,0 +1,38 @@
+{
+    "list": [],
+    "summaryByState": {
+        "description": "App Instance Summary",
+        "total": 265,
+        "values": {
+            "Error": 4,
+            "Init": 0,
+            "Online": 27,
+            "Other": 2,
+            "Suspect": 116,
+            "Unknown": 116
+        }
+    },
+    "summaryByAppType": {
+        "description": "App instance summary count by app type",
+        "total": 265,
+        "values": {
+            "APP_TYPE_CONTAINER": 134,
+            "APP_TYPE_DOCKER_COMPOSE": 4,
+            "APP_TYPE_MODULE": 0,
+            "APP_TYPE_UNSPECIFIED": 0,
+            "APP_TYPE_VM": 127,
+            "APP_TYPE_VM_RUNTIME": 0,
+            "Other": 0
+        }
+    },
+    "summaryByPatchEnvelope": {
+        "description": "App instance patch envelope summary",
+        "total": 265,
+        "values": {
+            "CHECK_NOT_REFERENCING_PATCH": 259,
+            "CHECK_REFERENCING_PATCH": 6,
+            "CHECK_UNSPECIFIED": 0
+        }
+    },
+    "next": null
+}

@@ -1,0 +1,281 @@
+{
+    "terse": {
+        "description": "Summary",
+        "total": 1126,
+        "values": {
+            "IMAGE_SUMMARY_ACTIVE_APPS": 652,
+            "IMAGE_SUMMARY_ACTIVE_ARTIFACT_IMAGES": 13,
+            "IMAGE_SUMMARY_ACTIVE_BASE_IMAGES": 16,
+            "IMAGE_SUMMARY_ACTIVE_DOCKER_COMPOSE_TAR_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_DOCKER_RUNTIME_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_ZKS_RUNTIME_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_APPS": 661,
+            "IMAGE_SUMMARY_TOTAL_ARTIFACT_IMAGES": 18,
+            "IMAGE_SUMMARY_TOTAL_BASE_IMAGES": 424,
+            "IMAGE_SUMMARY_TOTAL_DOCKER_COMPOSE_TAR_IMAGES": 10,
+            "IMAGE_SUMMARY_TOTAL_DOCKER_RUNTIME_IMAGES": 13,
+            "IMAGE_SUMMARY_TOTAL_ZKS_RUNTIME_IMAGES": 0
+        }
+    },
+    "summaryByImageStatus": {
+        "description": "Summary",
+        "total": 6,
+        "values": {
+            "IMAGE_STATUS_ARCHIVED": 0,
+            "IMAGE_STATUS_CREATED": 0,
+            "IMAGE_STATUS_FAILED": 0,
+            "IMAGE_STATUS_INUSE": 0,
+            "IMAGE_STATUS_MAX": 0,
+            "IMAGE_STATUS_PENDING": 0,
+            "IMAGE_STATUS_READY": 6,
+            "IMAGE_STATUS_UNSPECIFIED": 0,
+            "IMAGE_STATUS_UPLINKING": 0,
+            "IMAGE_STATUS_UPLOADING": 0
+        }
+    },
+    "summaryByImageArch": {
+        "description": "Summary",
+        "total": 6,
+        "values": {
+            "AMD64": 4,
+            "ARM64": 2,
+            "UNSPECIFIED": 0
+        }
+    },
+    "summaryByImageType": {
+        "description": "Summary",
+        "total": 6,
+        "values": {
+            "IMAGE_TYPE_APPLICATION": 0,
+            "IMAGE_TYPE_ARTIFACT": 0,
+            "IMAGE_TYPE_DOCKER_COMPOSE_TAR": 0,
+            "IMAGE_TYPE_DOCKER_RUNTIME": 0,
+            "IMAGE_TYPE_EVE": 6,
+            "IMAGE_TYPE_EVEPRIVATE": 0,
+            "IMAGE_TYPE_UNSPECIFIED": 0,
+            "IMAGE_TYPE_ZKS_RUNTIME": 0
+        }
+    },
+    "summaryByImageFormat": {
+        "description": "Summary",
+        "total": 6,
+        "values": {
+            "CONTAINER": 0,
+            "FmtUnknown": 0,
+            "OVA": 0,
+            "QCOW": 0,
+            "QCOW2": 3,
+            "RAW": 3,
+            "VHD": 0,
+            "VHDX": 0,
+            "VMDK": 0
+        }
+    },
+    "summaryByOrigin": {
+        "description": "Origin Distribution Summary",
+        "total": 6,
+        "values": {
+            "ORIGIN_GLOBAL": 0,
+            "ORIGIN_IMPORTED": 0,
+            "ORIGIN_LOCAL": 6,
+            "ORIGIN_UNSPECIFIED": 0
+        }
+    },
+    "list": [
+        {
+            "id": "eede2942-9485-4c76-a246-2bb1c86df57d",
+            "name": "11.0.1-kvm-amd64",
+            "title": "11.0.1-kvm-amd64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-10-26T14:41:51.414625Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2023-10-26T14:42:48.442907Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "images/AAFlABBtJ0mP_lhJjIyVzjzgMXiR/11.0.1-kvm-amd64",
+            "imageSha256": "DC874D9103A52BD1BEAF69A7FAB2D1C570EAE9555CB8B39AB980F4145D225525",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "8051bb6d-0246-4727-ada5-b82930d0abd3",
+            "imageSizeBytes": "233529344",
+            "imageError": "Image uploaded successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "8051bb6d-0246-4727-ada5-b82930d0abd3"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "9bf5ff1d-f9e0-409e-8488-f0c5699b9d8f",
+            "name": "11.0.1-kvm-arm64",
+            "title": "11.0.1-kvm-arm64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-10-26T21:03:30.208943Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2023-10-26T21:04:37.502951Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "images/AAFlABBtJ0mP_lhJjIyVzjzgMXiR/11.0.1-kvm-arm64",
+            "imageSha256": "190A9D1D97C5CA9F1F11DE20AE0F1EE01DF3B1C76632108627C5E4DC7DABC911",
+            "imageVersion": "",
+            "imageArch": "ARM64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "8051bb6d-0246-4727-ada5-b82930d0abd3",
+            "imageSizeBytes": "217628672",
+            "imageError": "Image uploaded successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "8051bb6d-0246-4727-ada5-b82930d0abd3"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "6486ac28-6fb1-42dd-a25b-bebe2aad463f",
+            "name": "11.0.1-xen-amd64",
+            "title": "11.0.1-xen-amd64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-11-15T23:15:01.549809Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2023-11-15T23:16:56.095272Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "images/AAFlABBtJ0mP_lhJjIyVzjzgMXiR/11.0.1-xen-amd64",
+            "imageSha256": "D2CBD24AE5750F18A0A092A426017B2917178F4FA867C6923CD18785189710EC",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "8051bb6d-0246-4727-ada5-b82930d0abd3",
+            "imageSizeBytes": "233529344",
+            "imageError": "Image uploaded successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "8051bb6d-0246-4727-ada5-b82930d0abd3"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "7971ea77-7dce-42a2-83b8-99570631f7cc",
+            "name": "11.0.10-lts-amd64",
+            "title": "11.0.10-lts-amd64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-07-09T08:09:42.288772Z",
+                "createdBy": "jhughes@zededa.com",
+                "updatedAt": "2025-07-09T08:09:42.946225Z",
+                "updatedBy": "jhughes@zededa.com"
+            },
+            "imageFormat": "RAW",
+            "imageRelUrl": "eve/11.0.10-lts/amd64.rootfs.img",
+            "imageSha256": "d2047b97a4b8407fab1981c126fdcc26d1c4675f99f1c184f3a664350ee04ee0",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27",
+            "imageSizeBytes": "232472576",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "730e1701-d23f-43f9-bf8d-c2531a1a46e4",
+            "name": "11.0.10-lts-arm64",
+            "title": "11.0.10-lts-arm64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-07-09T06:48:19.870248Z",
+                "createdBy": "jhughes@zededa.com",
+                "updatedAt": "2025-07-09T06:48:20.372957Z",
+                "updatedBy": "jhughes@zededa.com"
+            },
+            "imageFormat": "RAW",
+            "imageRelUrl": "eve/11.0.10-lts/arm64.rootfs.img",
+            "imageSha256": "a92c8c791361a9db5e6cc3e41140851765560342bb96f7d0b16e623baccd89d3",
+            "imageVersion": "",
+            "imageArch": "ARM64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27",
+            "imageSizeBytes": "216735744",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "d561b9e4-c392-4338-8ae7-cee180c8749f",
+            "name": "11.0.11-lts-kvm-amd64",
+            "title": "11.0.11-lts-amd64",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-07-18T16:16:24.886226Z",
+                "createdBy": "udit@zededa.com",
+                "updatedAt": "2025-07-18T16:16:26.317814Z",
+                "updatedBy": "udit@zededa.com"
+            },
+            "imageFormat": "RAW",
+            "imageRelUrl": "eve/11.0.11-lts/amd64.rootfs.img",
+            "imageSha256": "1a7c426d8cb92819edf6233b58d15d36e310860a7f41f94ac78cfdb70ec7601a",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_EVE",
+            "datastoreId": "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27",
+            "imageSizeBytes": "229191680",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_LOCAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "a0ff9f4f-c1c7-4ea2-accf-441a6a69fa27"
+            ],
+            "isLTS": true
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPages": 1
+    }
+}

@@ -1,0 +1,350 @@
+{
+    "terse": {
+        "description": "Summary",
+        "total": 15,
+        "values": {
+            "sActive": 15
+        }
+    },
+    "list": [
+        {
+            "id": "f9b4c2cd-49a6-4f7a-934a-05560d1866f2",
+            "name": "AAEON",
+            "title": "AAEON",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:47.428385Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:47.428385Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "AAEON",
+            "logo": {
+                "logo": "298d488c-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "b62aef9f-6f7d-48ff-b310-ac1cee0ffaae",
+            "name": "Advantech",
+            "title": "Advantech",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:49.531308Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:49.531308Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Advantech",
+            "logo": {
+                "logo": "2aef0847-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "99680898-a5d5-45cb-a9a7-9d8a108da51a",
+            "name": "ASRockRack",
+            "title": "ASRockRack",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:51.433241Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:51.433241Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "ASRockRack",
+            "logo": {
+                "logo": "2c29fe14-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "a4700ace-a3f2-4365-965c-e4bf31c5a33f",
+            "name": "Dell",
+            "title": "Dell",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:53.365442Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:53.365442Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Dell",
+            "logo": {
+                "logo": "2d4be759-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "16efc70c-344c-48d3-b0e7-119deceb835d",
+            "name": "Foxconn",
+            "title": "Foxconn",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:55.336261Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:55.336261Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Foxconn",
+            "logo": {
+                "logo": "2e765874-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "7f56429e-8310-45f2-9676-c694e94a02fd",
+            "name": "HPE",
+            "title": "HP Enterprise",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:57.342250Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:57.342250Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "HPE",
+            "logo": {
+                "logo": "2fa6ab8e-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "119db23c-853e-4cf6-9793-c0eda0edf562",
+            "name": "Huawei",
+            "title": "Huawei",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:04:59.290309Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:04:59.290309Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Huawei",
+            "logo": {
+                "logo": "30d45753-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "4cbe5f59-1bbb-4bcf-ae49-5d1c392348cc",
+            "name": "iEi",
+            "title": "iEi",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:01.155453Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:01.155453Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "iEi",
+            "logo": {
+                "logo": "31f449c3-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "04be8ba9-57c4-4caf-8d30-add561f1aac4",
+            "name": "Lanner",
+            "title": "Lanner",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:03.128245Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:03.128245Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Lanner",
+            "logo": {
+                "logo": "331a86cf-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "13a91131-8ed1-4ccb-aa86-4e01992004dd",
+            "name": "Lenovo",
+            "title": "Lenovo",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:05.192335Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:05.192335Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Lenovo",
+            "logo": {
+                "logo": "344be0df-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "ce2a7585-250c-48b0-9e1f-3f102eb5f227",
+            "name": "Nexcom",
+            "title": "Nexcom",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:07.166323Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:07.166323Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Nexcom",
+            "logo": {
+                "logo": "358293d5-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "43bbd1fe-faaa-4bbc-b9de-bfe09f403525",
+            "name": "Siemens",
+            "title": "Siemens",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:09.210695Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:09.210695Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Siemens",
+            "logo": {
+                "logo": "36b5b555-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "4ed94bc5-f271-4ae8-a14e-2e84fe0bf9bc",
+            "name": "Supermicro",
+            "title": "Supermicro",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:11.136510Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:11.136510Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Supermicro",
+            "logo": {
+                "logo": "37eb8e62-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "426981f9-325a-45c5-ad3c-95c6408c8c62",
+            "name": "Wiwynn",
+            "title": "Wiwynn",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:13.111523Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:13.111523Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "Wiwynn",
+            "logo": {
+                "logo": "39095120-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        },
+        {
+            "id": "92e9dfe9-b8b9-4191-bbd0-936a3aba08a4",
+            "name": "ZedVirtualDevice",
+            "title": "ZedVirtualDevice",
+            "description": "",
+            "svg": "",
+            "attr": {},
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:05:15.052311Z",
+                "createdBy": "test-user@test.com",
+                "updatedAt": "2025-10-16T09:05:15.052311Z",
+                "updatedBy": "test-user@test.com"
+            },
+            "systemMfgName": "ZedVirtualDevice",
+            "logo": {
+                "logo": "3a39957d-aa6f-11f0-adef-6045bdaa334c_logo"
+            },
+            "originType": "ORIGIN_GLOBAL"
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 500,
+        "totalPages": 1
+    }
+}

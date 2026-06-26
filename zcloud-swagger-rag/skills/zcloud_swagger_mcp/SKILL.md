@@ -1,5 +1,5 @@
 ---
-name: swagger-docs
+name: zcloud_swagger_mcp
 description: >
   Search indexed Swagger/OpenAPI documentation for ZedCloud API endpoints.
   Use when the user asks about available API endpoints, request/response schemas,
@@ -23,7 +23,7 @@ Before answering, check whether `search_api_docs` is available as a tool in this
 
 **If `search_api_docs` is NOT available:** start your response with this block:
 
-> ⚠️ **Unverified answer** — the swagger-docs MCP server is not running in this session.
+> ⚠️ **Unverified answer** — the zcloud_swagger_mcp MCP server is not running in this session.
 > Restart Claude Code to activate it, then re-ask.
 
 ## Workflow

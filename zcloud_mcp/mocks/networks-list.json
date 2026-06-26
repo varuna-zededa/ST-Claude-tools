@@ -1,0 +1,287 @@
+{
+    "summary": null,
+    "summaryByKind": {
+        "description": "Network Summary by Kind",
+        "total": 4,
+        "values": {
+            "PortDual_V4_V6": 0,
+            "PortNOOP": 1,
+            "PortV4": 2,
+            "PortV4_Only": 1,
+            "PortV6": 0,
+            "PortV6_Only": 0
+        }
+    },
+    "summaryByProxy": {
+        "description": "Network summary by proxy",
+        "total": 4,
+        "values": {
+            "WITHOUT_PROXY": 4,
+            "WITH_PROXY": 0
+        }
+    },
+    "summaryByDist": {
+        "description": "Network Summary by Kind",
+        "total": 4,
+        "values": {
+            "NETWORK_WIRELESS_TYPE_CELLULAR": 0,
+            "NETWORK_WIRELESS_TYPE_UNSPECIFIED": 2,
+            "NETWORK_WIRELESS_TYPE_WIFI": 2
+        }
+    },
+    "list": [
+        {
+            "id": "18055f80-ca6f-463d-975f-0d4ce0ea20d3",
+            "name": "adap-spec-ner",
+            "title": "adap-spec-ner",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:11:52.932147Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:11:52.932147Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+            "kind": "NETWORK_KIND_UNSPECIFIED",
+            "ip": {
+                "deprecatedDhcp": false,
+                "dhcp": "NETWORK_DHCP_TYPE_STATIC_ADAPTER_SPECIFIC",
+                "subnet": "",
+                "mask": "",
+                "gateway": "",
+                "domain": "",
+                "ntp": "",
+                "dns": [],
+                "dhcpRange": null,
+                "ntpServers": [],
+                "ntpServerExclusively": false
+            },
+            "dnsList": [],
+            "proxy": {
+                "networkProxy": false,
+                "proxies": [],
+                "exceptions": "",
+                "pacfile": "",
+                "networkProxyURL": "",
+                "networkProxyCerts": []
+            },
+            "enterpriseDefault": false,
+            "mtu": 0,
+            "wireless": {
+                "type": "NETWORK_WIRELESS_TYPE_UNSPECIFIED",
+                "cellularCfg": {
+                    "APN": "",
+                    "probe": null,
+                    "locationTracking": false,
+                    "accessPoints": [],
+                    "activatedSimSlot": 0
+                },
+                "wifiCfg": null
+            },
+            "project": {
+                "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+                "projectName": "default-project"
+            }
+        },
+        {
+            "id": "87eeb4a4-fe38-4c83-aefa-fd497e39c752",
+            "name": "defaultIPv4-net",
+            "title": "default-network",
+            "description": "default network",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2025-10-16T09:07:31.051614Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T10:55:47.692374Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+            "kind": "NETWORK_KIND_V4",
+            "ip": {
+                "deprecatedDhcp": true,
+                "dhcp": "NETWORK_DHCP_TYPE_CLIENT",
+                "subnet": "",
+                "mask": "",
+                "gateway": "",
+                "domain": "",
+                "ntp": "",
+                "dns": [],
+                "dhcpRange": null,
+                "ntpServers": [],
+                "ntpServerExclusively": false
+            },
+            "dnsList": [],
+            "proxy": {
+                "networkProxy": false,
+                "proxies": [],
+                "exceptions": "",
+                "pacfile": "",
+                "networkProxyURL": "",
+                "networkProxyCerts": []
+            },
+            "enterpriseDefault": false,
+            "mtu": 0,
+            "wireless": {
+                "type": "NETWORK_WIRELESS_TYPE_UNSPECIFIED",
+                "cellularCfg": {
+                    "APN": "",
+                    "probe": null,
+                    "locationTracking": false,
+                    "accessPoints": [],
+                    "activatedSimSlot": 0
+                },
+                "wifiCfg": null
+            },
+            "project": {
+                "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+                "projectName": "default-project"
+            }
+        },
+        {
+            "id": "2e9c7757-1cac-4143-9c2d-86c17fd94d89",
+            "name": "sta-net",
+            "title": "sta-net",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:52:21.198259Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:52:21.198259Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+            "kind": "NETWORK_KIND_V4",
+            "ip": {
+                "deprecatedDhcp": true,
+                "dhcp": "NETWORK_DHCP_TYPE_STATIC",
+                "subnet": "192.168.0.1/24",
+                "mask": "",
+                "gateway": "192.168.0.1",
+                "domain": "",
+                "ntp": "",
+                "dns": [],
+                "dhcpRange": null,
+                "ntpServers": [],
+                "ntpServerExclusively": false
+            },
+            "dnsList": [],
+            "proxy": {
+                "networkProxy": false,
+                "proxies": [],
+                "exceptions": "",
+                "pacfile": "",
+                "networkProxyURL": "",
+                "networkProxyCerts": []
+            },
+            "enterpriseDefault": false,
+            "mtu": 0,
+            "wireless": {
+                "type": "NETWORK_WIRELESS_TYPE_WIFI",
+                "cellularCfg": {
+                    "APN": "",
+                    "probe": null,
+                    "locationTracking": false,
+                    "accessPoints": [],
+                    "activatedSimSlot": 0
+                },
+                "wifiCfg": {
+                    "wifiSSID": "Zededa-Engineering",
+                    "keyScheme": "NETWORK_WIFIKEY_SCHEME_WPAPSK",
+                    "identity": "",
+                    "secret": null,
+                    "crypto": null,
+                    "priority": 0,
+                    "encryptedSecrets": {
+                        "V2lGaVBhc3N3ZA==": "vault:v1:ymFQXYIm1/xOUEgNrLLSv2Ro25B5KmsYTB2HV6wpi9Tj5n6BVuuoPXKI"
+                    },
+                    "cryptoKey": "aes256_common"
+                }
+            },
+            "project": {
+                "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+                "projectName": "default-project"
+            }
+        },
+        {
+            "id": "bb6f7a0c-833c-4abb-8226-d402549211cc",
+            "name": "test-stat-net",
+            "title": "test-stat-net",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:45:46.804330Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:45:46.804330Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+            "kind": "NETWORK_KIND_V4_ONLY",
+            "ip": {
+                "deprecatedDhcp": true,
+                "dhcp": "NETWORK_DHCP_TYPE_STATIC",
+                "subnet": "192.168.0.1/24",
+                "mask": "",
+                "gateway": "192.168.0.1",
+                "domain": "",
+                "ntp": "",
+                "dns": [
+                    "1.1.1.1"
+                ],
+                "dhcpRange": null,
+                "ntpServers": [],
+                "ntpServerExclusively": false
+            },
+            "dnsList": [],
+            "proxy": {
+                "networkProxy": false,
+                "proxies": [],
+                "exceptions": "",
+                "pacfile": "",
+                "networkProxyURL": "",
+                "networkProxyCerts": []
+            },
+            "enterpriseDefault": false,
+            "mtu": 0,
+            "wireless": {
+                "type": "NETWORK_WIRELESS_TYPE_WIFI",
+                "cellularCfg": {
+                    "APN": "",
+                    "probe": null,
+                    "locationTracking": false,
+                    "accessPoints": [],
+                    "activatedSimSlot": 0
+                },
+                "wifiCfg": {
+                    "wifiSSID": "Zededa-Engineering",
+                    "keyScheme": "NETWORK_WIFIKEY_SCHEME_WPAPSK",
+                    "identity": "",
+                    "secret": null,
+                    "crypto": null,
+                    "priority": 0,
+                    "encryptedSecrets": {
+                        "V2lGaVBhc3N3ZA==": "vault:v1:Yfae6WP7L+iHy9P/qAYScjRicJVNbdGvlA1MSEYqCyZiPR639441Za8J"
+                    },
+                    "cryptoKey": "aes256_common"
+                }
+            },
+            "project": {
+                "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+                "projectName": "default-project"
+            }
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPages": 1
+    }
+}

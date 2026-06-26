@@ -1,0 +1,39 @@
+[project]
+name = "zededa-mcp"
+version = "0.1.0"
+description = "Zededa MCP FastMCP server"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.10.2",
+    "httpx>=0.28.1",
+    "python-dotenv",
+    "jmespath>=1.0.0",
+    "prometheus_client>=0.21.0"
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0.0",
+    "pytest-asyncio>=0.21.0",
+    "pytest-mock>=3.10.0",
+]
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["zededa", "logging_config"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["."]
+python_files = ["test_*.py", "*_test.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+asyncio_mode = "auto"
+addopts = [
+    "-v",
+    "--tb=short",
+    "--strict-markers",
+]

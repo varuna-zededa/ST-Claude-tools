@@ -1,0 +1,1994 @@
+{
+    "summaryByState": {
+        "description": "Role Summary",
+        "total": 48,
+        "values": {
+            "ROLE_STATE_ACTIVE": 48,
+            "ROLE_STATE_ARCHIVED": 0,
+            "ROLE_STATE_CREATED": 0,
+            "ROLE_STATE_INACTIVE": 0,
+            "ROLE_STATE_UNSPECIFIED": 0
+        }
+    },
+    "list": [
+        {
+            "id": "AAGFABCKHr5E_F9NWYDXbU19lnsf",
+            "name": "test",
+            "title": "test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2023-12-05T08:50:46.367963Z",
+                "createdBy": "rucha@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "rucha@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "38767607-4b2d-4b88-b569-ea0049bf112c"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBmoIm7uuZFt5mExBxKwkQl",
+            "name": "Administrator_testproject",
+            "title": "Administrator_testproject",
+            "description": "test desc",
+            "revision": {
+                "prev": "",
+                "curr": "13",
+                "createdAt": "2020-06-17T06:09:24Z",
+                "createdBy": "aravind@zededa.com",
+                "updatedAt": "2022-02-07T09:53:37.776478Z",
+                "updatedBy": "testz12@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "PermissionAccessRead",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "d9e8306e-4926-4404-acca-d3013767b38b",
+                        "449cc099-7e7d-4e2b-a371-afdf5782455a"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBq-wI0oaFLyLkebggZaa-t",
+            "name": "testadnan-delete",
+            "title": "testadnan-delete",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2024-08-28T19:16:37.300659Z",
+                "createdBy": "adnan@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "adnan@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": "555992d4-09ce-4789-8cd1-521e5e0f545c"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABB_NHkzQEVMYJdnerFkOLSb",
+            "name": "Emerson-admin-user",
+            "title": "Emerson-admin-user",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "5",
+                "createdAt": "2022-09-19T18:58:43.264595Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2024-08-29T09:28:11.841619Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": "36616fb6-b5eb-4436-a9c6-fae3ce0df8cd"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCpsURx9yJOZrROM0U0JSpP",
+            "name": "test12444",
+            "title": "test12444",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2024-01-04T06:08:00.013096Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "e88a5df8-027a-4871-9e69-ef36f2916708"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABB5vEffkPJGYpHaX42eM5_F",
+            "name": "sysmonitor_with_enterprise_read",
+            "title": "sysmonitor_with_enterprise_read",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2024-06-12T05:54:31.414467Z",
+                "createdBy": "pranav@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "pranav@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": "3bc7b79f-ac30-473d-b8e2-78a1632946ca"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBiHqeiKJZOkL_KuYR4YZJ7",
+            "name": "Sysmonitor-EnterpriseRead",
+            "title": "Sysmonitor-EnterpriseRead",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2024-07-18T09:33:57.994701Z",
+                "createdBy": "pranav@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "pranav@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": "53b9570a-ddea-466a-bf6d-ef7a4cda1c4c"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAznILV7EFBIZ0DeS5O7pHQ",
+            "name": "Emerson-user1",
+            "title": "Emerson-user1",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "4",
+                "createdAt": "2022-09-19T19:00:21.030352Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2022-09-20T02:49:37.707850Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "a2c222a2-e9a6-475f-9525-e8d50bdd5ed4"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "fc596e87-fa43-4479-bad6-83c8908710ec"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDKMxdhtltNhZzt6xun6FIC",
+            "name": "01-test",
+            "title": "01-test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2024-01-16T17:35:48.658111Z",
+                "createdBy": "vinay@acme.com",
+                "updatedAt": "2024-11-05T16:08:59.493522Z",
+                "updatedBy": "testz12@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdate",
+                    "uuid": "a2e1b1f1-cc71-4122-b598-d0eb08617548"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDHWjHcUwxPJqLRdsI0UCyP",
+            "name": "test-3rd-party",
+            "title": "test-3rd-party",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2024-01-16T17:30:50.188880Z",
+                "createdBy": "vinay@zededa.com",
+                "updatedAt": "2024-01-16T17:31:29.459047Z",
+                "updatedBy": "vinay@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdate",
+                    "uuid": "fc18de17-11a4-4a6c-a641-9eddbb052a56"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCrjT3Lk0RIJ4AFL5AMcTJo",
+            "name": "aaaaaa-test",
+            "title": "aaaaaa-testddd",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-06-22T05:34:21.701520Z",
+                "createdBy": "rgupta@acme.com",
+                "updatedAt": "2024-11-06T02:07:51.307149Z",
+                "updatedBy": "testz12@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "24f4d017-4beb-4f50-9e58-1c780a725fe6"
+                },
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "207237ca-7aff-4704-b945-08a831b28a48"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "fe410d94-3132-4c50-ba88-346fda3e026a"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCv5ftcwNpM_Lu5Pacdagsk",
+            "name": "test_1001",
+            "title": "test_1001",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2023-12-11T05:10:00.675330Z",
+                "createdBy": "rucha@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "rucha@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "6ae312d2-8573-470d-8d0a-b542b72b072f"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAjVvSosQZLNKzUS7TVQ3KD",
+            "name": "1role-test",
+            "title": "1role-test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-04-19T20:06:46.743641Z",
+                "createdBy": "mathew@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "mathew@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b8552e75-54ee-4607-a715-1469dd132004"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "7eb95d69-791b-4ce3-86f5-4d499ddd344a"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCL8H9T0k1FF604Yc20GwRV",
+            "name": "Administrator",
+            "title": "Administrator",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-06-15T21:57:22.356813Z",
+                "createdBy": "testx15@zededa.com",
+                "updatedAt": "2023-06-15T22:01:08.372972Z",
+                "updatedBy": "testx15@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "84dc1c6a-bfc6-4037-85cc-eea47e87c96c"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDBCwk_e9hAramUUQ97EDyi",
+            "name": "Emerson-combo-user",
+            "title": "Emerson-combo-user",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-09-19T19:04:38.879472Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "fc596e87-fa43-4479-bad6-83c8908710ec"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "a2c222a2-e9a6-475f-9525-e8d50bdd5ed4"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "73cb326b-02bc-4aca-b42c-983b85631cb8"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCAbU-fpU1C57OL5T5GyD7w",
+            "name": "emerson-user2",
+            "title": "emerson-user2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2022-09-19T19:01:24.677036Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "2023-12-05T08:47:41.279549Z",
+                "updatedBy": "rucha@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b8a066d0-fb21-4b41-8368-c76bafb0be76"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "63b98a76-9a35-473a-92ad-85e3d63cf446"
+                },
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "43fdcf50-df12-4685-afa7-a3b1ca02a4ab"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "8ee7a2d6-2234-440b-add7-6c1ffaa70f0b"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBXPv5W5uhI4Y82DQHfgGeP",
+            "name": "test-rol1",
+            "title": "test-rol1",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2023-12-06T13:20:40.301091Z",
+                "createdBy": "test@test.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "test@test.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "db156cb6-af4a-4bd8-bf32-f92e7561fa86"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCBXlz6R9FGmpaBjWWyG2US",
+            "name": "new-role",
+            "title": "new-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "4",
+                "createdAt": "2022-05-06T08:00:29.305729Z",
+                "createdBy": "chethan@zededa.com",
+                "updatedAt": "2022-06-30T06:13:12.887542Z",
+                "updatedBy": "vinay@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDz-LRA9itH3KvwRpgd8OEf",
+            "name": "Emerson-user3",
+            "title": "Emerson-user3",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-09-19T19:02:18.357013Z",
+                "createdBy": "admin@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "admin@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "ef4ea5d7-e8bd-400a-a3e4-5363df0197b4"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "fc596e87-fa43-4479-bad6-83c8908710ec"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDYAV_LrAZLVbp0y1HlbPFA",
+            "name": "test123-test-role",
+            "title": "test123-test-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "4",
+                "createdAt": "2022-06-05T07:29:25.264596Z",
+                "createdBy": "ztest@acme.com",
+                "updatedAt": "2022-09-09T03:57:19.940528Z",
+                "updatedBy": "project@report.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "67e03b0e-fa74-46dc-84b4-ebcb91119d02"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBDq4_u_PlD95vbGtTA9Jq4",
+            "name": "KalyanTest",
+            "title": "KalyanTest",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2022-09-14T09:15:06.380825Z",
+                "createdBy": "kalyan@zededa.com",
+                "updatedAt": "2022-09-14T09:24:38.810361Z",
+                "updatedBy": "kalyan@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "c0dc5cae-b39a-4336-b7d6-c017f7e1c55e"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDmllMFHEJFTIru6aDWJg3J",
+            "name": "oauth_role_test",
+            "title": "oauth_role_test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-05-10T09:54:09.304554Z",
+                "createdBy": "nitheesh@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "nitheesh@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b8552e75-54ee-4607-a715-1469dd132004"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "2f0f4094-62fa-44f6-b280-75ff37f9d470"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessReadUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "f2de4a5a-6dc7-471c-b3bb-9fb6d0ed3ff9"
+                    ],
+                    "accessEdgeApp": "PermissionAccessReadUpdate",
+                    "accessAppInstance": "PermissionAccessReadUpdate",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessReadUpdate",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBxNJXH8SlDk6nhiAXedLRr",
+            "name": "pfizer",
+            "title": "pfizer",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-05-24T03:40:12.090087Z",
+                "createdBy": "sathiyadev@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "sathiyadev@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessReadUpdate",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b8552e75-54ee-4607-a715-1469dd132004"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "PermissionAccessReadUpdate",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABA6y-SDtT9JnLiUSdD2Z7UR",
+            "name": "prnvkv-test",
+            "title": "prnvkv-test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-08-16T14:34:46.375191Z",
+                "createdBy": "pranav@zededa.com",
+                "updatedAt": "2023-08-18T05:08:52.794734Z",
+                "updatedBy": "pranav@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAoaGfNPbtI_5uocfWKlXef",
+            "name": "rahul-custom",
+            "title": "rahul-custom",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2022-06-28T05:47:51.294406Z",
+                "createdBy": "rahul@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "rahul@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "PermissionAccessRead",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b8552e75-54ee-4607-a715-1469dd132004"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBQkc2GDkBM3pX889GRR9_P",
+            "name": "sample-test",
+            "title": "sample-test",
+            "description": "sample-test",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2022-05-23T06:00:20.888514Z",
+                "createdBy": "chethan@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "chethan@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "1dd2cf42-4f64-4a13-8330-a63cf5e3d174"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCo9J56U-1GXqgY5yX5zzAk",
+            "name": "Sandeep_test",
+            "title": "Sandeep_test",
+            "description": "test description",
+            "revision": {
+                "prev": "",
+                "curr": "10",
+                "createdAt": "2023-07-20T05:22:18.483726Z",
+                "createdBy": "sandeep@zededa.com",
+                "updatedAt": "2023-07-31T06:08:25.595198Z",
+                "updatedBy": "sandeep@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "24fda576-fa54-4346-87d5-183d2fa4df88"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDGAfKDEi9PqI7F-t6qPTJj",
+            "name": "sandeep_test_2",
+            "title": "sandeep_test_2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "5",
+                "createdAt": "2023-07-26T15:58:30.524645Z",
+                "createdBy": "sandeep@zededa.com",
+                "updatedAt": "2023-08-01T06:19:53.191224Z",
+                "updatedBy": "sandeep@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "24fda576-fa54-4346-87d5-183d2fa4df88"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {
+                "prj1": "local",
+                "prj3": "stage"
+            }
+        },
+        {
+            "id": "AAGFABCrSYdGrmRMOLAxiU5vfsyQ",
+            "name": "sandeep_test_3",
+            "title": "sandeep_test_3",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2023-07-31T06:09:17.671860Z",
+                "createdBy": "sandeep@zededa.com",
+                "updatedAt": "2023-07-31T06:10:04.320311Z",
+                "updatedBy": "sandeep@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "24fda576-fa54-4346-87d5-183d2fa4df88"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {
+                "prj1": "local",
+                "prj3": "stage"
+            }
+        },
+        {
+            "id": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+            "name": "SysAdmin",
+            "title": "SysAdmin",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "19",
+                "createdAt": "2019-07-09T21:43:39Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2020-03-01T10:25:55Z",
+                "updatedBy": "root@acme.com"
+            },
+            "type": "USER_ROLE_SYSTEM_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessUser": "PermissionAccessCreateReadUpdateDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABDJ2cfEIaJPYrSaUBHGv1ih",
+            "name": "SysManager",
+            "title": "SysManager",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "11",
+                "createdAt": "2019-07-09T21:43:39Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2020-03-01T10:10:11Z",
+                "updatedBy": "root@acme.com"
+            },
+            "type": "USER_ROLE_SYSTEM_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAx0bu0T6ZKj7u0DDFyD7I0",
+            "name": "SysMonitor",
+            "title": "SysMonitor",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "9",
+                "createdAt": "2019-07-09T21:43:39Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2020-01-02T17:03:13Z",
+                "updatedBy": "admin@orangeCorp-blr.com"
+            },
+            "type": "USER_ROLE_SYSTEM_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "PermissionAccessRead",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBpCVN7vWJL94z31_5aaR92",
+            "name": "SysOperator",
+            "title": "SysOperator",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "9",
+                "createdAt": "2019-07-09T21:43:39Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2020-01-02T17:03:16Z",
+                "updatedBy": "admin@orangeCorp-blr.com"
+            },
+            "type": "USER_ROLE_SYSTEM_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessReadUpdate",
+                    "accessApp": "PermissionAccessReadUpdate",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessReadUpdate",
+                    "accessAppInstance": "PermissionAccessReadUpdate",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessReadUpdate",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCSNPaeMMlLOZTOSjxwCzvT",
+            "name": "test1",
+            "title": "test1",
+            "description": "test",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-10-13T09:33:02.709080Z",
+                "createdBy": "kkumari@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "kkumari@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBo89Iyp55IsanxzY9vWa6c",
+            "name": "test-role",
+            "title": "test-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-08-08T06:23:39.036740Z",
+                "createdBy": "test@test.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "test@test.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "449cc099-7e7d-4e2b-a371-afdf5782455a",
+                        "dccf2508-dd55-4cf3-8889-9732823f2555"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAUpYj8L9BAgJ9v1W3GkIoj",
+            "name": "test-role2",
+            "title": "test-role2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-08-08T06:25:58.511207Z",
+                "createdBy": "test@test.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "test@test.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "449cc099-7e7d-4e2b-a371-afdf5782455a"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateRead",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "dccf2508-dd55-4cf3-8889-9732823f2555"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateRead",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateRead",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBThgjQERZCSJifepHVcJ9m",
+            "name": "test-udit-role",
+            "title": "test-udit-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-09-20T07:34:37.590263Z",
+                "createdBy": "udit@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "udit@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateUpdate",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessDelete",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateUpdate",
+                    "accessAppInstance": "PermissionAccessCreateUpdate",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateUpdate",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABC2i9SB21tAlIERnNuUiMj-",
+            "name": "0004_test",
+            "title": "0004_test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "6",
+                "createdAt": "2024-11-05T16:10:22.844848Z",
+                "createdBy": "testz12@acme.com",
+                "updatedAt": "2024-12-02T03:25:26.575829Z",
+                "updatedBy": "testz12@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "9341b8f5-985e-464b-9e17-38e437fc285e"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "62b9b84e-98ea-417f-883c-590f85a609da"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCS-A9ee8RDg62sc_h3zgnw",
+            "name": "test-udit-role2",
+            "title": "test-udit-role2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-09-20T07:37:55.120853Z",
+                "createdBy": "udit@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "udit@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessUpdate",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessCreateUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "34164aa7-a7e4-474b-8056-f583b1277bb1"
+                    ],
+                    "accessEdgeApp": "PermissionAccessUpdateDelete",
+                    "accessAppInstance": "PermissionAccessUpdate",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessUpdateDelete",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "PermissionAccessCreateUpdate",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "7f4649c0-0e40-4a55-a67f-8468dd40bb0d"
+                    ],
+                    "accessEdgeApp": "PermissionAccessReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessReadDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessReadUpdateDelete",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABB8RWikCh5CF6WOvXah0P79",
+            "name": "test-vinay-1",
+            "title": "test-vinay-1",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-09-25T06:56:41.442217Z",
+                "createdBy": "vinay@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "vinay@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "df6b1ca4-169f-4d86-8f3a-3a9d197567c7"
+                }
+            ],
+            "projectTags": {
+                "test": "vinay"
+            }
+        },
+        {
+            "id": "AAGFABBU59XT9hhKj5KO-PWJvslz",
+            "name": "udit-test-role",
+            "title": "udit-test-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-05-30T07:13:47.299372Z",
+                "createdBy": "udit@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "udit@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "553b52d8-601a-4e52-8842-a860d59f7c79"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBzokV4z0dBI5g4aAQwVrdA",
+            "name": "udit-test-role2",
+            "title": "udit-test-role2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-06-29T18:13:54.623066Z",
+                "createdBy": "udit@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "udit@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "b350690a-9bd2-47f5-b0b3-b3d0eeebbc3d"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                },
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "4496cd71-4c31-4535-b922-428c7e582eff"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABBosRu9fwZBHY_llL2pvvY2",
+            "name": "udit-test-role3",
+            "title": "udit-test-role3",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2023-06-29T18:15:06.059697Z",
+                "createdBy": "udit@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "udit@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": ""
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABC5hNFSnWBFhJxylTM7Xmcu",
+            "name": "vinay-test",
+            "title": "vinay-test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2022-11-24T10:27:42.224986Z",
+                "createdBy": "vinay@acme.com",
+                "updatedAt": "2023-09-25T06:57:11.691454Z",
+                "updatedBy": "vinay@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessRead",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessRead",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "49d6ee4c-6ee7-4341-acf7-9d04c4078806"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+                    "uuid": "a0bed885-4238-4e6b-8522-9a307088b80a"
+                }
+            ],
+            "projectTags": {
+                "test": "vinay"
+            }
+        },
+        {
+            "id": "AAGFABDq2vnMk3FNLrbPRl73wxLp",
+            "name": "aaaaaaaTest",
+            "title": "aaaaaaaTest",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2024-11-06T02:07:34.291605Z",
+                "createdBy": "testz12@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "testz12@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "1b4ed556-18ff-4c27-857b-864aec01e35c"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "60ab00d4-ca0d-467c-8cfa-ba5bfc3ef13c"
+                },
+                {
+                    "accessDevice": "",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "dfac295c-deaf-4421-8312-f6ab41b1809c"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "b358b4ab-f8bd-424a-93c4-a2514a7cafab"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABC3LG0cJg5Muoqc7M8H08jm",
+            "name": "vinay-lower-test",
+            "title": "vinay-lower-test",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-06T06:03:26.073574Z",
+                "createdBy": "vinay@zededa.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "vinay@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessRead",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "87df9047-df84-4f66-b8ea-483f04511756"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABCTk8ywauNIB5ewbOCfhPqO",
+            "name": "rishabh-lowest-role",
+            "title": "rishabh-lowest-role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-06T06:34:16.851281Z",
+                "createdBy": "rgupta@acme.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "rgupta@acme.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessRead",
+                    "accessApp": "",
+                    "accessUser": "",
+                    "accessStorage": "",
+                    "accessEnterprise": "",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "",
+                    "accessAppInstance": "PermissionAccessRead",
+                    "accessEnterpriseIntegrationItems": "",
+                    "uuid": "745195b9-ab7c-4f2a-bb2e-6127ab14a236"
+                }
+            ],
+            "projectTags": {}
+        },
+        {
+            "id": "AAGFABAWeNQii0VKG6ypK8gvHdmp",
+            "name": "dd_custom_role",
+            "title": "dd_custom_role",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2025-10-08T08:59:25.754964Z",
+                "createdBy": "daniel@zededa.com",
+                "updatedAt": "2025-10-08T09:02:45.958770Z",
+                "updatedBy": "daniel@zededa.com"
+            },
+            "type": "USER_ROLE_USER_DEFINED",
+            "state": "ROLE_STATE_ACTIVE",
+            "scopes": [
+                {
+                    "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+                    "accessApp": "",
+                    "accessUser": "PermissionAccessReadUpdate",
+                    "accessStorage": "",
+                    "accessEnterprise": "PermissionAccessReadUpdate",
+                    "enterpriseFilter": [
+                        "srOwn"
+                    ],
+                    "projectFilter": [
+                        "srAll"
+                    ],
+                    "accessEdgeApp": "PermissionAccessCreateReadUpdate",
+                    "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+                    "accessEnterpriseIntegrationItems": "PermissionAccessReadUpdate",
+                    "uuid": "e46b80c5-82f3-4606-959e-dde383341d88"
+                }
+            ],
+            "projectTags": {}
+        }
+    ],
+    "next": null
+}

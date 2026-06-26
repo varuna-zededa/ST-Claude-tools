@@ -1,0 +1,56 @@
+{
+    "list": [
+        {
+            "id": "6f92d4dd-63dc-469d-8b43-7c19a36f9f29",
+            "name": "defaultLocal-dev1",
+            "runState": "RUN_STATE_UNKNOWN",
+            "upTimeStamp": null,
+            "uplinkIntf": "",
+            "tags": {},
+            "clusterID": "",
+            "type": "NETWORK_INSTANCE_DHCP_TYPE_V4",
+            "kind": "NETWORK_INSTANCE_KIND_LOCAL",
+            "deviceDefault": true,
+            "deviceId": "90db52e5-06d3-496c-bab5-e4b453a32e28",
+            "projectId": "d6f47a5f-8b84-4db5-b9f1-2925964f4a68",
+            "deviceName": "dev1",
+            "projectName": "default-project",
+            "networkPolicyId": "",
+            "edgeNodeClusterID": ""
+        }
+    ],
+    "summaryByKind": {
+        "description": "Net Instance Summary by Kind",
+        "total": 1,
+        "values": {
+            "NETKINDCLOUD": 0,
+            "NETKINDHONEYPOT": 0,
+            "NETKINDLOCAL": 1,
+            "NETKINDMESH": 0,
+            "NETKINDNOOP": 0,
+            "NETKINDSWITCH": 0,
+            "NETKINDTRANSPARENT": 0
+        }
+    },
+    "summaryByAddressType": {
+        "description": "Net Instance Summary by Address type",
+        "total": 1,
+        "values": {
+            "NETTYPECRYPTOEID": 0,
+            "NETTYPECRYPTOV4": 0,
+            "NETTYPECRYPTOV6": 0,
+            "NETTYPENOOP": 0,
+            "NETTYPEV4": 1,
+            "NETTYPEV6": 0
+        }
+    },
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 1,
+        "totalPages": 1
+    }
+}

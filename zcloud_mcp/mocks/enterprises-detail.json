@@ -1,0 +1,50 @@
+{
+    "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+    "name": "acme",
+    "SfdcId": "",
+    "HubspotId": "",
+    "state": "ENTERPRISE_STATE_ACTIVE",
+    "type": "ENTERPRISE_TYPE_UNSPECIFIED",
+    "policyList": {
+        "list": [
+            {
+                "Policy": "TnC",
+                "Version": "1",
+                "AcceptedAt": "2023-10-05T17:30:15.985095652Z",
+                "AcceptedBy": "testx15@zededa.com",
+                "EffectiveFrom": "2021-04-16T07:43:15Z"
+            }
+        ]
+    },
+    "parentEntpId": "AAFlABDe6Nm63ixF5LJBbk9Keqp6",
+    "azureSubId": "",
+    "title": "acme",
+    "description": "dev integration environment 1",
+    "revision": {
+        "prev": "",
+        "curr": "428",
+        "createdAt": "2019-07-10T05:27:42Z",
+        "createdBy": "watchdog@zededa.com",
+        "updatedAt": "2025-08-11T11:58:33.776675Z",
+        "updatedBy": "test12@zededa.com"
+    },
+    "realms": [
+        "email.me",
+        "zededa.com",
+        "zededa.io"
+    ],
+    "attributes": {
+        "$ztag.entp.zui.ux.color.primary": "#f05424",
+        "$ztag.entp.zui.ux.product.name": "ZEDEDA"
+    },
+    "inheritAuthFromParent": true,
+    "childEnterprises": [],
+    "controllerHostURL": "",
+    "streamEvents": null,
+    "totpSettings": {
+        "enforce": false,
+        "enforceInChildren": true,
+        "enforcedByParent": false
+    },
+    "apiTokenExpiryInSeconds": 157680000
+}

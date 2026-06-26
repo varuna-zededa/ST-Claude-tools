@@ -1,0 +1,43 @@
+{
+        "id": "AAF1ABBIdi1n7LxAN5qAxc73dhC1",
+        "username": "test@test.com",
+        "SfdcId": "",
+        "HubspotId": "",
+        "revision": {
+            "prev": "",
+            "curr": "949",
+            "createdAt": "2020-05-21T10:51:59Z",
+            "createdBy": "",
+            "updatedAt": "2025-11-05T06:58:48.236531Z",
+            "updatedBy": "test@test.com"
+        },
+        "state": "USER_STATE_ACTIVE",
+        "firstName": "",
+        "locale": "",
+        "fullName": "Kavya Shekhar",
+        "timeZone": "",
+        "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+        "type": "AUTH_TYPE_OAUTH",
+        "email": "test@test.com",
+        "phone": "",
+        "notifyPref": "",
+        "LastLoginTime": "2025-11-05T06:58:48.236527Z",
+        "LastLogoutTime": "2025-10-21T02:44:17.964011Z",
+        "emailState": "ID_STATE_VERIFIED",
+        "phoneState": "ID_STATE_UNSPECIFIED",
+        "customUserInput": {},
+        "allowedEnterprises": [
+            {
+                "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+                "name": "acme",
+                "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+                "roleName": "SysAdmin"
+            }
+        ],
+        "enterpriseId": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+        "totpEnabled": false,
+        "allowedEntpProjectList": {},
+        "zksSyncStatus": null,
+        "tokenZksSyncStatus": {},
+        "roleName": "SysAdmin"
+}

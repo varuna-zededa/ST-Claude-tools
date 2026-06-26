@@ -1,0 +1,374 @@
+{
+    "terse": {
+        "description": "Summary",
+        "total": 9,
+        "values": {
+            "IMAGE_SUMMARY_ACTIVE_APPS": 9,
+            "IMAGE_SUMMARY_ACTIVE_ARTIFACT_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_BASE_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_DOCKER_COMPOSE_TAR_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_DOCKER_RUNTIME_IMAGES": 0,
+            "IMAGE_SUMMARY_ACTIVE_ZKS_RUNTIME_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_APPS": 9,
+            "IMAGE_SUMMARY_TOTAL_ARTIFACT_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_BASE_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_DOCKER_COMPOSE_TAR_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_DOCKER_RUNTIME_IMAGES": 0,
+            "IMAGE_SUMMARY_TOTAL_ZKS_RUNTIME_IMAGES": 0
+        }
+    },
+    "summaryByImageStatus": {
+        "description": "Summary",
+        "total": 9,
+        "values": {
+            "IMAGE_STATUS_ARCHIVED": 0,
+            "IMAGE_STATUS_CREATED": 0,
+            "IMAGE_STATUS_FAILED": 0,
+            "IMAGE_STATUS_INUSE": 0,
+            "IMAGE_STATUS_MAX": 0,
+            "IMAGE_STATUS_PENDING": 0,
+            "IMAGE_STATUS_READY": 9,
+            "IMAGE_STATUS_UNSPECIFIED": 0,
+            "IMAGE_STATUS_UPLINKING": 0,
+            "IMAGE_STATUS_UPLOADING": 0
+        }
+    },
+    "summaryByImageArch": {
+        "description": "Summary",
+        "total": 9,
+        "values": {
+            "AMD64": 9,
+            "ARM64": 0,
+            "UNSPECIFIED": 0
+        }
+    },
+    "summaryByImageType": {
+        "description": "Summary",
+        "total": 9,
+        "values": {
+            "IMAGE_TYPE_APPLICATION": 9,
+            "IMAGE_TYPE_ARTIFACT": 0,
+            "IMAGE_TYPE_DOCKER_COMPOSE_TAR": 0,
+            "IMAGE_TYPE_DOCKER_RUNTIME": 0,
+            "IMAGE_TYPE_EVE": 0,
+            "IMAGE_TYPE_EVEPRIVATE": 0,
+            "IMAGE_TYPE_UNSPECIFIED": 0,
+            "IMAGE_TYPE_ZKS_RUNTIME": 0
+        }
+    },
+    "summaryByImageFormat": {
+        "description": "Summary",
+        "total": 9,
+        "values": {
+            "CONTAINER": 1,
+            "FmtUnknown": 0,
+            "OVA": 0,
+            "QCOW": 0,
+            "QCOW2": 8,
+            "RAW": 0,
+            "VHD": 0,
+            "VHDX": 0,
+            "VMDK": 0
+        }
+    },
+    "summaryByOrigin": {
+        "description": "Origin Distribution Summary",
+        "total": 9,
+        "values": {
+            "ORIGIN_GLOBAL": 9,
+            "ORIGIN_IMPORTED": 0,
+            "ORIGIN_LOCAL": 0,
+            "ORIGIN_UNSPECIFIED": 0
+        }
+    },
+    "list": [
+        {
+            "id": "a77c447a-2ab8-4b14-84af-fac940545ed1",
+            "name": "centos-7.5-2018-09-13",
+            "title": "centos-7.5-2018-09-13",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:07:34.996971Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:07:35.885595Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "centos-7.5-2018-09-13",
+            "imageSha256": "E044F2DC236B4DBF4F28B7837F97DB863796D3B29626291D3B96189FB8B516E3",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "1405943808",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "2355d4c5-e59b-4f58-b067-357a3d79b6c9",
+            "name": "eclipse-mosquitto",
+            "title": "eclipse-mosquitto",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:08:47.939334Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:08:48.830021Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "CONTAINER",
+            "imageRelUrl": "eclipse-mosquitto",
+            "imageSha256": "",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "1ada9c5b-1285-4365-b839-7ec12c066e45",
+            "imageSizeBytes": "0",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "1ada9c5b-1285-4365-b839-7ec12c066e45"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "9f069e61-1792-42cf-b639-2e94144a0e21",
+            "name": "edgex",
+            "title": "edgex",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:07:59.351327Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:08:00.236353Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "edgex",
+            "imageSha256": "ADC5BB9DD39F83DD74C276B0BA119FB27925A5CDEA343FE1F2C8433F28AB345B",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "142016512",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "3b64cb87-bda7-47b8-abe9-de2238e52f29",
+            "name": "foglamp-packer",
+            "title": "foglamp-packer",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:08:11.566434Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:08:12.386500Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "foglamp-packer",
+            "imageSha256": "FF9454DEBB913B102F3FD0F75FAE5989D5CB8B29B4C2EE4C9E956415B91D2463",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "2659516416",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "f9700a26-4109-4f4a-bf2c-fdbad2d79cec",
+            "name": "ignitionEdge.qcow2",
+            "title": "ignitionEdge.qcow2",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:09:12.293355Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:09:13.163047Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "ignitionEdge.qcow2",
+            "imageSha256": "CEE0C3227803FD267465BFE611B97A3BD175BD2FC00FF9068539A9BDC2F4C422",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "2789343232",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "fcda625b-6901-48d8-83bf-c0ae9b4c7863",
+            "name": "ubuntu-tiny",
+            "title": "ubuntu-tiny",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:07:47.173721Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:07:48.045568Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "ubuntu-tiny",
+            "imageSha256": "9449F528B6EFF5EE953E61FA93DD6E3E7376DBAA4954B72B34212695E0FE7715",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "2405892096",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "6072aa29-d510-4ae9-bde7-dad24adf8211",
+            "name": "ubuntu-xenial-aws-greengrass",
+            "title": "ubuntu-xenial-aws-greengrass",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:08:23.581627Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:08:24.441365Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "ubuntu-xenial-aws-greengrass",
+            "imageSha256": "667145F237C4E486C351D8A61FE0D709ABEB5F184DE77AF42C40B09C6E777897",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "861011968",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "8a5e996d-62bd-4891-a637-a7e7e9bff656",
+            "name": "ubuntu-xenial-azure-iotedge-1.8",
+            "title": "ubuntu-xenial-azure-iotedge-1.8",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:08:35.745956Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:08:36.620417Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "ubuntu-xenial-azure-iotedge-1.8",
+            "imageSha256": "340568E41B33D9E7C40BBAD845AA762C5D184EB7B373398B1893C33C467D8163",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "805502976",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        },
+        {
+            "id": "1389d2b2-6c31-4de9-86dc-d4da1b4ab428",
+            "name": "ubuntu-xenial-nodered-mqtt-http",
+            "title": "ubuntu-xenial-nodered-mqtt-http",
+            "description": "",
+            "revision": {
+                "prev": "",
+                "curr": "3",
+                "createdAt": "2025-10-16T09:09:00.130341Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:09:01.003197Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "imageFormat": "QCOW2",
+            "imageRelUrl": "ubuntu-xenial-nodered-mqtt-http",
+            "imageSha256": "03DA161BC90AC6EEC8026AB5214CF61F601601CC36E196B0A14DC7D39380EEEF",
+            "imageVersion": "",
+            "imageArch": "AMD64",
+            "imageStatus": "IMAGE_STATUS_READY",
+            "imageType": "IMAGE_TYPE_APPLICATION",
+            "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "imageSizeBytes": "465502208",
+            "imageError": "Image uplinked successfully...",
+            "imageLocal": "",
+            "originType": "ORIGIN_GLOBAL",
+            "projectAccessList": [],
+            "datastoreIdList": [
+                "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+            ],
+            "isLTS": false
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPages": 1
+    }
+}

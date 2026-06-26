@@ -1,0 +1,389 @@
+{
+    "summaryByState": null,
+    "list": [
+        {
+            "id": "128831db-3097-4feb-a2a2-f9338db7ad34",
+            "name": "lely_app_profilecewcvwece_wvwv",
+            "title": "lely_app_profile_swevwewecwecv",
+            "description": "",
+            "appPolicies": [
+                {
+                    "metaData": {
+                        "id": "598566e8-2fa5-4dd6-aa1a-5b0b7ab24e79",
+                        "name": "lely_app_prowecwecfile_sawvwev",
+                        "title": "lely_app_prwecofile_servervwevwev",
+                        "tags": {}
+                    },
+                    "appConfig": {
+                        "networks": 1,
+                        "drives": 1,
+                        "cpus": 1,
+                        "memory": 256000,
+                        "manifestJSON": {
+                            "acKind": "VMManifest",
+                            "acVersion": "1.2.0",
+                            "name": "goodimage-1804efverv",
+                            "displayName": "",
+                            "description": "",
+                            "owner": {
+                                "user": "chm",
+                                "group": "",
+                                "company": "",
+                                "website": "zededa.com",
+                                "email": "chm@zededa.com"
+                            },
+                            "desc": {
+                                "category": "ztafimages",
+                                "os": "",
+                                "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                                "logo": {},
+                                "screenshotList": {},
+                                "licenseList": {},
+                                "support": "",
+                                "agreementList": {}
+                            },
+                            "images": [
+                                {
+                                    "imagename": "Ztest-goodImage",
+                                    "imageid": "",
+                                    "imageformat": "QCOW2",
+                                    "maxsize": "2097152",
+                                    "preserve": false,
+                                    "target": "Disk",
+                                    "drvtype": "HDD",
+                                    "params": [],
+                                    "readonly": false,
+                                    "volumelabel": "",
+                                    "ignorepurge": false,
+                                    "cleartext": false,
+                                    "mountpath": "",
+                                    "imagestatus": "",
+                                    "datastore": []
+                                }
+                            ],
+                            "interfaces": [
+                                {
+                                    "name": "eth0",
+                                    "type": "",
+                                    "optional": false,
+                                    "directattach": false,
+                                    "privateip": false,
+                                    "acls": [
+                                        {
+                                            "matches": [
+                                                {
+                                                    "type": "host",
+                                                    "value": ""
+                                                }
+                                            ],
+                                            "actions": [],
+                                            "name": ""
+                                        },
+                                        {
+                                            "matches": [
+                                                {
+                                                    "type": "protocol",
+                                                    "value": "tcp"
+                                                },
+                                                {
+                                                    "type": "lport",
+                                                    "value": "8025"
+                                                },
+                                                {
+                                                    "type": "ip",
+                                                    "value": "0.0.0.0/0"
+                                                }
+                                            ],
+                                            "actions": [
+                                                {
+                                                    "drop": false,
+                                                    "limit": false,
+                                                    "limitValue": null,
+                                                    "limitrate": 0,
+                                                    "limitunit": "",
+                                                    "limitburst": 0,
+                                                    "portmap": true,
+                                                    "portmapto": {
+                                                        "appPort": 22
+                                                    }
+                                                }
+                                            ],
+                                            "name": ""
+                                        }
+                                    ]
+                                }
+                            ],
+                            "permissions": [],
+                            "vmmode": "HV_HVM",
+                            "enablevnc": true,
+                            "resources": [
+                                {
+                                    "name": "resourceType",
+                                    "value": "Small"
+                                },
+                                {
+                                    "name": "cpus",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "memory",
+                                    "value": "1048576.00"
+                                },
+                                {
+                                    "name": "storage",
+                                    "value": "5242880.00"
+                                }
+                            ],
+                            "configuration": null,
+                            "containerDetail": null,
+                            "module": {
+                                "twinDetail": "",
+                                "routes": {},
+                                "environment": {},
+                                "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                            },
+                            "appType": "APP_TYPE_VM",
+                            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+                            "cpuPinningEnabled": false,
+                            "runtimeVersion": "RuntimeVersion_Unknown",
+                            "runtimeProtocolVersion": "RuntimeProtocolVersion_Unknown",
+                            "PersistentRuntimeSizeBytes": "0",
+                            "dockerComposeYamlText": "",
+                            "dockerComposeTarImageName": "",
+                            "enableOemWinLicenseKey": false,
+                            "disableVTPM": false
+                        },
+                        "storage": 0,
+                        "nameProjectPart": "",
+                        "nameAppPart": "",
+                        "interfaces": [
+                            {
+                                "netname": "",
+                                "io": null,
+                                "intforder": 1,
+                                "intfname": "eth0",
+                                "directattach": false,
+                                "privateip": false,
+                                "acls": [],
+                                "ipaddr": "",
+                                "macaddr": "",
+                                "accessVlanId": 0,
+                                "eidregister": null,
+                                "netinstname": "",
+                                "netinsttag": {
+                                    "tammanna": "tammanna"
+                                },
+                                "netinstid": "",
+                                "defaultNetInstance": false,
+                                "allowToDiscover": false
+                            }
+                        ],
+                        "startDelayInSeconds": 0,
+                        "tags": {},
+                        "logs": null,
+                        "vminfo": null,
+                        "remoteConsole": false,
+                        "newBundleVersionAvailable": false,
+                        "bundleVersion": 0,
+                        "netInstTags": {},
+                        "netInstName": ""
+                    }
+                },
+                {
+                    "metaData": {
+                        "id": "e9dabdad-483b-4361-add0-790a54f97dc0",
+                        "name": "vivek_app_profile_swevwellokvcama",
+                        "title": "vivek_app_profile_samkkwevwevweva",
+                        "tags": {}
+                    },
+                    "appConfig": {
+                        "networks": 1,
+                        "drives": 1,
+                        "cpus": 1,
+                        "memory": 256000,
+                        "manifestJSON": {
+                            "acKind": "VMManifest",
+                            "acVersion": "1.2.1",
+                            "name": "test_app_prgbefbeofillle",
+                            "displayName": "",
+                            "description": "",
+                            "owner": null,
+                            "desc": null,
+                            "images": [
+                                {
+                                    "imagename": "Ztest-goodImage",
+                                    "imageid": "6baa59ea-8a8f-4463-921e-16eded2ebd1e",
+                                    "imageformat": "QCOW2",
+                                    "maxsize": "524288",
+                                    "preserve": false,
+                                    "target": "Disk",
+                                    "drvtype": "HDD",
+                                    "params": [],
+                                    "readonly": false,
+                                    "volumelabel": "",
+                                    "ignorepurge": true,
+                                    "cleartext": false,
+                                    "mountpath": "",
+                                    "imagestatus": "",
+                                    "datastore": []
+                                }
+                            ],
+                            "interfaces": [
+                                {
+                                    "name": "eth0",
+                                    "type": "",
+                                    "optional": false,
+                                    "directattach": false,
+                                    "privateip": false,
+                                    "acls": []
+                                }
+                            ],
+                            "permissions": [],
+                            "vmmode": "HV_HVM",
+                            "enablevnc": false,
+                            "resources": [
+                                {
+                                    "name": "resourceType",
+                                    "value": "Tiny"
+                                },
+                                {
+                                    "name": "cpus",
+                                    "value": "1"
+                                },
+                                {
+                                    "name": "memory",
+                                    "value": "524288.00"
+                                }
+                            ],
+                            "configuration": null,
+                            "containerDetail": null,
+                            "module": null,
+                            "appType": "APP_TYPE_UNSPECIFIED",
+                            "deploymentType": "DEPLOYMENT_TYPE_UNSPECIFIED",
+                            "cpuPinningEnabled": false,
+                            "runtimeVersion": "RuntimeVersion_Unknown",
+                            "runtimeProtocolVersion": "RuntimeProtocolVersion_Unknown",
+                            "PersistentRuntimeSizeBytes": "0",
+                            "dockerComposeYamlText": "",
+                            "dockerComposeTarImageName": "",
+                            "enableOemWinLicenseKey": false,
+                            "disableVTPM": false
+                        },
+                        "storage": 0,
+                        "nameProjectPart": "",
+                        "nameAppPart": "",
+                        "interfaces": [
+                            {
+                                "netname": "",
+                                "io": null,
+                                "intforder": 1,
+                                "intfname": "eth0",
+                                "directattach": false,
+                                "privateip": false,
+                                "acls": [],
+                                "ipaddr": "",
+                                "macaddr": "",
+                                "accessVlanId": 0,
+                                "eidregister": null,
+                                "netinstname": "",
+                                "netinsttag": {
+                                    "vivek": "vivek"
+                                },
+                                "netinstid": "",
+                                "defaultNetInstance": false,
+                                "allowToDiscover": false
+                            }
+                        ],
+                        "startDelayInSeconds": 0,
+                        "tags": {},
+                        "logs": null,
+                        "vminfo": null,
+                        "remoteConsole": false,
+                        "newBundleVersionAvailable": false,
+                        "bundleVersion": 0,
+                        "netInstTags": {},
+                        "netInstName": ""
+                    }
+                }
+            ],
+            "networkPolicies": [
+                {
+                    "metaData": {
+                        "id": "9a4ae60a-46bc-415b-aa7c-966a963ce976",
+                        "name": "tammanna-network-poldvwvdlwvicy-name",
+                        "title": "tammanna-network-policy-title",
+                        "tags": {
+                            "tammanna": "tammanna"
+                        }
+                    },
+                    "networkConfig": {
+                        "tags": {},
+                        "port": "eth0",
+                        "portTags": {},
+                        "kind": "NETWORK_INSTANCE_KIND_LOCAL",
+                        "type": "NETWORK_INSTANCE_DHCP_TYPE_V4",
+                        "ip": null,
+                        "dnsList": [],
+                        "opaque": null,
+                        "deviceDefault": false,
+                        "propagateConnectedRoutes": false,
+                        "staticRoutes": []
+                    }
+                },
+                {
+                    "metaData": {
+                        "id": "72f8b678-3233-4566-bb1b-45705bb61f10",
+                        "name": "vivek-networkeroovwerv-policy-name",
+                        "title": "vivek-network-policy-title",
+                        "tags": {
+                            "vivek": "vivek"
+                        }
+                    },
+                    "networkConfig": {
+                        "tags": {},
+                        "port": "eth0",
+                        "portTags": {},
+                        "kind": "NETWORK_INSTANCE_KIND_LOCAL",
+                        "type": "NETWORK_INSTANCE_DHCP_TYPE_V4",
+                        "ip": null,
+                        "dnsList": [],
+                        "opaque": null,
+                        "deviceDefault": false,
+                        "propagateConnectedRoutes": false,
+                        "staticRoutes": []
+                    }
+                }
+            ],
+            "volumePolicies": [
+                {
+                    "metaData": {
+                        "id": "b398044d-0b26-4f15-b9eb-5e0c4c737e34",
+                        "name": "default-volume-poerveooorvlicy-name",
+                        "title": "default-volume-policy-title",
+                        "tags": {}
+                    },
+                    "volumeConfig": {
+                        "type": "VOLUME_INSTANCE_TYPE_CONTENT_TREE",
+                        "multiattach": false,
+                        "cleartext": false,
+                        "accessmode": "VOLUME_INSTANCE_ACCESS_MODE_READONLY",
+                        "sizeBytes": "0",
+                        "image": "Ztest-goodImage",
+                        "contentTreeId": "",
+                        "label": "default-label",
+                        "purge": null,
+                        "contentTreeTargetCondition": {},
+                        "blockStorageTags": {}
+                    }
+                }
+            ]
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [],
+        "pageNum": 1,
+        "pageSize": 100,
+        "totalPages": 1
+    }
+}

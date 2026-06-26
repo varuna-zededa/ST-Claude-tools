@@ -1,0 +1,36 @@
+{
+    "id": "AAGFABCL8H9T0k1FF604Yc20GwRV",
+    "name": "Administrator",
+    "title": "Administrator",
+    "description": "",
+    "revision": {
+        "prev": "",
+        "curr": "3",
+        "createdAt": "2023-06-15T21:57:22.356813Z",
+        "createdBy": "testx15@zededa.com",
+        "updatedAt": "2023-06-15T22:01:08.372972Z",
+        "updatedBy": "testx15@zededa.com"
+    },
+    "type": "USER_ROLE_USER_DEFINED",
+    "state": "ROLE_STATE_ACTIVE",
+    "scopes": [
+        {
+            "accessDevice": "PermissionAccessCreateReadUpdateDelete",
+            "accessApp": "",
+            "accessUser": "PermissionAccessCreateReadUpdateDelete",
+            "accessStorage": "",
+            "accessEnterprise": "PermissionAccessReadUpdate",
+            "enterpriseFilter": [
+                "srOwn"
+            ],
+            "projectFilter": [
+                "84dc1c6a-bfc6-4037-85cc-eea47e87c96c"
+            ],
+            "accessEdgeApp": "PermissionAccessCreateReadUpdateDelete",
+            "accessAppInstance": "PermissionAccessCreateReadUpdateDelete",
+            "accessEnterpriseIntegrationItems": "PermissionAccessCreateReadUpdateDelete",
+            "uuid": ""
+        }
+    ],
+    "projectTags": {}
+}

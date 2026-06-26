@@ -1,0 +1,147 @@
+{
+  "list": [
+    {
+      "timestamp": "2024-11-06T14:23:45.123Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.100 - - [06/Nov/2024:14:23:45 +0000] \"GET /api/v1/health HTTP/1.1\" 200 58 \"-\" \"HealthCheck/1.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:23:50.456Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.101 - - [06/Nov/2024:14:23:50 +0000] \"GET /index.html HTTP/1.1\" 200 1234 \"-\" \"Mozilla/5.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:24:10.789Z",
+      "level": "WARN",
+      "source": "nginx",
+      "message": "upstream server temporarily unavailable: connection timeout while connecting to upstream",
+      "containerId": "nginx-container-abc123",
+      "stream": "stderr"
+    },
+    {
+      "timestamp": "2024-11-06T14:24:15.234Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.102 - - [06/Nov/2024:14:24:15 +0000] \"POST /api/v1/data HTTP/1.1\" 201 89 \"-\" \"curl/7.68.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:24:30.567Z",
+      "level": "ERROR",
+      "source": "nginx",
+      "message": "192.168.1.103 - - [06/Nov/2024:14:24:30 +0000] \"GET /api/v1/missing HTTP/1.1\" 404 162 \"-\" \"Mozilla/5.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stderr"
+    },
+    {
+      "timestamp": "2024-11-06T14:25:00.890Z",
+      "level": "INFO",
+      "source": "app-manager",
+      "message": "Health check passed for container nginx-container-abc123",
+      "containerId": "nginx-container-abc123",
+      "stream": "system"
+    },
+    {
+      "timestamp": "2024-11-06T14:25:15.123Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.100 - - [06/Nov/2024:14:25:15 +0000] \"GET /metrics HTTP/1.1\" 200 456 \"-\" \"Prometheus/2.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:25:45.456Z",
+      "level": "DEBUG",
+      "source": "nginx",
+      "message": "worker process 42 started successfully",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:26:00.789Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.104 - - [06/Nov/2024:14:26:00 +0000] \"GET /static/style.css HTTP/1.1\" 200 3456 \"-\" \"Mozilla/5.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:26:30.012Z",
+      "level": "WARN",
+      "source": "app-manager",
+      "message": "Memory usage for container nginx-container-abc123 approaching threshold: 78%",
+      "containerId": "nginx-container-abc123",
+      "stream": "system"
+    },
+    {
+      "timestamp": "2024-11-06T14:27:00.345Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.105 - - [06/Nov/2024:14:27:00 +0000] \"GET /api/v1/status HTTP/1.1\" 200 234 \"-\" \"StatusMonitor/1.0\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:27:30.678Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "configuration reload completed successfully",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:28:00.901Z",
+      "level": "ERROR",
+      "source": "nginx",
+      "message": "SSL certificate will expire in 7 days",
+      "containerId": "nginx-container-abc123",
+      "stream": "stderr"
+    },
+    {
+      "timestamp": "2024-11-06T14:28:30.234Z",
+      "level": "INFO",
+      "source": "nginx",
+      "message": "192.168.1.106 - - [06/Nov/2024:14:28:30 +0000] \"GET /api/v2/users HTTP/1.1\" 200 5678 \"-\" \"APIClient/2.1\"",
+      "containerId": "nginx-container-abc123",
+      "stream": "stdout"
+    },
+    {
+      "timestamp": "2024-11-06T14:29:00.567Z",
+      "level": "INFO",
+      "source": "app-manager",
+      "message": "Container restart successful after configuration update",
+      "containerId": "nginx-container-abc123",
+      "stream": "system"
+    }
+  ],
+  "page": {
+    "totalCount": 1547,
+    "pageNum": 1,
+    "pageSize": 15,
+    "totalPages": 104
+  },
+  "_metadata": {
+    "appInstanceId": "app-instance-12345",
+    "appInstanceName": "nginx-web-server",
+    "deviceId": "device-98765",
+    "deviceName": "edge-node-production-01",
+    "timeRange": {
+      "start": "2024-11-06T14:23:45.123Z",
+      "end": "2024-11-06T14:29:00.567Z"
+    },
+    "description": "Application logs from nginx web server instance showing HTTP requests, health checks, warnings, and errors",
+    "logLevels": {
+      "INFO": 10,
+      "WARN": 2,
+      "ERROR": 2,
+      "DEBUG": 1
+    }
+  }
+}

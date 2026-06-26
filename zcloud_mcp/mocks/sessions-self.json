@@ -1,0 +1,16 @@
+{
+  "cause": "OK",
+  "user": {
+    "id": "mock-user-id-000000000001",
+    "username": "mock-user@example.com",
+    "firstName": "Mock",
+    "fullName": "Mock User",
+    "email": "mock-user@example.com",
+    "state": "USER_STATE_ACTIVE",
+    "type": "AUTH_TYPE_LOCAL",
+    "roleId": "mock-role-id-000000000001",
+    "enterpriseId": "mock-enterprise-id-00000001",
+    "totpEnabled": false
+  },
+  "policies": []
+}

@@ -1,0 +1,119 @@
+{
+    "id": "2f0f4094-62fa-44f6-b280-75ff37f9d470",
+    "name": "Berlin-Lab",
+    "title": "Berlin-Lab",
+    "description": "A project of the hardware located in the Berlin Lab.",
+    "revision": {
+        "prev": "",
+        "curr": "3",
+        "createdAt": "2022-10-10T15:10:33.647102Z",
+        "createdBy": "nikolay@zededa.com",
+        "updatedAt": "2024-08-28T08:06:57.375526Z",
+        "updatedBy": "rene@zededa.com"
+    },
+    "tagLevelSettings": {
+        "flowLogTransmission": "NETWORK_INSTANCE_FLOW_LOG_TRANSMISSION_UNSPECIFIED",
+        "interfaceOrdering": "INTERFACE_ORDERING_DISABLED"
+    },
+    "type": "TAG_TYPE_PROJECT",
+    "attr": {},
+    "appPolicy": null,
+    "cloudPolicy": null,
+    "modulePolicy": [],
+    "numdevices": 0,
+    "attestationPolicy": {
+        "name": "Berlin-Lab_sssssssssssssss",
+        "id": "f80eb0fc-d63a-4f36-859c-ca06cc478846",
+        "title": "",
+        "description": "",
+        "type": "POLICY_TYPE_ATTESTATION",
+        "status": "POLICY_STATUS_READY",
+        "revision": {
+            "prev": "",
+            "curr": "2",
+            "createdAt": "2022-10-10T15:10:33.643284Z",
+            "createdBy": "nikolay@zededa.com",
+            "updatedAt": "2023-08-11T08:36:14.418984Z",
+            "updatedBy": "rene@zededa.com"
+        },
+        "attr": {},
+        "attestationPolicy": {
+            "id": "",
+            "type": "ATTEST_POLICY_TYPE_ACCEPT"
+        },
+        "statusMessage": "Policy configured successfully"
+    },
+    "networkPolicy": null,
+    "deployment": null,
+    "edgeviewPolicy": {
+        "name": "Berlin-Lab.edgeviewPolicy",
+        "id": "5c1a8ea7-e2cf-4c9c-b56a-ce4f8f5fb158",
+        "title": "",
+        "description": "",
+        "type": "POLICY_TYPE_EDGEVIEW",
+        "status": "POLICY_STATUS_READY",
+        "revision": {
+            "prev": "",
+            "curr": "2",
+            "createdAt": "2022-10-10T15:10:33.638394Z",
+            "createdBy": "nikolay@zededa.com",
+            "updatedAt": "2023-08-11T08:36:14.432267Z",
+            "updatedBy": "rene@zededa.com"
+        },
+        "attr": {},
+        "edgeviewPolicy": {
+            "edgeviewcfg": {
+                "jwtInfo": {
+                    "dispUrl": "zedcloud.alpha.zededa.net/api/v1/edge-view",
+                    "allowSec": 18000,
+                    "expireSec": "0",
+                    "numInst": 1,
+                    "encrypt": false,
+                    "authen": "EvAuth_TYPE_UNSPECIFIED"
+                },
+                "token": "",
+                "devPolicy": {
+                    "allowDev": true
+                },
+                "appPolicy": {
+                    "allowApp": true
+                },
+                "extPolicy": {
+                    "allowExt": false
+                },
+                "generationId": 0,
+                "requireControllerAuthen": false
+            },
+            "edgeviewAllow": true,
+            "accessAllowChange": true,
+            "maxExpireSec": 2592000,
+            "maxInst": 3,
+            "requireControllerAuthen": false
+        },
+        "statusMessage": "Policy configured successfully"
+    },
+    "localOperatorConsolePolicy": null,
+    "tags": {},
+    "configurationLockPolicy": {
+        "name": "Berlin-Lab_bbbbbbbbbbbbbbb",
+        "id": "44cf5e50-5169-4403-b76e-3bab33eb6146",
+        "title": "",
+        "description": "",
+        "type": "POLICY_TYPE_CONFIGURATION_LOCK",
+        "status": "POLICY_STATUS_READY",
+        "revision": {
+            "prev": "",
+            "curr": "1",
+            "createdAt": "2023-08-11T08:36:14.423759Z",
+            "createdBy": "rene@zededa.com",
+            "updatedAt": "2023-08-11T08:36:14.423759Z",
+            "updatedBy": "rene@zededa.com"
+        },
+        "attr": {},
+        "configurationLockPolicy": {
+            "id": "",
+            "configLock": "CONFIGURATION_LOCK_DISABLED"
+        },
+        "statusMessage": "Policy configured successfully"
+    }
+}

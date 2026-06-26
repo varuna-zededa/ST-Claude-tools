@@ -1,0 +1,89 @@
+{
+    "summaryByState": {
+        "description": "Summary",
+        "total": 1,
+        "values": {
+            "TAG_STATUS_ACTIVE": 1,
+            "TAG_STATUS_ARCHIVE": 0,
+            "TAG_STATUS_FAILED": 0,
+            "TAG_STATUS_INACTIVE": 0,
+            "TAG_STATUS_INITIALIZED": 0,
+            "TAG_STATUS_UNSPECIFIED": 0
+        }
+    },
+    "summaryByType": {
+        "description": "Summary",
+        "total": 1,
+        "values": {
+            "TAG_TYPE_AZURE": 0,
+            "TAG_TYPE_DEPLOYMENT": 0,
+            "TAG_TYPE_GENERIC": 0,
+            "TAG_TYPE_PROJECT": 1,
+            "TAG_TYPE_UNSPECIFIED": 0
+        }
+    },
+    "list": [
+        {
+            "id": "2f0f4094-62fa-44f6-b280-75ff37f9d470",
+            "name": "Berlin-Lab",
+            "title": "Berlin Lab Project",
+            "description": "Berlin laboratory project with online edge devices",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:07:30.170622Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:07:30.170622Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "tagLevelSettings": {
+                "flowLogTransmission": "NETWORK_INSTANCE_FLOW_LOG_TRANSMISSION_UNSPECIFIED",
+                "interfaceOrdering": "INTERFACE_ORDERING_DISABLED"
+            },
+            "type": "TAG_TYPE_PROJECT",
+            "attr": {},
+            "appPolicy": null,
+            "cloudPolicy": null,
+            "modulePolicy": [],
+            "numdevices": 3,
+            "attestationPolicy": {
+                "name": "Berlin-Lab_TvfjCeahgIEYVom",
+                "id": "9c285ffb-1d13-43e9-953e-abe0948096d9",
+                "title": "",
+                "description": "",
+                "type": "POLICY_TYPE_ATTESTATION",
+                "status": "POLICY_STATUS_READY",
+                "revision": {
+                    "prev": "",
+                    "curr": "1",
+                    "createdAt": "2025-10-16T09:07:30.169566Z",
+                    "createdBy": "test.root@zededa.com",
+                    "updatedAt": "2025-10-16T09:07:30.169566Z",
+                    "updatedBy": "test.root@zededa.com"
+                },
+                "attr": {},
+                "attestationPolicy": {
+                    "id": "",
+                    "type": "ATTEST_POLICY_TYPE_ACCEPT"
+                },
+                "statusMessage": "Policy configured successfully"
+            },
+            "networkPolicy": null,
+            "deployment": null,
+            "edgeviewPolicy": null,
+            "localOperatorConsolePolicy": null,
+            "tags": {},
+            "configurationLockPolicy": null,
+            "status": "TAG_STATUS_ACTIVE"
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 500,
+        "totalPages": 1
+    }
+}

@@ -1,0 +1,312 @@
+{
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 500,
+        "totalPages": 1
+    },
+    "summaryByCategory": {
+        "description": "Category Distribution Summary",
+        "total": 6,
+        "values": {
+            "APP_CATEGORY_CLOUD_APPLICATION": 5,
+            "APP_CATEGORY_OTHERS": 1
+        }
+    },
+    "summaryByOrigin": {
+        "description": "Origin Distribution Summary",
+        "total": 6,
+        "values": {
+            "ORIGIN_GLOBAL": 0,
+            "ORIGIN_IMPORTED": 4,
+            "ORIGIN_LOCAL": 2,
+            "ORIGIN_UNSPECIFIED": 0
+        }
+    },
+    "summaryByAppType": {
+        "description": "AppType Distribution Summary",
+        "total": 6,
+        "values": {
+            "APP_TYPE_CONTAINER": 0,
+            "APP_TYPE_MODULE": 0,
+            "APP_TYPE_UNSPECIFIED": 0,
+            "APP_TYPE_VM": 6,
+            "APP_TYPE_VM_RUNTIME": 0
+        }
+    },
+    "summaryByAppInstanceDistribution": {
+        "description": "app instance Distribution Summary",
+        "total": 2,
+        "values": {
+            "aws-greengrass": 1,
+            "aws-greengrass-testing": 1
+        }
+    },
+    "list": [
+        {
+            "id": "81212387-0bfd-45ad-a924-e8acb53319d1",
+            "name": "aws-greengrass",
+            "title": "aws-greengrass",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-1.8",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo-app": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+                "versionOfParentObject": 13,
+                "updateAvailable": true,
+                "referenceExists": true
+            },
+            "originType": "ORIGIN_IMPORTED",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 1,
+            "isImported": false
+        },
+        {
+            "id": "a42b8da6-15b9-48a6-8008-9ea407f3a753",
+            "name": "aws-greengrass-imported-SYRa",
+            "title": "aws-greengrass",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-1.8",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo-app": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+                "versionOfParentObject": 13,
+                "updateAvailable": true,
+                "referenceExists": true
+            },
+            "originType": "ORIGIN_IMPORTED",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "b264fa9c-dfca-4bef-995e-59bd65c86814",
+            "name": "aws-greengrass-imported-XwTn",
+            "title": "aws-greengrass",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-1.8",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo-app": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+                "versionOfParentObject": 13,
+                "updateAvailable": true,
+                "referenceExists": true
+            },
+            "originType": "ORIGIN_IMPORTED",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "e22e5ec1-ea2e-482d-a02e-ef8c6f511afc",
+            "name": "aws-greengrass-imported-mcpn",
+            "title": "aws-greengrass",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-1.8",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo-app": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+                "versionOfParentObject": 13,
+                "updateAvailable": true,
+                "referenceExists": true
+            },
+            "originType": "ORIGIN_IMPORTED",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "06aefc27-f490-4d0c-87ca-cf2641b50598",
+            "name": "aws-greengrass-local-test",
+            "title": "aws-greengrass-local-test",
+            "description": "AWS Greengrass Core runtime to deploy lambda containers",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-local-test",
+                "displayName": "",
+                "description": "",
+                "desc": {
+                    "category": "CloudGateway",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "logo": "7d8d7a5a-8f7c-11ea-8a17-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_LOCAL",
+            "networks": 0,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "5",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "a8b67f8a-ea7e-443a-b492-ea9bda59df7a",
+            "name": "aws-greengrass-testing",
+            "title": "aws-greengrass-TESTING",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass-testing",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_LOCAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 1,
+            "isImported": false
+        }
+    ]
+}

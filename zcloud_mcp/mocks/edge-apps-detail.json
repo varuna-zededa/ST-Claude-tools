@@ -1,0 +1,311 @@
+{
+        "id": "81212387-0bfd-45ad-a924-e8acb53319d1",
+        "name": "aws-greengrass",
+        "title": "aws-greengrass",
+        "description": "",
+        "revision": {
+            "prev": "",
+            "curr": "11",
+            "createdAt": "2020-10-19T05:45:56Z",
+            "createdBy": "root@acme.com",
+            "updatedAt": "2023-07-25T18:13:06.868069Z",
+            "updatedBy": "admin@acme.com"
+        },
+        "networks": 1,
+        "drives": 1,
+        "cpus": 2,
+        "memory": 2097152,
+        "manifestJSON": {
+            "acKind": "VMManifest",
+            "acVersion": "1.2.0",
+            "name": "aws-greengrass-1.8",
+            "displayName": "",
+            "description": "AWS Greengrass Core runtime to deploy lambda containers",
+            "owner": {
+                "user": "Zededa_Solutions",
+                "group": "",
+                "company": "ZEDEDA, Inc.",
+                "website": "www.zededa.com",
+                "email": "solutions@zededa.com"
+            },
+            "desc": {
+                "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                "os": "",
+                "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                "logo": {
+                    "logo-app": "de006ee7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                },
+                "screenshotList": {},
+                "licenseList": {},
+                "support": "",
+                "agreementList": {}
+            },
+            "images": [
+                {
+                    "imagename": "ubuntu-xenial-aws-greengrass",
+                    "imageid": "b8029650-9d7e-4666-8b15-7bc4feb8a7d8",
+                    "imageformat": "QCOW2",
+                    "maxsize": "20971520",
+                    "preserve": true,
+                    "target": "Disk",
+                    "drvtype": "HDD",
+                    "params": [],
+                    "readonly": false,
+                    "volumelabel": "",
+                    "ignorepurge": false,
+                    "cleartext": false,
+                    "mountpath": "",
+                    "imagestatus": "IMAGE_STATUS_READY",
+                    "datastore": [
+                        {
+                            "id": "5e4ae7ce-4243-4520-9aa7-d51886e0254c",
+                            "name": "Ubuntu-Archive-Images"
+                        }
+                    ]
+                }
+            ],
+            "interfaces": [
+                {
+                    "name": "eth0",
+                    "type": "",
+                    "optional": false,
+                    "directattach": false,
+                    "privateip": false,
+                    "acls": [
+                        {
+                            "matches": [
+                                {
+                                    "type": "host",
+                                    "value": ""
+                                }
+                            ],
+                            "actions": [],
+                            "name": ""
+                        },
+                        {
+                            "matches": [
+                                {
+                                    "type": "ip",
+                                    "value": "0.0.0.0/0"
+                                }
+                            ],
+                            "actions": [],
+                            "name": ""
+                        },
+                        {
+                            "matches": [
+                                {
+                                    "type": "protocol",
+                                    "value": "tcp"
+                                },
+                                {
+                                    "type": "lport",
+                                    "value": "8024"
+                                },
+                                {
+                                    "type": "ip",
+                                    "value": "0.0.0.0/0"
+                                }
+                            ],
+                            "actions": [
+                                {
+                                    "drop": false,
+                                    "limit": false,
+                                    "limitValue": null,
+                                    "limitrate": 0,
+                                    "limitunit": "",
+                                    "limitburst": 0,
+                                    "portmap": true,
+                                    "portmapto": {
+                                        "appPort": 22
+                                    }
+                                }
+                            ],
+                            "name": ""
+                        },
+                        {
+                            "matches": [
+                                {
+                                    "type": "protocol",
+                                    "value": "tcp"
+                                },
+                                {
+                                    "type": "lport",
+                                    "value": "64"
+                                },
+                                {
+                                    "type": "ip",
+                                    "value": "0.0.0.0/0"
+                                }
+                            ],
+                            "actions": [
+                                {
+                                    "drop": false,
+                                    "limit": false,
+                                    "limitValue": null,
+                                    "limitrate": 0,
+                                    "limitunit": "",
+                                    "limitburst": 0,
+                                    "portmap": true,
+                                    "portmapto": {
+                                        "appPort": 8085
+                                    }
+                                }
+                            ],
+                            "name": ""
+                        }
+                    ]
+                }
+            ],
+            "permissions": [],
+            "vmmode": "HV_HVM",
+            "enablevnc": true,
+            "resources": [
+                {
+                    "name": "resourceType",
+                    "value": "Custom"
+                },
+                {
+                    "name": "cpus",
+                    "value": "2"
+                },
+                {
+                    "name": "memory",
+                    "value": "2097152"
+                },
+                {
+                    "name": "storage",
+                    "value": "20971520"
+                }
+            ],
+            "configuration": {
+                "customConfig": {
+                    "name": "AWS Greengrass Core Gateway",
+                    "add": true,
+                    "override": true,
+                    "allowStorageResize": true,
+                    "fieldDelimiter": "###",
+                    "template": "I2Nsb3VkLWNvbmZpZwoKIyBBZGQgYSB1c2VyIHdpdGggenRlc3QgLyB6ZWRlZGFJMFQgY3JlZGVudGlhbCBhbmQgc3VkbyBwZXJtaXNzaW9uCnVzZXJzOgogLSBuYW1lOiB6dGVzdAogICBnZWNvczogWkVERURBIFRlc3QgVXNlcgogICBzaGVsbDogL2Jpbi9iYXNoCiAgIHN1ZG86IEFMTD0oQUxMKSBOT1BBU1NXRDpBTEwKICAgbG9ja19wYXNzd2Q6IEZhbHNlCiAgIHBhc3N3ZDogJDYkcUFJOWRXS01UTUxVWkJCJHZwTDZ2SGl0U2lDVlR4OFpIaklrZG5lcndFc29pV0pJZmZVaTY1Y3A2dEMvaWMxZTVHbGNiQm8wUkk5MHRFdnZ2b2xMYVVFcnZJc0t5Vlpra2V5dWoxCgp3cml0ZV9maWxlczoKIC0gcGF0aDogL2dyZWVuZ3Jhc3MvY2VydHMvIyMjZ3JlZW5ncmFzc19jb3JlX25hbWUjIyMuY2VydC5wZW0KICAgcGVybWlzc2lvbnM6ICcwNjQ0JwogICBlbmNvZGluZzogYjY0CiAgIGNvbnRlbnQ6ICMjI2Nsb3VkX2NlcnRfcGVtIyMjCiAtIHBhdGg6IC9ncmVlbmdyYXNzL2NlcnRzLyMjI2dyZWVuZ3Jhc3NfY29yZV9uYW1lIyMjLmtleS5wZW0KICAgcGVybWlzc2lvbnM6ICcwNDQ0JwogICBlbmNvZGluZzogYjY0CiAgIGNvbnRlbnQ6ICMjI2Nsb3VkX2tleV9wZW0jIyMKCiMgTW9kaWZ5IEFXUyBHcmVlbmdyYXNzIGNvbmZpZyBmaWxlIHdpdGggZ3JlZW5ncmFzcyBjb3JlIGNlcnRpZmljYXRlcwpydW5jbWQ6CiAtIHNlZCAtaS5vcmlnICdzfGZpbGU6Ly9jZXJ0cy9cW1JPT1RfQ0FfUEVNX0hFUkVcXXxmaWxlOi8vL2dyZWVuZ3Jhc3MvY2VydHMvcm9vdC5jYS5wZW18JyAvZ3JlZW5ncmFzcy9jb25maWcvY29uZmlnLmpzb24KIC0gc2VkIC1pLm9yaWcgJ3N8ZmlsZTovL2NlcnRzL1xbQ0xPVURfUEVNX0NSVF9IRVJFXF18ZmlsZTovLy9ncmVlbmdyYXNzL2NlcnRzLyMjI2dyZWVuZ3Jhc3NfY29yZV9uYW1lIyMjLmNlcnQucGVtfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIHNlZCAtaS5vcmlnICdzfGZpbGU6Ly9jZXJ0cy9cW0NMT1VEX1BFTV9LRVlfSEVSRVxdfGZpbGU6Ly8vZ3JlZW5ncmFzcy9jZXJ0cy8jIyNncmVlbmdyYXNzX2NvcmVfbmFtZSMjIy5rZXkucGVtfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIHNlZCAtaS5vcmlnICdzfFxbUk9PVF9DQV9QRU1fSEVSRVxdfHJvb3QuY2EucGVtfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIHNlZCAtaS5vcmlnICdzfFxbQ0xPVURfUEVNX0NSVF9IRVJFXF18IyMjZ3JlZW5ncmFzc19jb3JlX25hbWUjIyMuY2VydC5wZW18JyAvZ3JlZW5ncmFzcy9jb25maWcvY29uZmlnLmpzb24KIC0gc2VkIC1pLm9yaWcgJ3N8XFtDTE9VRF9QRU1fS0VZX0hFUkVcXXwjIyNncmVlbmdyYXNzX2NvcmVfbmFtZSMjIy5rZXkucGVtfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIHNlZCAtaS5vcmlnICdzfFxbeWVzXHxub1xdfHllc3wnIC9ncmVlbmdyYXNzL2NvbmZpZy9jb25maWcuanNvbgogLSBzZWQgLWkub3JpZyAnc3xcW0FXU19SRUdJT05fSEVSRVxdfCMjI2dyZWVuZ3Jhc3NfcmVnaW9uIyMjfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIHNlZCAtaS5vcmlnICdzfFxbSE9TVF9QUkVGSVhfSEVSRVxdfCMjI2lvdGNvcmVfbmFtZSMjI3wnIC9ncmVlbmdyYXNzL2NvbmZpZy9jb25maWcuanNvbgogLSBzZWQgLWkub3JpZyAnc3xcW1RISU5HX0FSTl9IRVJFXF18YXJuOmF3czppb3Q6IyMjZ3JlZW5ncmFzc19yZWdpb24jIyM6IyMjZ3JlZW5ncmFzc19hY2NvdW50IyMjOnRoaW5nLyMjI2dyZWVuZ3Jhc3NfY29yZV9uYW1lIyMjfCcgL2dyZWVuZ3Jhc3MvY29uZmlnL2NvbmZpZy5qc29uCiAtIGVjaG8gLWUgIlJlbW92aW5nIGJhY2t1cCBBV1MgR3JlZW5ncmFzcyBjb25maWcgZmlsZSI7IHJtIC9ncmVlbmdyYXNzL2NvbmZpZy9jb25maWcuanNvbi5vcmlnCiAtIGVjaG8gLWUgIlJlc3RhcnRpbmcgQVdTIEdyZWVuZ3Jhc3Mgc2VydmljZSBcbiI7IHNsZWVwIDkwOyBzeXN0ZW1jdGwgcmVzdGFydCBncmVlbmdyYXNzCiAtIGVjaG8gLWUgIkNoZWNraW5nIEFXUyBHcmVlbmdyYXNzIHNlcnZpY2Ugc3RhdHVzIFxuIjsgc3lzdGVtY3RsIHN0YXR1cyBncmVlbmdyYXNzCiMgLSBlY2hvIC1lICJDaGVja2luZyBBV1MgR3JlZW5ncmFzcyBtb2R1bGUgc3RhdHVzIjsgc3VkbyBpb3RlZGdlIGxpc3QKCmZpbmFsX21lc3NhZ2U6ICJBV1MgR3JlZW5ncmFzcyBDb3JlIGdhdGV3YXkgaXMgZmluYWxseSB1cCwgYWZ0ZXIgJFVQVElNRSBzZWNvbmRzIg==",
+                    "variableGroups": [
+                        {
+                            "name": "AWS Greengrass Core parameters",
+                            "variables": [
+                                {
+                                    "type": "",
+                                    "name": "greengrass_core_name",
+                                    "label": "greengrass core name",
+                                    "maxLength": "256",
+                                    "required": true,
+                                    "default": "",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_TEXT",
+                                    "encode": "FILE_ENCODING_UNSPECIFIED",
+                                    "options": []
+                                },
+                                {
+                                    "type": "",
+                                    "name": "cloud_cert_pem",
+                                    "label": "Greengrass Core Certificate",
+                                    "maxLength": "8192",
+                                    "required": true,
+                                    "default": "",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_FILE",
+                                    "encode": "FILE_ENCODING_BASE64",
+                                    "options": []
+                                },
+                                {
+                                    "type": "",
+                                    "name": "cloud_key_pem",
+                                    "label": "Greengrass Core Private Key",
+                                    "maxLength": "8192",
+                                    "required": true,
+                                    "default": "",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_FILE",
+                                    "encode": "FILE_ENCODING_BASE64",
+                                    "options": []
+                                }
+                            ],
+                            "required": true,
+                            "condition": null
+                        },
+                        {
+                            "name": "AWS IoT Hub parameters",
+                            "variables": [
+                                {
+                                    "type": "",
+                                    "name": "greengrass_region",
+                                    "label": "AWS region",
+                                    "maxLength": "",
+                                    "required": true,
+                                    "default": "us-east-2",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_TEXT",
+                                    "encode": "FILE_ENCODING_UNSPECIFIED",
+                                    "options": []
+                                },
+                                {
+                                    "type": "",
+                                    "name": "greengrass_account",
+                                    "label": "AWS IoT account",
+                                    "maxLength": "",
+                                    "required": true,
+                                    "default": "016622947262",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_TEXT",
+                                    "encode": "FILE_ENCODING_UNSPECIFIED",
+                                    "options": []
+                                },
+                                {
+                                    "type": "",
+                                    "name": "iotcore_name",
+                                    "label": "AWS IoT host prefix",
+                                    "maxLength": "",
+                                    "required": true,
+                                    "default": "azmc5rdb0zxxh",
+                                    "processInput": "",
+                                    "value": "",
+                                    "format": "VARIABLE_FORMAT_TEXT",
+                                    "encode": "FILE_ENCODING_UNSPECIFIED",
+                                    "options": []
+                                }
+                            ],
+                            "required": true,
+                            "condition": null
+                        }
+                    ]
+                }
+            },
+            "containerDetail": null,
+            "module": null,
+            "appType": "APP_TYPE_VM",
+            "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE",
+            "cpuPinningEnabled": false,
+            "runtimeVersion": "RuntimeVersion_Unknown",
+            "runtimeProtocolVersion": "RuntimeProtocolVersion_Unknown",
+            "PersistentRuntimeSizeBytes": "0",
+            "dockerComposeYamlText": "",
+            "dockerComposeTarImageName": "",
+            "enableOemWinLicenseKey": false,
+            "disableVTPM": false
+        },
+        "parentDetail": {
+            "idOfParentObject": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+            "versionOfParentObject": 11,
+            "updateAvailable": true,
+            "referenceExists": true
+        },
+        "originType": "ORIGIN_IMPORTED",
+        "storage": 20971520,
+        "userDefinedVersion": "7",
+        "projectAccessList": [],
+        "isImported": false,
+        "appInstCount": 1,
+        "datastoreIdList": []
+}

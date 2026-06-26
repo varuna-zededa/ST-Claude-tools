@@ -1,0 +1,169 @@
+{
+    "summaryByType": {
+        "description": "Type Distribution Summary",
+        "total": 4,
+        "values": {
+            "DATASTORE_TYPE_AWSS3": 0,
+            "DATASTORE_TYPE_AZUREBLOB": 0,
+            "DATASTORE_TYPE_CONTAINERREGISTRY": 1,
+            "DATASTORE_TYPE_FILE_STORAGE": 0,
+            "DATASTORE_TYPE_HTTP": 1,
+            "DATASTORE_TYPE_HTTPS": 0,
+            "DATASTORE_TYPE_SFTP": 0,
+            "DATASTORE_TYPE_UNSPECIFIED": 0,
+            "DATASTORE_TYPE_ZEDEDABLOB": 0,
+            "DATASTORE_TYPE_ZEDEDAS3": 2
+        }
+    },
+    "list": [
+        {
+            "id": "b3378090-7a66-4de4-8813-c1633feb1b4d",
+            "name": "cloud-ubuntu-store",
+            "title": "Ubuntu CloudServer Image Datastore",
+            "description": "Datastore for all Ubuntu Cloudserver images",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:00:59.991498Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2025-10-16T09:00:59.991498Z",
+                "updatedBy": "SYSTEM_ROOT"
+            },
+            "enterpriseId": "",
+            "dsType": "DATASTORE_TYPE_HTTP",
+            "dsFQDN": "http://cloud-images.ubuntu.com",
+            "dsPath": "releases",
+            "apiKey": "",
+            "region": "",
+            "dsStatus": "DATASTORE_STATUS_ACTIVE",
+            "dsErr": "",
+            "secret": null,
+            "encryptedSecrets": {},
+            "cryptoKey": "",
+            "originType": "ORIGIN_GLOBAL",
+            "certificateChain": null,
+            "needClearText": false,
+            "projectAccessList": []
+        },
+        {
+            "id": "1ada9c5b-1285-4365-b839-7ec12c066e45",
+            "name": "Dockerhub",
+            "title": "container Image Datastore",
+            "description": "Datastore for all container images",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:07:33.677416Z",
+                "createdBy": "test.root@zededa.com",
+                "updatedAt": "2025-10-16T09:07:33.677416Z",
+                "updatedBy": "test.root@zededa.com"
+            },
+            "enterpriseId": "",
+            "dsType": "DATASTORE_TYPE_CONTAINERREGISTRY",
+            "dsFQDN": "docker://registry-1.docker.io",
+            "dsPath": "",
+            "apiKey": "",
+            "region": "",
+            "dsStatus": "DATASTORE_STATUS_ACTIVE",
+            "dsErr": "",
+            "secret": null,
+            "encryptedSecrets": {},
+            "cryptoKey": "",
+            "originType": "ORIGIN_GLOBAL",
+            "certificateChain": null,
+            "needClearText": false,
+            "projectAccessList": []
+        },
+        {
+            "id": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+            "name": "Zededa-AWS-Image",
+            "title": "Zededa AWS S3 Image Datastore",
+            "description": "Enterprise specific AWS S3 Image datastore. It shares S3 bucket with Zededa Image Datastore",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:00:59.923227Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2025-10-16T09:00:59.923227Z",
+                "updatedBy": "SYSTEM_ROOT"
+            },
+            "enterpriseId": "",
+            "dsType": "DATASTORE_TYPE_ZEDEDAS3",
+            "dsFQDN": "https://s3-us-west-2.amazonaws.com",
+            "dsPath": "zededa-zedcloud-local-images",
+            "apiKey": "",
+            "region": "us-west-2",
+            "dsStatus": "DATASTORE_STATUS_ACTIVE",
+            "dsErr": "",
+            "secret": null,
+            "encryptedSecrets": {
+                "QXBpS2V5": "vault:v1:QHD+ke0Gsv905iQq9ILvGClJOJ2nbkOiLWk6HgXInNtqIL8cmVjo+6g6DQi1c1sw",
+                "QXBpUGFzc3dk": "vault:v1:JxzgJHWItYAIhtmQzkYufB+2KxQqkqjPlxIukWeokrVBSbHFwxViRmNM4xnta+WEt10fqDZdd8se2/sVRX+HRM0ixUE="
+            },
+            "cryptoKey": "aes256_seine",
+            "originType": "ORIGIN_GLOBAL",
+            "certificateChain": null,
+            "needClearText": false,
+            "projectAccessList": []
+        },
+        {
+            "id": "24cd92b6-cfd4-4daf-bc0c-c4c26c436cd3",
+            "name": "ZEDEDA-Image-Repository",
+            "title": "ZEDEDA Central Image Repository",
+            "description": "Central Image Repository for ZEDEDA",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-16T09:00:59.985073Z",
+                "createdBy": "SYSTEM_ROOT",
+                "updatedAt": "2025-10-16T09:00:59.985073Z",
+                "updatedBy": "SYSTEM_ROOT"
+            },
+            "enterpriseId": "",
+            "dsType": "DATASTORE_TYPE_ZEDEDAS3",
+            "dsFQDN": "https://s3-us-west-2.amazonaws.com",
+            "dsPath": "zededa-central-cluster-images-us",
+            "apiKey": "",
+            "region": "us-west-2",
+            "dsStatus": "DATASTORE_STATUS_ACTIVE",
+            "dsErr": "",
+            "secret": null,
+            "encryptedSecrets": {
+                "QXBpS2V5": "vault:v1:TLtKB6CYqIojMbXgKTQGRM+vHjRSal12+76N/DJhEEg2eE/M6qLv8RQp7+RaIIWU",
+                "QXBpUGFzc3dk": "vault:v1:vtx94mp55B6wLVK/22RTRituzkN3Ny2+0fnfBq8Boyb4ruAJRUytGO2MXB2C8fIiPPkgmtAf+aQ7MEgbqQnqreAEUaM="
+            },
+            "cryptoKey": "aes256_seine",
+            "originType": "ORIGIN_GLOBAL",
+            "certificateChain": null,
+            "needClearText": false,
+            "projectAccessList": []
+        }
+    ],
+    "summaryByCategory": {
+        "description": "Category Distribution Summary",
+        "total": 4,
+        "values": {
+            "DATASTORE_TYPE_CONTAINERREGISTRY": 1,
+            "DATASTORE_TYPE_FILE_STORAGE": 3
+        }
+    },
+    "summaryByOrigin": {
+        "description": "Origin Distribution Summary",
+        "total": 4,
+        "values": {
+            "ORIGIN_GLOBAL": 4,
+            "ORIGIN_IMPORTED": 0,
+            "ORIGIN_LOCAL": 0,
+            "ORIGIN_UNSPECIFIED": 0
+        }
+    },
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 20,
+        "totalPages": 1
+    }
+}

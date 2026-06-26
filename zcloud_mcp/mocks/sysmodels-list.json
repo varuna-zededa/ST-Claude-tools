@@ -1,0 +1,281 @@
+{
+    "terse": {
+        "description": "Summary",
+        "total": 1,
+        "values": {
+            "sActive": 1
+        }
+    },
+    "summaryByDeviceDistribution": {
+        "description": "Summary by device distribution",
+        "total": 80,
+        "values": {
+            "UP-APL01": 80
+        }
+    },
+    "summaryByBrandDistribution": {
+        "description": "Summary by brand distribution",
+        "total": 1,
+        "values": {
+            "AAEON": 1
+        }
+    },
+    "list": [
+        {
+            "id": "d5c83d43-b63b-4be1-ae8e-fc579d1ff46c",
+            "name": "UP-APL01",
+            "title": "UP-APL01",
+            "brandId": "df0852b4-c2bd-4dca-b9fd-781454510d73",
+            "description": "",
+            "state": "SYS_MODEL_STATE_ACTIVE",
+            "revision": {
+                "prev": "",
+                "curr": "4",
+                "createdAt": "2019-07-10T05:27:44Z",
+                "createdBy": "onboard_admin@zededa.com",
+                "updatedAt": "2021-07-16T08:35:27Z",
+                "updatedBy": "chethan@zededa.com"
+            },
+            "type": "AMD64",
+            "attr": {
+                "Cpus": "4",
+                "memory": "4G",
+                "storage": "32G"
+            },
+            "productStatus": "production",
+            "productURL": "https://www.aaeon.com/en/p/iot-gateway-maker-boards-up-squared",
+            "brandName": "",
+            "ioMemberList": [
+                {
+                    "ztype": "IO_TYPE_USB",
+                    "phylabel": "Audio",
+                    "phyaddrs": {
+                        "PciLong": "0000:00:0e.0"
+                    },
+                    "logicallabel": "Audio",
+                    "assigngrp": "Audio",
+                    "usage": "ADAPTER_USAGE_UNSPECIFIED",
+                    "cbattr": {},
+                    "usagePolicy": {},
+                    "cost": 0,
+                    "vfs": null,
+                    "parentassigngrp": ""
+                },
+                {
+                    "ztype": "IO_TYPE_USB",
+                    "phylabel": "USB",
+                    "phyaddrs": {
+                        "PciLong": "0000:00:15.0"
+                    },
+                    "logicallabel": "USB",
+                    "assigngrp": "",
+                    "usage": "ADAPTER_USAGE_UNSPECIFIED",
+                    "cbattr": {},
+                    "usagePolicy": {},
+                    "cost": 0,
+                    "vfs": null,
+                    "parentassigngrp": ""
+                },
+                {
+                    "ztype": "IO_TYPE_HDMI",
+                    "phylabel": "VGA",
+                    "phyaddrs": {
+                        "PciLong": "0000:00:02.0"
+                    },
+                    "logicallabel": "VGA",
+                    "assigngrp": "VGA",
+                    "usage": "ADAPTER_USAGE_UNSPECIFIED",
+                    "cbattr": {},
+                    "usagePolicy": {},
+                    "cost": 0,
+                    "vfs": null,
+                    "parentassigngrp": ""
+                },
+                {
+                    "ztype": "IO_TYPE_ETH",
+                    "phylabel": "eth0",
+                    "phyaddrs": {
+                        "Ifname": "eth0",
+                        "PciLong": "0000:02:00.0"
+                    },
+                    "logicallabel": "eth0",
+                    "assigngrp": "eth0",
+                    "usage": "ADAPTER_USAGE_MANAGEMENT",
+                    "cbattr": {},
+                    "usagePolicy": {},
+                    "cost": 0,
+                    "vfs": null,
+                    "parentassigngrp": ""
+                },
+                {
+                    "ztype": "IO_TYPE_ETH",
+                    "phylabel": "eth1",
+                    "phyaddrs": {
+                        "Ifname": "eth1",
+                        "PciLong": "0000:03:00.0"
+                    },
+                    "logicallabel": "eth1",
+                    "assigngrp": "eth1",
+                    "usage": "ADAPTER_USAGE_MANAGEMENT",
+                    "cbattr": {},
+                    "usagePolicy": {},
+                    "cost": 0,
+                    "vfs": null,
+                    "parentassigngrp": ""
+                }
+            ],
+            "logo": {
+                "logo_back": "56fffffa-e60d-11eb-86a1-028e313eda78_logo_back",
+                "logo_front": "57018da0-e60d-11eb-86a1-028e313eda78_logo_front"
+            },
+            "parentDetail": {
+                "idOfParentObject": "e172f471-f8d6-4f67-8e01-7ccf42de2a88",
+                "versionOfParentObject": 10,
+                "updateAvailable": false,
+                "referenceExists": true
+            },
+            "originType": "ORIGIN_IMPORTED",
+            "PCRTemplates": [
+                {
+                    "eveVersion": "0.0.0-11.0-stable-3625ee10-dev-kvm-amd64",
+                    "firmwareVersion": "*",
+                    "PCRValues": [
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 0,
+                            "value": "2"
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 1,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 2,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 3,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 4,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 5,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 6,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 7,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 8,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 9,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 10,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 11,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 12,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 13,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 14,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 15,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 16,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 17,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 18,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 19,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 20,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 21,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 22,
+                            "value": ""
+                        },
+                        {
+                            "type": "PCR_TYPE_HASH",
+                            "index": 23,
+                            "value": ""
+                        }
+                    ],
+                    "id": "c1afa34a-0d4f-44d9-8e2e-efc95e01805c",
+                    "name": "Test"
+                }
+            ],
+            "isImported": false,
+            "brandtype": "AAEON"
+        }
+    ],
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 2,
+        "totalPages": 1
+    }
+}

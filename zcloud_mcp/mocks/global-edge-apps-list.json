@@ -1,0 +1,932 @@
+{
+    "next": {
+        "pageToken": "",
+        "orderBy": [
+            "name:ASC"
+        ],
+        "pageNum": 1,
+        "pageSize": 500,
+        "totalPages": 1
+    },
+    "summaryByCategory": {
+        "description": "Category Distribution Summary",
+        "total": 18,
+        "values": {
+            "APP_CATEGORY_CLOUD_APPLICATION": 2,
+            "APP_CATEGORY_DATA_ANALYTICS": 1,
+            "APP_CATEGORY_EDGE_APPLICATION": 4,
+            "APP_CATEGORY_INDUSTRIAL": 2,
+            "APP_CATEGORY_OPERATING_SYSTEM": 3,
+            "APP_CATEGORY_SECURITY": 1,
+            "PlateRecognizer": 2,
+            "ZEDEDA": 3
+        },
+        "__values": [
+            {
+                "key": "APP_CATEGORY_CLOUD_APPLICATION",
+                "value": 2
+            },
+            {
+                "key": "APP_CATEGORY_DATA_ANALYTICS",
+                "value": 1
+            },
+            {
+                "key": "APP_CATEGORY_EDGE_APPLICATION",
+                "value": 4
+            },
+            {
+                "key": "APP_CATEGORY_INDUSTRIAL",
+                "value": 2
+            },
+            {
+                "key": "APP_CATEGORY_OPERATING_SYSTEM",
+                "value": 3
+            },
+            {
+                "key": "APP_CATEGORY_SECURITY",
+                "value": 1
+            },
+            {
+                "key": "PlateRecognizer",
+                "value": 2
+            },
+            {
+                "key": "ZEDEDA",
+                "value": 3
+            }
+        ]
+    },
+    "summaryByOrigin": {
+        "description": "Origin Distribution Summary",
+        "total": 18,
+        "values": {
+            "ORIGIN_GLOBAL": 18,
+            "ORIGIN_IMPORTED": 0,
+            "ORIGIN_LOCAL": 0,
+            "ORIGIN_UNSPECIFIED": 0
+        },
+        "__values": [
+            {
+                "key": "ORIGIN_GLOBAL",
+                "value": 18
+            },
+            {
+                "key": "ORIGIN_IMPORTED",
+                "value": 0
+            },
+            {
+                "key": "ORIGIN_LOCAL",
+                "value": 0
+            },
+            {
+                "key": "ORIGIN_UNSPECIFIED",
+                "value": 0
+            }
+        ]
+    },
+    "summaryByAppType": {
+        "description": "AppType Distribution Summary",
+        "total": 18,
+        "values": {
+            "APP_TYPE_CONTAINER": 5,
+            "APP_TYPE_MODULE": 0,
+            "APP_TYPE_UNSPECIFIED": 0,
+            "APP_TYPE_VM": 13,
+            "APP_TYPE_VM_RUNTIME": 0
+        },
+        "__values": [
+            {
+                "key": "APP_TYPE_CONTAINER",
+                "value": 5
+            },
+            {
+                "key": "APP_TYPE_MODULE",
+                "value": 0
+            },
+            {
+                "key": "APP_TYPE_UNSPECIFIED",
+                "value": 0
+            },
+            {
+                "key": "APP_TYPE_VM",
+                "value": 13
+            },
+            {
+                "key": "APP_TYPE_VM_RUNTIME",
+                "value": 0
+            }
+        ]
+    },
+    "summaryByAppInstanceDistribution": {
+        "description": "app instance Distribution Summary",
+        "total": 0,
+        "values": {}
+    },
+    "list": [
+        {
+            "id": "866fa402-a25a-4e2d-ad04-90670aaf0d19",
+            "name": "aws-greengrass",
+            "title": "aws-greengrass",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "aws-greengrass",
+                "displayName": "",
+                "description": "AWS Greengrass Core runtime to deploy lambda containers",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo": "35d0d065-ee5f-11ed-921f-028e313eda78_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "75012677-a943-485b-9634-1e4aedfdf89e",
+            "name": "azure-iotedge",
+            "title": "azure-iotedge",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "azure-edge-1.8",
+                "displayName": "",
+                "description": "One click deployment of Azure Edge runtime. Built using this stock Ubuntu 16.04, and open source Moby stack.",
+                "desc": {
+                    "category": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_CLOUD_APPLICATION",
+                    "logo": {
+                        "logo-app": "e2c39ba1-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_AZURE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 1048576,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "8db8892f-2ed6-4a75-88ed-08f1f3d77998",
+            "name": "centos-7.5",
+            "title": "centos-7.5",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.1.2",
+                "name": "centos-7.5",
+                "displayName": "",
+                "description": "Centos 7.5. One NAT network with all hosts allow ACL. SSH and VNC enabled.",
+                "desc": {
+                    "category": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "logo": {
+                        "logo-app": "dbe3f4c7-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2048000,
+            "storage": 0,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "856bf517-bd8b-4390-bde5-b4759e86a80e",
+            "name": "edgex-foundry",
+            "title": "adgex-foundry",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.1.2",
+                "name": "edgex-foundry-0.6.1",
+                "displayName": "",
+                "description": "An open source IoT edge framework from the Linux Foundation",
+                "desc": {
+                    "category": "APP_CATEGORY_EDGE_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_EDGE_APPLICATION",
+                    "logo": {
+                        "logo-app": "dfa2ba6d-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "Apache2.0": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 1,
+            "memory": 1536000,
+            "storage": 0,
+            "userDefinedVersion": "6",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "479a45c9-f0e1-4247-9ba3-7461854b6b02",
+            "name": "foglamp",
+            "title": "foglamp",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.1.1",
+                "name": "foglamp-windmill-demo",
+                "displayName": "",
+                "description": "FogLamp application is modular architecture to connect sensors. Manage, store, and forward data to on-prem historian enterprise systems, and to any cloud.",
+                "desc": {
+                    "category": "APP_CATEGORY_EDGE_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_EDGE_APPLICATION",
+                    "logo": {
+                        "logo-app": "e1b52629-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "Apache2.0": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 2,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2048000,
+            "storage": 0,
+            "userDefinedVersion": "6",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "69e4c229-ab3a-4193-a458-eef9d2b5a865",
+            "name": "gvoss-app-test",
+            "title": "gvoss-app-test",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "gvoss-app-test",
+                "displayName": "",
+                "description": "",
+                "desc": {
+                    "category": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "logo": {},
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 0,
+            "drives": 1,
+            "cpus": 1,
+            "memory": 524288,
+            "storage": 104857600,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "5c5dc548-8b55-497e-8d78-33e3a291e4e3",
+            "name": "ignition-edge",
+            "title": "ignition-edge",
+            "description": "Ignition is a powerful integrated development environment with everything you need to create virtually any kind of industrial application \u2013 SCADA, IIoT, MES and beyond \u2013 all on one platform.",
+            "manifestJSON": {
+                "acKind": "PodManifest",
+                "acVersion": "1.2.0",
+                "name": "ignition-edge",
+                "displayName": "",
+                "description": "Ignition is a powerful integrated development environment with everything you need to create virtually any kind of industrial application \u2013 SCADA, IIoT, MES and beyond \u2013 all on one platform.",
+                "desc": {
+                    "category": "APP_CATEGORY_INDUSTRIAL",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "ignition-edge": "ec26e29a-8edc-11f0-b53a-527f61e53166_ignition-edge"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_CONTAINER",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 0,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "fa24bcfb-1e85-4736-a2a5-96bd76458740",
+            "name": "ignition-edge-mqtt",
+            "title": "ignition-edge-mqtt",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "ignition-edge-mqtt",
+                "displayName": "",
+                "description": "Ignition Edge package. This bundle is only can be used for Demo purpose, and cannot be used in POC or production use cases. This binary can be used in production, if you supply licence",
+                "desc": {
+                    "category": "APP_CATEGORY_INDUSTRIAL",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_INDUSTRIAL",
+                    "logo": {
+                        "logo-app": "e51a4dc2-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 2097152,
+            "storage": 41943040,
+            "userDefinedVersion": "6",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "2964091c-cb0b-47ff-96ab-8d253fccca32",
+            "name": "mqtt-eclipse-broker",
+            "title": "mqtt-eclipse-broker",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "PodManifest",
+                "acVersion": "1.2.0",
+                "name": "mosquitto-mqtt-broker",
+                "displayName": "",
+                "description": "Eclipse Mosquitto - An open source MQTT broker",
+                "desc": {
+                    "category": "APP_CATEGORY_EDGE_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_EDGE_APPLICATION",
+                    "logo": {
+                        "logo-app": "e0a49ebf-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "EDL-1.0": "https://www.eclipse.org/org/documents/edl-v10.html",
+                        "EPL-1.0": "https://www.eclipse.org/org/documents/epl-v10.html"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_CONTAINER",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 1,
+            "memory": 1048576,
+            "storage": 0,
+            "userDefinedVersion": "6",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "59bc2ddd-588b-45c9-bdf3-406b13b9a0b4",
+            "name": "node-red-mqtt-http",
+            "title": "node-red-mqtt-http",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "nodered-mqtt-http",
+                "displayName": "",
+                "description": "NodeRed based MQTT to HTTP protocol converter",
+                "desc": {
+                    "category": "APP_CATEGORY_EDGE_APPLICATION",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_EDGE_APPLICATION",
+                    "logo": {
+                        "logo-app": "e3f935c8-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 1048576,
+            "storage": 20971520,
+            "userDefinedVersion": "7",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "9e21497b-7556-4e70-a603-b225751f63a2",
+            "name": "pan-os_vm-series_virtual_firewall_11.2.5",
+            "title": "pan-os_vm-series_virtual_firewall_11.2.5",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "pan-os_vm-series_virtual_firewall_11.2.5",
+                "displayName": "",
+                "description": "Default Username: Admin\nDefault Password: Admin",
+                "desc": {
+                    "category": "APP_CATEGORY_SECURITY",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "logo": "daa33fa9-5862-11f0-b470-028e313eda78_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 8388608,
+            "storage": 136314880,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "e3ba8908-582b-43ce-b053-6a919e028472",
+            "name": "platerecognizer-alpr-stream-amd-1.59.0",
+            "title": "platerecognizer-alpr-stream-amd-1.59.0",
+            "description": "Requirements: - LICENSE_KEY - TOKEN Additional Requirements: - Persistent Storage Volume (local to host device) configured in Library > Volume Instances > Add New ('label' is required) - Add Volume using 'label' - Mount Path = /user-data",
+            "manifestJSON": {
+                "acKind": "PodManifest",
+                "acVersion": "1.2.0",
+                "name": "platerecognizer-alpr-stream-amd-1.59.0",
+                "displayName": "",
+                "description": "Requirements: - LICENSE_KEY - TOKEN Additional Requirements: - Persistent Storage Volume (local to host device) configured in Library > Volume Instances > Add New ('label' is required) - Add Volume using 'label' - Mount Path = /user-data",
+                "desc": {
+                    "category": "PlateRecognizer",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "logo": "e393cab8-aba7-11f0-9d3d-e28841a0eeac_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_CONTAINER",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 4194304,
+            "storage": 0,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "908f2174-4a42-4618-aabd-aeadfac3906d",
+            "name": "platerecognizer-alpr-stream-arm-1.59.0",
+            "title": "platerecognizer-alpr-stream-arm-1.59.0",
+            "description": "Requirements: - LICENSE_KEY - TOKEN Additional Requirements: - Persistent Storage Volume (local to host device) configured in Library > Volume Instances > Add New ('label' is required) - Add Volume using 'label' - Mount Path = /user-data",
+            "manifestJSON": {
+                "acKind": "PodManifest",
+                "acVersion": "1.2.0",
+                "name": "platerecognizer-alpr-stream-arm-1.59.0",
+                "displayName": "",
+                "description": "Requirements: - LICENSE_KEY - TOKEN Additional Requirements: - Persistent Storage Volume (local to host device) configured in Library > Volume Instances > Add New ('label' is required) - Add Volume using 'label' - Mount Path = /user-data",
+                "desc": {
+                    "category": "PlateRecognizer",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "logo": "e393cab8-aba7-11f0-9d3d-e28841a0eeac_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_CONTAINER",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 1,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 4194304,
+            "storage": 0,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": false
+        },
+        {
+            "id": "4b31fb69-d3ca-4479-a619-48a39e35dc32",
+            "name": "test-app-udit",
+            "title": "test-app-udit",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "PodManifest",
+                "acVersion": "1.2.0",
+                "name": "test-app-udit",
+                "displayName": "",
+                "description": "",
+                "desc": {
+                    "category": "APP_CATEGORY_DATA_ANALYTICS",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_DATA_ANALYTICS",
+                    "logo": {
+                        "logo": "61e35418-fe0e-11ed-87af-028e313eda78_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_CONTAINER",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 0,
+            "drives": 1,
+            "cpus": 1,
+            "memory": 524288,
+            "storage": 0,
+            "userDefinedVersion": "N/A",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "e3d4e041-fb23-42aa-bbdc-3243fc2021e9",
+            "name": "ubuntu-bionic-18.04",
+            "title": "ubuntu-bionic-18.04",
+            "description": "",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.0",
+                "name": "ubuntu1804",
+                "displayName": "",
+                "description": "Ubuntu Bionic 18.04, server. This is cloud-image copy, and it is vanilla distribution",
+                "desc": {
+                    "category": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_OPERATING_SYSTEM",
+                    "logo": {
+                        "logo-app": "dced230c-8c80-11eb-ad7e-028e313eda78_logo-app"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {},
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": null,
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_STAND_ALONE"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 2,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 524288,
+            "storage": 20971520,
+            "userDefinedVersion": "6",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "1e7394d2-fdbf-43e4-b958-4ca4d19f11b1",
+            "name": "zed-compose-runtime_large",
+            "title": "zed-compose-runtime_large",
+            "description": "ZEDEDA Docker Compose Runtime - Large   ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Large: 4 vCPU / 8G mem",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.12",
+                "name": "zrun-image_compose_1.2.12",
+                "displayName": "zrun-image_compose_1.2.12",
+                "description": "ZEDEDA Docker Compose Runtime - Large   ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Large: 4 vCPU / 8G mem",
+                "desc": {
+                    "category": "ZEDEDA",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "zed-compose-runtime_large_logo": "277b3f7e-2e97-11f0-98c6-028e313eda78_zed-compose-runtime_large_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "CUSTOM_UPLOAD": "2fd85595-2e97-11f0-98c6-028e313eda78_CUSTOM_UPLOAD"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_DOCKER_RUNTIME"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 2,
+            "drives": 1,
+            "cpus": 4,
+            "memory": 8388608,
+            "storage": 20971520,
+            "userDefinedVersion": "1.2.12",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "38f7746d-5125-45d4-a3e3-a5089c7f94eb",
+            "name": "zed-compose-runtime_medium",
+            "title": "zed-compose-runtime_medium",
+            "description": "ZEDEDA Docker Compose Runtime - Medium  ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Medium: 2 vCPU / 4G mem",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.12",
+                "name": "zrun-image_compose_1.2.12",
+                "displayName": "zrun-image_compose_1.2.12",
+                "description": "ZEDEDA Docker Compose Runtime - Medium  ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Medium: 2 vCPU / 4G mem",
+                "desc": {
+                    "category": "ZEDEDA",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "zed-compose-runtime_medium_logo": "3d0562cd-2e97-11f0-98c6-028e313eda78_zed-compose-runtime_medium_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "CUSTOM_UPLOAD": "5543dc53-2e97-11f0-98c6-028e313eda78_CUSTOM_UPLOAD"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_DOCKER_RUNTIME"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 2,
+            "drives": 1,
+            "cpus": 2,
+            "memory": 4194304,
+            "storage": 20971520,
+            "userDefinedVersion": "1.2.12",
+            "appInstCount": 0,
+            "isImported": true
+        },
+        {
+            "id": "ae7a9e0f-4525-44e3-a0c4-395eed4e5421",
+            "name": "zed-compose-runtime_small",
+            "title": "zed-compose-runtime_small",
+            "description": "ZEDEDA Docker Compose Runtime - Small   ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Small: 1 vCPU / 2G mem",
+            "manifestJSON": {
+                "acKind": "VMManifest",
+                "acVersion": "1.2.12",
+                "name": "zrun-image_compose_1.2.12",
+                "displayName": "zrun-image_compose_1.2.12",
+                "description": "ZEDEDA Docker Compose Runtime - Small   ZEDEDA Docker Compose runtime - enables deployment of docker-compose manifests on an edge-node. Small: 1 vCPU / 2G mem",
+                "desc": {
+                    "category": "ZEDEDA",
+                    "os": "",
+                    "appCategory": "APP_CATEGORY_UNSPECIFIED",
+                    "logo": {
+                        "zed-compose-runtime_small_logo": "6712b15e-2e97-11f0-98c6-028e313eda78_zed-compose-runtime_small_logo"
+                    },
+                    "screenshotList": {},
+                    "licenseList": {
+                        "CUSTOM_UPLOAD": "6caeeeff-2e97-11f0-98c6-028e313eda78_CUSTOM_UPLOAD"
+                    },
+                    "support": "",
+                    "agreementList": {}
+                },
+                "module": {
+                    "moduleType": "MODULE_TYPE_UNSPECIFIED"
+                },
+                "appType": "APP_TYPE_VM",
+                "deploymentType": "DEPLOYMENT_TYPE_DOCKER_RUNTIME"
+            },
+            "parentDetail": {
+                "idOfParentObject": "",
+                "versionOfParentObject": 0,
+                "updateAvailable": false,
+                "referenceExists": false
+            },
+            "originType": "ORIGIN_GLOBAL",
+            "networks": 2,
+            "drives": 1,
+            "cpus": 1,
+            "memory": 2097152,
+            "storage": 20971520,
+            "userDefinedVersion": "1.2.12",
+            "appInstCount": 0,
+            "isImported": true
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "id": "3b64cb87-bda7-47b8-abe9-de2238e52f29",
+    "name": "foglamp-packer",
+    "title": "foglamp-packer",
+    "description": "",
+    "revision": {
+        "prev": "",
+        "curr": "3",
+        "createdAt": "2025-10-16T09:08:11.566434Z",
+        "createdBy": "test.root@zededa.com",
+        "updatedAt": "2025-10-16T09:08:12.386500Z",
+        "updatedBy": "test.root@zededa.com"
+    },
+    "imageFormat": "QCOW2",
+    "imageRelUrl": "foglamp-packer",
+    "imageSha256": "FF9454DEBB913B102F3FD0F75FAE5989D5CB8B29B4C2EE4C9E956415B91D2463",
+    "imageVersion": "",
+    "imageArch": "AMD64",
+    "imageStatus": "IMAGE_STATUS_READY",
+    "imageType": "IMAGE_TYPE_APPLICATION",
+    "datastoreId": "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f",
+    "imageSizeBytes": "2659516416",
+    "imageError": "Image uplinked successfully...",
+    "imageLocal": "",
+    "originType": "ORIGIN_GLOBAL",
+    "projectAccessList": [],
+    "datastoreIdList": [
+        "c4587bf8-94e5-4b9b-8d03-83d656f2ec1f"
+    ],
+    "isLTS": false
+}

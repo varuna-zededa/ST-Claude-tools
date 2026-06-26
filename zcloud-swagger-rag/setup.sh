@@ -66,10 +66,10 @@ EOF
 echo "      Written: $REPO_DIR/config.json"
 
 # 4. Install skill -------------------------------------------------------------
-echo "[4/5] Installing swagger-docs skill..."
-mkdir -p "$HOME/.claude/skills/swagger-docs"
-cp "$REPO_DIR/skills/swagger-docs/SKILL.md" "$HOME/.claude/skills/swagger-docs/SKILL.md"
-echo "      Installed to ~/.claude/skills/swagger-docs/"
+echo "[4/5] Installing zcloud_swagger_mcp skill..."
+mkdir -p "$HOME/.claude/skills/zcloud_swagger_mcp"
+cp "$REPO_DIR/skills/zcloud_swagger_mcp/SKILL.md" "$HOME/.claude/skills/zcloud_swagger_mcp/SKILL.md"
+echo "      Installed to ~/.claude/skills/zcloud_swagger_mcp/"
 
 # 5. Register MCP server -------------------------------------------------------
 echo "[5/5] Registering MCP server in ~/.mcp.json and ~/.claude/mcp.json..."
@@ -91,10 +91,10 @@ for mcp_path in ["$MCP_CONFIG", "$MCP_CONFIG_LEGACY"]:
     try:
         with open(mcp_path) as f:
             cfg = json.load(f)
-        cfg.setdefault("mcpServers", {})["swagger-docs"] = server_entry
+        cfg.setdefault("mcpServers", {})["zcloud_swagger_mcp"] = server_entry
         with open(mcp_path, "w") as f:
             json.dump(cfg, f, indent=2)
-        print(f"      Registered swagger-docs in {mcp_path}")
+        print(f"      Registered zcloud_swagger_mcp in {mcp_path}")
     except Exception as e:
         print(f"      WARNING: could not update {mcp_path}: {e}", file=sys.stderr)
 

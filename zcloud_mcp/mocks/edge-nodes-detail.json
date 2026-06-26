@@ -1,0 +1,825 @@
+{
+    "name": "ark-2250-1",
+    "id": "7333e7ad-e00e-4f45-b1ea-94a0e0c5a712",
+    "adminState": "ADMIN_STATE_REGISTERED",
+    "runState": "RUN_STATE_ONLINE",
+    "upTime": "1970-02-04T08:17:19Z",
+    "tags": {},
+    "lastUpdate": "2025-12-30T08:49:45.805287206Z",
+    "bootTime": "2025-11-26T00:32:27Z",
+    "netStatusList": [
+        {
+            "up": true,
+            "macAddr": "c4:00:ad:12:7b:f2",
+            "ifName": "eth0",
+            "ipAddrs": [
+                "10.216.0.213",
+                "fe80::f0a6:2bda:5fe8:b3ba"
+            ],
+            "defaultRouters": [
+                "10.216.0.254",
+                "fe80::bedb:9ff:fed6:14c3"
+            ],
+            "dns": {
+                "servers": [
+                    "8.8.8.8",
+                    "8.8.4.4"
+                ],
+                "domain": "",
+                "search": []
+            },
+            "location": {
+                "underlayIP": "38.122.216.154",
+                "hostname": "",
+                "city": "San Francisco",
+                "region": "California",
+                "country": "US",
+                "loc": "37.7749,-122.4194",
+                "org": "AS174 Cogent Communications",
+                "postal": "94102",
+                "latlong": "",
+                "freeloc": ""
+            },
+            "uplink": true,
+            "proxy": {
+                "networkProxy": false,
+                "proxies": [],
+                "exceptions": "",
+                "pacfile": "",
+                "networkProxyURL": "",
+                "wpadProxyURL": ""
+            },
+            "errInfo": {
+                "description": "",
+                "severity": "SEVERITY_UNSPECIFIED",
+                "timestamp": "2025-12-30T08:39:30.670069295Z",
+                "entities": [],
+                "retryCondition": ""
+            },
+            "gpsLocation": null,
+            "cellular": null,
+            "mtu": 1500,
+            "configSource": null
+        }
+    ],
+    "dns": {
+        "servers": [
+            "8.8.8.8:53",
+            "8.8.4.4:53"
+        ],
+        "domain": "",
+        "search": []
+    },
+    "ioStatusList": [
+        {
+            "type": "IO_TYPE_AUDIO",
+            "name": "",
+            "members": [
+                "Audio"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "Audio",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_COM",
+            "name": "COM1",
+            "members": [
+                "COM1"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "COM1",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_COM",
+            "name": "COM2",
+            "members": [
+                "COM2"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "COM2",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_COM",
+            "name": "COM3",
+            "members": [
+                "COM3"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "COM3",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_COM",
+            "name": "COM4",
+            "members": [
+                "COM4"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "COM4",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB1"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB1",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB2"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB2",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB3"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB3",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB4"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB4",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB5"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB5",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_USB",
+            "name": "",
+            "members": [
+                "USB6"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "USB6",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_HDMI",
+            "name": "group1",
+            "members": [
+                "VGA"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "VGA",
+                    "ioAddress": {
+                        "macAddress": ""
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_ETH",
+            "name": "",
+            "members": [
+                "eth0"
+            ],
+            "appName": "Dom0",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "eth0",
+                    "ioAddress": {
+                        "macAddress": "c4:00:ad:12:7b:f2"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "IO_TYPE_ETH",
+            "name": "group8",
+            "members": [
+                "eth1"
+            ],
+            "appName": "Unassigned",
+            "lteInfo": null,
+            "err": null,
+            "memberList": [
+                {
+                    "name": "eth1",
+                    "ioAddress": {
+                        "macAddress": "c4:00:ad:12:7b:f3"
+                    }
+                }
+            ]
+        }
+    ],
+    "storageList": [
+        {
+            "name": "",
+            "mountPath": "/persist/status",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd10",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist",
+            "sizeMB": "59163"
+        },
+        {
+            "name": "nbd9",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd6",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/newlog",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd4",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd12",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd15",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd3",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "sda2",
+            "mountPath": "",
+            "sizeMB": "300"
+        },
+        {
+            "name": "nbd5",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd13",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "sda3",
+            "mountPath": "",
+            "sizeMB": "300"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/vault/volumes",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd7",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd11",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/tmp",
+            "sizeMB": "0"
+        },
+        {
+            "name": "sda4",
+            "mountPath": "",
+            "sizeMB": "1"
+        },
+        {
+            "name": "",
+            "mountPath": "/config",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/checkpoint",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/vault/verifier",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd14",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/",
+            "sizeMB": "1854"
+        },
+        {
+            "name": "nbd2",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd1",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/log",
+            "sizeMB": "0"
+        },
+        {
+            "name": "sda9",
+            "mountPath": "",
+            "sizeMB": "60419"
+        },
+        {
+            "name": "sda1",
+            "mountPath": "",
+            "sizeMB": "36"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/clear/volumes",
+            "sizeMB": "0"
+        },
+        {
+            "name": "sda",
+            "mountPath": "",
+            "sizeMB": "61057"
+        },
+        {
+            "name": "nbd8",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/vault/downloader",
+            "sizeMB": "0"
+        },
+        {
+            "name": "nbd0",
+            "mountPath": "",
+            "sizeMB": "0"
+        },
+        {
+            "name": "",
+            "mountPath": "/persist/certs",
+            "sizeMB": "0"
+        }
+    ],
+    "blobList": [],
+    "netCounterList": [
+        {
+            "ifName": "eth0",
+            "txBytes": "2672189509",
+            "rxBytes": "2307932406",
+            "txPkts": "12129422",
+            "rxPkts": "10249563",
+            "txErrors": "0",
+            "rxErrors": "0",
+            "txDrops": "0",
+            "rxDrops": "0",
+            "txAclDrops": "0",
+            "rxAclDrops": "0",
+            "txAclRateLimitDrops": "0",
+            "rxAclRateLimitDrops": "0"
+        }
+    ],
+    "hostName": "7333e7ad-e00e-4f45-b1ea-94a0e0c5a712",
+    "swInfo": [
+        {
+            "activated": true,
+            "partitionLabel": "IMGA",
+            "partitionDevice": "",
+            "partitionState": "active",
+            "status": "SW_STATE_INSTALLED",
+            "shortVersion": "11.0.1-kvm-amd64",
+            "longVersion": "",
+            "swError": null,
+            "downloadProgress": 100,
+            "swStatus": "DEVICE_SW_STATUS_UPDATED",
+            "swSubStatus": "DEVICE_SW_SUB_STATUS_UNSPECIFIED",
+            "swSubStatusStr": "",
+            "subStatusProgress": 0,
+            "isLTS": false
+        },
+        {
+            "activated": false,
+            "partitionLabel": "IMGB",
+            "partitionDevice": "",
+            "partitionState": "unused",
+            "status": "SW_STATE_INSTALLED",
+            "shortVersion": "0.0.0-master-31eaa0ba-kvm-amd64",
+            "longVersion": "",
+            "swError": null,
+            "downloadProgress": 100,
+            "swStatus": "DEVICE_SW_STATUS_UNSPECIFIED",
+            "swSubStatus": "DEVICE_SW_SUB_STATUS_UNSPECIFIED",
+            "swSubStatusStr": "",
+            "subStatusProgress": 0,
+            "isLTS": false
+        }
+    ],
+    "zcCounters": [
+        {
+            "ifName": "eth0",
+            "failures": "373163",
+            "success": "1052180",
+            "lastFailure": "2025-12-30T08:49:36.710336044Z",
+            "lastSuccess": "2025-12-30T08:49:44.526598405Z"
+        }
+    ],
+    "rawStatus": "{\"machineArch\":\"x86_64\",\"cpuArch\":\"x86_64\",\"platform\":\"x86_64\",\"ncpu\":4,\"memory\":\"3709\",\"storage\":\"59163\",\"powerCycleCounter\":\"31\",\"minfo\":{\"manufacturer\":\"\",\"productName\":\"\",\"version\":\"\",\"serialNumber\":\"\",\"UUID\":\"03000200-0400-0500-0006-000700080009\",\"compatible\":\"\",\"biosVendor\":\"American Megatrends Inc.\",\"biosVersion\":\"5.11\",\"biosReleaseDate\":\"06/12/2017\"},\"network\":[{\"macAddr\":\"c4:00:ad:12:7b:f2\",\"devName\":\"eth0\",\"alias\":\"\",\"IPAddrs\":[\"10.216.0.213\",\"fe80::f0a6:2bda:5fe8:b3ba\"],\"defaultRouters\":[\"10.216.0.254\",\"fe80::bedb:9ff:fed6:14c3\"],\"dns\":{\"DNSservers\":[\"8.8.8.8\",\"8.8.4.4\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"ipv4Up\":true,\"location\":{\"UnderlayIP\":\"38.122.216.154\",\"Hostname\":\"\",\"City\":\"San Jose\",\"Region\":\"\",\"Country\":\"US\",\"Loc\":\"37.3394,-121.8950\",\"Org\":\"AS174 Cogent Communications, LLC\",\"Postal\":\"95025\"},\"uplink\":true,\"networkErr\":{\"description\":\"\",\"timestamp\":\"2025-12-30T08:39:30.670069295Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"localName\":\"eth0\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"ipAddrMisMatch\":false,\"ntpServers\":[\"10.216.0.254\"]}],\"assignableAdapters\":[{\"type\":\"PhyIoAudio\",\"name\":\"\",\"members\":[\"Audio\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM1\",\"members\":[\"COM1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM2\",\"members\":[\"COM2\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM3\",\"members\":[\"COM3\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoCOM\",\"name\":\"COM4\",\"members\":[\"COM4\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB2\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB3\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB4\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB5\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoUSB\",\"name\":\"\",\"members\":[\"USB6\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoHDMI\",\"name\":\"group1\",\"members\":[\"VGA\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[],\"usage\":\"PhyIoUsageNone\",\"err\":null},{\"type\":\"PhyIoNetEth\",\"name\":\"\",\"members\":[\"eth0\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":true,\"ioAddressList\":[{\"macAddress\":\"c4:00:ad:12:7b:f2\",\"vfInfo\":null}],\"usage\":\"PhyIoUsageMgmtAndApps\",\"err\":null},{\"type\":\"PhyIoNetEth\",\"name\":\"group8\",\"members\":[\"eth1\"],\"usedByAppUUID\":\"\",\"usedByBaseOS\":false,\"ioAddressList\":[{\"macAddress\":\"c4:00:ad:12:7b:f3\",\"vfInfo\":null}],\"usage\":\"PhyIoUsageMgmtAndApps\",\"err\":null}],\"dns\":{\"DNSservers\":[\"8.8.8.8:53\",\"8.8.4.4:53\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"storageList\":[{\"device\":\"\",\"mountPath\":\"/persist/status\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd10\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist\",\"total\":\"59163\",\"storageLocation\":true},{\"device\":\"nbd9\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd6\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/newlog\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd4\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd12\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd15\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd3\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"sda2\",\"mountPath\":\"\",\"total\":\"300\",\"storageLocation\":false},{\"device\":\"nbd5\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd13\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"sda3\",\"mountPath\":\"\",\"total\":\"300\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/volumes\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd7\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd11\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/tmp\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"sda4\",\"mountPath\":\"\",\"total\":\"1\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/config\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/checkpoint\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/verifier\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd14\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/\",\"total\":\"1854\",\"storageLocation\":false},{\"device\":\"nbd2\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd1\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/log\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"sda9\",\"mountPath\":\"\",\"total\":\"60419\",\"storageLocation\":false},{\"device\":\"sda1\",\"mountPath\":\"\",\"total\":\"36\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/clear/volumes\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"sda\",\"mountPath\":\"\",\"total\":\"61057\",\"storageLocation\":false},{\"device\":\"nbd8\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/vault/downloader\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"nbd0\",\"mountPath\":\"\",\"total\":\"0\",\"storageLocation\":false},{\"device\":\"\",\"mountPath\":\"/persist/certs\",\"total\":\"0\",\"storageLocation\":false}],\"bootTime\":\"2025-11-26T00:32:27Z\",\"swList\":[{\"activated\":true,\"partitionLabel\":\"IMGA\",\"partitionDevice\":\"/dev/sda2\",\"partitionState\":\"active\",\"status\":\"INSTALLED\",\"shortVersion\":\"11.0.1-kvm-amd64\",\"longVersion\":\"\",\"swErr\":null,\"downloadProgress\":100,\"userStatus\":\"UPDATED\",\"subStatusStr\":\"\",\"subStatus\":\"NONE_SUBSTATUS\",\"subStatusProgress\":0},{\"activated\":false,\"partitionLabel\":\"IMGB\",\"partitionDevice\":\"/dev/sda3\",\"partitionState\":\"unused\",\"status\":\"INSTALLED\",\"shortVersion\":\"0.0.0-master-31eaa0ba-kvm-amd64\",\"longVersion\":\"\",\"swErr\":null,\"downloadProgress\":100,\"userStatus\":\"NONE\",\"subStatusStr\":\"\",\"subStatus\":\"NONE_SUBSTATUS\",\"subStatusProgress\":0}],\"HostName\":\"7333e7ad-e00e-4f45-b1ea-94a0e0c5a712\",\"metricItems\":[],\"lastRebootReason\":\"Watchdog report for IMGA EVE version 11.0.1-kvm-amd64 at 2025-11-26T00:31:02+00:00: 250 /run/wwan.touch\\n\",\"lastRebootTime\":\"2025-11-26T00:31:02.652983715Z\",\"systemAdapter\":{\"currentIndex\":0,\"status\":[{\"version\":1,\"key\":\"zedagent\",\"timePriority\":\"2024-02-21T17:27:10.047752458Z\",\"lastFailed\":\"2025-12-20T10:47:58.103891268Z\",\"lastSucceeded\":\"2025-12-30T08:39:30.670096476Z\",\"ports\":[{\"ifname\":\"eth0\",\"name\":\"eth0\",\"isMgmt\":true,\"free\":true,\"dhcpType\":4,\"subnet\":\"10.216.0.0/24\",\"gateway\":\"\",\"domainname\":\"\",\"ntpServer\":\"10.216.0.254\",\"moreNtpServers\":[],\"dnsServers\":[],\"dhcpRangeLow\":\"\",\"dhcpRangeHigh\":\"\",\"proxy\":{\"proxies\":[],\"exceptions\":\"\",\"pacfile\":\"\",\"networkProxyEnable\":false,\"networkProxyURL\":\"\",\"wpadURL\":\"\"},\"macAddr\":\"c4:00:ad:12:7b:f2\",\"IPAddrs\":[\"10.216.0.213\",\"fe80::f0a6:2bda:5fe8:b3ba\"],\"defaultRouters\":[\"10.216.0.254\",\"fe80::bedb:9ff:fed6:14c3\"],\"dns\":{\"DNSservers\":[\"8.8.8.8\",\"8.8.4.4\"],\"DNSdomain\":\"\",\"DNSsearch\":[]},\"up\":true,\"location\":{\"UnderlayIP\":\"38.122.216.154\",\"Hostname\":\"\",\"City\":\"San Jose\",\"Region\":\"\",\"Country\":\"US\",\"Loc\":\"37.3394,-121.8950\",\"Org\":\"AS174 Cogent Communications, LLC\",\"Postal\":\"95025\"},\"err\":{\"description\":\"\",\"timestamp\":\"2025-12-30T08:39:30.670069295Z\",\"severity\":\"SEVERITY_UNSPECIFIED\",\"entities\":[],\"retryCondition\":\"\"},\"usage\":\"PhyIoUsageMgmtAndApps\",\"networkUUID\":\"2e6038c1-ece6-4ffd-b95b-a7302c219d59\",\"cost\":0,\"wirelessStatus\":null,\"mtu\":1500,\"configSource\":null}],\"lastError\":\"\"}]},\"restartCounter\":33,\"HSMStatus\":\"DISABLED\",\"HSMInfo\":\"Infineon-SLB9665\\u0000, FW Version 5.0.4.16642\",\"lastRebootStack\":\"\",\"dataSecAtRestInfo\":{\"status\":\"DATASEC_AT_REST_DISABLED\",\"info\":\"TPM is either absent or not in use\",\"vaultList\":[{\"name\":\"Application Data Store\",\"status\":\"DATASEC_AT_REST_DISABLED\",\"vaultErr\":{\"description\":\"TPM is either absent or not in use\",\"timestamp\":\"2025-11-26T00:32:49.424778855Z\",\"severity\":\"SEVERITY_ERROR\",\"entities\":[],\"retryCondition\":\"\"},\"pcrStatus\":\"PCR_DISABLED\"}]},\"secInfo\":{\"shaRootCa\":\"ok1Ia/Y4FAHrsRINbfU3vQgrrNWvrgKrL1A8I4C4o0E=\",\"shaTlsRootCa\":\"uxRRuDNc0O8PjW5RUVTJTXZPHd0LJH9eYZmuOy3uyTA=\"},\"configItemStatus\":{\"configItems\":{\"debug.enable.ssh\":{\"value\":\"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDT9Kv9a7Fj4AACa9JQOY7YnxzL0bMh+84111OFDthjrDgeTcWVrpyUifvoSOn94+TtwqxMlIWAU8llgeDlaNJMTpGd5WYcd22o3TYCaOClM/zraIaaGtDeJnXnvu18BAsgYCaiXaGBukbGPzy5xe1kOi1bF68q43QGbeGzMEKvUpqjUbDRiCybhxjl9wjDubOcNOxVjA18Uek4lf1A+S4BLLxzmQpNX1ketmhakRF0RqZe5zR7i83Ct/ME1FZZBu4ovrl/dzntsq0e0hAbIuWwZaokGzEWuNJjajWx7pTMAIJWE3zbec2rRWYMArhECqnt+mk78tnvojMkZcEh8fH1 kalyan@AdminisatorsMBP.T-mobile.com\",\"error\":\"\"},\"debug.enable.usb\":{\"value\":\"true\",\"error\":\"\"},\"timer.config.interval\":{\"value\":\"5\",\"error\":\"\"}},\"unknownConfigItems\":{}},\"appInstances\":[{\"uuid\":\"d1b6a415-9106-460a-92af-6c134b263e64\",\"name\":\"1106_app_policy_project.1106_nginx_bundle.ark-2250-1\",\"domainName\":\"\"}],\"rebootConfigCounter\":1003,\"lastBootReason\":\"BOOT_REASON_WATCHDOG_HUNG\",\"cellRadios\":[],\"sims\":[],\"tasks\":[],\"maintenanceMode\":false,\"maintenanceModeReason\":\"MAINTENANCE_MODE_REASON_NONE\",\"hardwareWatchdogPresent\":false,\"rebootInprogress\":false,\"capabilities\":{\"HWAssistedVirtualization\":true,\"IOVirtualization\":true},\"baseosUpdateCounter\":0,\"state\":\"ZDEVICE_STATE_ONLINE\",\"localProfile\":\"\",\"maintenanceModeReasons\":[\"MAINTENANCE_MODE_REASON_NONE\"],\"dormantTime\":\"\",\"storageInfo\":[{\"poolName\":\"/persist\",\"storageType\":\"STORAGE_TYPE_INFO_EXT4\",\"zfsVersion\":\"\",\"currentRaid\":\"STORAGE_RAID_TYPE_UNSPECIFIED\",\"compressionRatio\":0,\"zpoolSize\":\"0\",\"countZvols\":0,\"storageState\":\"STORAGE_STATUS_ONLINE\",\"disks\":[{\"diskName\":{\"name\":\"/dev/sda9\",\"logicalName\":\"\",\"serial\":\"7FC4079A180800008488\"},\"status\":\"STORAGE_STATUS_ONLINE\",\"state\":\"\",\"smartStatus\":\"\"}],\"collectorErrors\":\"\",\"children\":[],\"poolStatusMsg\":\"\"}],\"shutdownConfigCounter\":0,\"attestationInfo\":{\"state\":\"ATTESTATION_STATE_COMPLETE\",\"error\":null},\"apiCapability\":\"API_CAPABILITY_VOLUME_SNAPSHOTS\",\"remoteAccessDisabled\":false,\"optionalCapabilities\":null,\"deviceName\":\"\",\"enterpriseName\":\"\",\"enterpriseId\":\"\",\"projectName\":\"\",\"projectId\":\"\"}",
+    "Memory": {
+        "TotalMB": 3709,
+        "UsedMB": 525187,
+        "AllocatedMB": 524288
+    },
+    "Storage": {
+        "TotalMB": 59163,
+        "UsedMB": 434,
+        "AllocatedMB": 434,
+        "sharedStorageSummary": [],
+        "Id": "",
+        "Name": ""
+    },
+    "minfo": {
+        "manufacturer": "",
+        "productName": "",
+        "version": "",
+        "serialNumber": "",
+        "uuid": "03000200-0400-0500-0006-000700080009",
+        "compatible": "",
+        "biosVendor": "American Megatrends Inc.",
+        "biosVersion": "5.11",
+        "biosReleaseDate": "06/12/2017",
+        "hSMStatus": "DEVICE_HW_SECURITY_MODULE_STATUS_DISABLED",
+        "hSMInfo": "Infineon-SLB9665\u0000, FW Version 5.0.4.16642",
+        "endorsementKey": ""
+    },
+    "dinfo": {
+        "machineArch": "x86_64",
+        "cpuArch": "x86_64",
+        "platform": "x86_64",
+        "nCpu": 4,
+        "memMB": "3709",
+        "storageMB": "59163"
+    },
+    "Cpu": {
+        "Utilization": 8.88888888888889
+    },
+    "lastRebootReason": "Watchdog report for IMGA EVE version 11.0.1-kvm-amd64 at 2025-11-26T00:31:02+00:00: 250 /run/wwan.touch\n",
+    "lastRebootTime": "2025-11-26T00:31:02.652983715Z",
+    "dataSecInfo": [
+        {
+            "status": "DEVICE_DATA_SECURITY_AT_REST_DISABLED",
+            "name": "Application Data Store",
+            "errInfo": {
+                "description": "TPM is either absent or not in use",
+                "severity": "SEVERITY_UNSPECIFIED",
+                "timestamp": "2025-11-26T00:32:49.424778855Z",
+                "entities": [],
+                "retryCondition": ""
+            }
+        }
+    ],
+    "devError": [],
+    "projectId": "f7971001-e051-40ae-8727-9403795d462d",
+    "title": "ark-2250-1",
+    "attestState": "ATTEST_STATE_PASS_NO_PCR",
+    "deviceRebootReason": "DEVICE_BOOT_REASON_WATCHDOG_HUNG",
+    "clusterID": "",
+    "memorySummary": {
+        "deviceMemoryMB": 3709,
+        "allocatedAppsMB": 524288,
+        "allocatedEveMB": 800,
+        "usedEveMB": 899,
+        "availableForNewApps": 0
+    },
+    "capabilities": {
+        "HWAssistedVirtualization": true,
+        "IOVirtualization": true
+    },
+    "debugKnob": false,
+    "debugKnobExpiryTime": "0001-01-01T00:00:00Z",
+    "physicalStorage": [
+        {
+            "poolName": "/persist",
+            "storageType": "PHYSICAL_STORAGE_TYPE_INFO_EXT4",
+            "storageState": "PHYSICAL_STORAGE_STATUS_ONLINE",
+            "zfsVersion": "",
+            "countZvols": 0,
+            "currentRaid": "PHYSICAL_STORAGE_RAID_TYPE_UNSPECIFIED",
+            "compressionRatio": 0,
+            "zpoolSize": "0",
+            "disks": [
+                {
+                    "disk": {
+                        "name": "/dev/sda9",
+                        "logicalName": "",
+                        "serial": "7FC4079A180800008488"
+                    },
+                    "status": "PHYSICAL_STORAGE_STATUS_ONLINE",
+                    "smartStatus": ""
+                }
+            ],
+            "poolStatusMsg": ""
+        }
+    ],
+    "zpoolMetrics": {
+        "readErrors": 0,
+        "writeErrors": 0,
+        "checksumErrors": 0,
+        "bytesRead": "0",
+        "bytesWrite": "0"
+    },
+    "cellularMetrics": [],
+    "ntpSources": null,
+    "optionalCapabilities": null,
+    "clusterNodeStatus": null,
+    "apiCapability": "API_CAPABILITY_VOLUME_SNAPSHOTS",
+    "memoryReport": null,
+    "hardwareInfo": {
+        "disks": [
+            {
+                "diskName": "/dev/nbd0",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd0 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd1",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd1 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd10",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd10 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd11",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd11 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd12",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd12 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd13",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd13 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd14",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd14 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd15",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd15 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd2",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd2 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd3",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd3 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd4",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd4 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd5",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd5 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd6",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd6 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd7",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd7 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd8",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd8 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/nbd9",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/nbd9 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/ram0",
+                "wwn": "",
+                "serialNumber": "",
+                "model": "",
+                "collectorErrors": "disk with name: /dev/ram0 have unknown type",
+                "smartAttr": []
+            },
+            {
+                "diskName": "/dev/sda",
+                "wwn": "0",
+                "serialNumber": "7FC4079A180800008488",
+                "model": "SQF-S25M4-64G-SBC",
+                "collectorErrors": "",
+                "smartAttr": []
+            }
+        ]
+    },
+    "memoryReportStatus": "ECC_MEMORY_REPORT_STATUS_NOT_APPLICABLE"
+}

@@ -1,0 +1,32 @@
+{
+    "id": "24cd92b6-cfd4-4daf-bc0c-c4c26c436cd3",
+    "name": "ZEDEDA-Image-Repository",
+    "title": "ZEDEDA Central Image Repository",
+    "description": "Central Image Repository for ZEDEDA",
+    "revision": {
+        "prev": "",
+        "curr": "1",
+        "createdAt": "2025-10-16T09:00:59.985073Z",
+        "createdBy": "SYSTEM_ROOT",
+        "updatedAt": "2025-10-16T09:00:59.985073Z",
+        "updatedBy": "SYSTEM_ROOT"
+    },
+    "enterpriseId": "",
+    "dsType": "DATASTORE_TYPE_ZEDEDAS3",
+    "dsFQDN": "https://s3-us-west-2.amazonaws.com",
+    "dsPath": "zededa-central-cluster-images-us",
+    "apiKey": "",
+    "region": "us-west-2",
+    "dsStatus": "DATASTORE_STATUS_ACTIVE",
+    "dsErr": "",
+    "secret": null,
+    "encryptedSecrets": {
+        "QXBpS2V5": "vault:v1:p0tdvBd9zLN8QHlFDM/9FouXIl+ufhIT0rlhPLvfUGmnalMfPh2BvaOGmWMmqneH",
+        "QXBpUGFzc3dk": "vault:v1:a1+eK0SFWEKTLoNmUrkGQQY9WiiRXX4ca8wBpMwdAopFlQ3nMZHiBYfps0UfOl1oZGRx2yVKGt46vhCKyc37Y61ZAT0="
+    },
+    "cryptoKey": "aes256_seine",
+    "originType": "ORIGIN_GLOBAL",
+    "certificateChain": null,
+    "needClearText": false,
+    "projectAccessList": []
+}

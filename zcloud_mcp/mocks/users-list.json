@@ -1,0 +1,249 @@
+{
+    "summaryByState": {
+        "description": "User Summary",
+        "total": 4,
+        "values": {
+            "USER_STATE_ACTIVE": 4,
+            "USER_STATE_CREATED": 0,
+            "USER_STATE_INACTIVE": 0,
+            "USER_STATE_SIGNEDUP": 0,
+            "USER_STATE_SUSPENDED": 0,
+            "USER_STATE_UNSPECIFIED": 0
+        }
+    },
+    "list": [
+        {
+            "id": "AAF1ABCND_KLTxhDrIkMMxfXWfRg",
+            "username": "kavya-test@acme.com",
+            "SfdcId": "",
+            "HubspotId": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2022-04-11T04:47:27.143410Z",
+                "createdBy": "test@test.com",
+                "updatedAt": "0001-01-01T00:00:00Z",
+                "updatedBy": "test@test.com"
+            },
+            "state": "USER_STATE_ACTIVE",
+            "firstName": "kavya-test@acme.com",
+            "locale": "",
+            "fullName": "kavya-test@acme.com kavya-test@acme.com",
+            "timeZone": "",
+            "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+            "type": "AUTH_TYPE_LOCAL",
+            "email": "kavya-test@acme.com",
+            "phone": "",
+            "notifyPref": "",
+            "LastLoginTime": "2022-04-11T04:47:45.468109Z",
+            "LastLogoutTime": "0001-01-01T00:00:00Z",
+            "emailState": "ID_STATE_VERIFIED",
+            "phoneState": "ID_STATE_UNSPECIFIED",
+            "customUserInput": {},
+            "allowedEnterprises": [
+                {
+                    "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+                    "name": "acme",
+                    "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm"
+                }
+            ],
+            "enterpriseId": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+            "totpEnabled": false,
+            "allowedEntpProjectList": {},
+            "zksSyncStatus": null,
+            "tokenZksSyncStatus": {}
+        },
+        {
+            "id": "AAF1ABA6-42FsX9MIr4xVjBXqx6c",
+            "username": "kavya@acme.com",
+            "SfdcId": "",
+            "HubspotId": "",
+            "revision": {
+                "prev": "",
+                "curr": "2",
+                "createdAt": "2020-03-26T07:44:26Z",
+                "createdBy": "chm@acme.com",
+                "updatedAt": "1970-01-01T00:00:01Z",
+                "updatedBy": "chm@acme.com"
+            },
+            "state": "USER_STATE_ACTIVE",
+            "firstName": "Kavya",
+            "locale": "",
+            "fullName": "Kavya shekhar",
+            "timeZone": "",
+            "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+            "type": "AUTH_TYPE_LOCAL",
+            "email": "Kavya@acme.com",
+            "phone": "",
+            "notifyPref": "",
+            "LastLoginTime": "1970-01-01T00:00:01Z",
+            "LastLogoutTime": "1970-01-01T00:00:01Z",
+            "emailState": "ID_STATE_VERIFIED",
+            "phoneState": "ID_STATE_UNSPECIFIED",
+            "customUserInput": {},
+            "allowedEnterprises": [
+                {
+                    "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+                    "name": "acme",
+                    "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm"
+                }
+            ],
+            "enterpriseId": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+            "totpEnabled": false,
+            "allowedEntpProjectList": {},
+            "zksSyncStatus": null,
+            "tokenZksSyncStatus": {}
+        },
+        {
+            "id": "AAF1ABAMFvsPNhxO47M1aPZugqa5",
+            "username": "kavya@test123.com",
+            "SfdcId": "",
+            "HubspotId": "",
+            "revision": {
+                "prev": "",
+                "curr": "1",
+                "createdAt": "2025-10-21T02:44:13.345939Z",
+                "createdBy": "test@test.com",
+                "updatedAt": "2025-10-21T02:44:31.882984Z",
+                "updatedBy": "test@test.com"
+            },
+            "state": "USER_STATE_ACTIVE",
+            "firstName": "kavya",
+            "locale": "",
+            "fullName": "kavya shekhar",
+            "timeZone": "",
+            "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+            "type": "AUTH_TYPE_LOCAL",
+            "email": "test@test.com",
+            "phone": "",
+            "notifyPref": "",
+            "LastLoginTime": "2025-10-21T02:44:31.882984Z",
+            "LastLogoutTime": "0001-01-01T00:00:00Z",
+            "emailState": "ID_STATE_VERIFIED",
+            "phoneState": "ID_STATE_UNSPECIFIED",
+            "customUserInput": {},
+            "allowedEnterprises": [
+                {
+                    "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+                    "name": "acme",
+                    "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm"
+                }
+            ],
+            "enterpriseId": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+            "totpEnabled": false,
+            "allowedEntpProjectList": {},
+            "zksSyncStatus": null,
+            "tokenZksSyncStatus": {}
+        },
+        {
+            "id": "AAF1ABBIdi1n7LxAN5qAxc73dhC1",
+            "username": "test@test.com",
+            "SfdcId": "",
+            "HubspotId": "",
+            "revision": {
+                "prev": "",
+                "curr": "949",
+                "createdAt": "2020-05-21T10:51:59Z",
+                "createdBy": "",
+                "updatedAt": "2025-11-05T06:58:48.236531Z",
+                "updatedBy": "test@test.com"
+            },
+            "state": "USER_STATE_ACTIVE",
+            "firstName": "",
+            "locale": "",
+            "fullName": "Kavya Shekhar",
+            "timeZone": "",
+            "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm",
+            "type": "AUTH_TYPE_OAUTH",
+            "email": "test@test.com",
+            "phone": "",
+            "notifyPref": "",
+            "LastLoginTime": "2025-11-05T06:58:48.236527Z",
+            "LastLogoutTime": "2025-10-21T02:44:17.964011Z",
+            "emailState": "ID_STATE_VERIFIED",
+            "phoneState": "ID_STATE_UNSPECIFIED",
+            "customUserInput": {},
+            "allowedEnterprises": [
+                {
+                    "id": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+                    "name": "acme",
+                    "roleId": "AAGFABCFc6p2XtZBGISdXrrSPmMm"
+                }
+            ],
+            "enterpriseId": "AAFlABBtJ0mP_lhJjIyVzjzgMXiR",
+            "totpEnabled": false,
+            "allowedEntpProjectList": {},
+            "zksSyncStatus": null,
+            "tokenZksSyncStatus": {}
+        }
+    ],
+    "summaryByUserActivity": {
+        "description": "Count of offline/online users",
+        "total": 287,
+        "values": {
+            "USER_STATUS_OFFLINE": 257,
+            "USER_STATUS_ONLINE": 30
+        }
+    },
+    "summaryByRoleDistribution": {
+        "description": "Role distribution summary",
+        "total": 4,
+        "values": {
+            "0004_test": 0,
+            "01-test": 0,
+            "1role-test": 0,
+            "Administrator": 0,
+            "Administrator_testproject": 0,
+            "Emerson-admin-user": 0,
+            "Emerson-combo-user": 0,
+            "Emerson-user1": 0,
+            "Emerson-user3": 0,
+            "KalyanTest": 0,
+            "Sandeep_test": 0,
+            "SysAdmin": 4,
+            "SysManager": 0,
+            "SysMonitor": 0,
+            "SysOperator": 0,
+            "Sysmonitor-EnterpriseRead": 0,
+            "aaaaaa-test": 0,
+            "aaaaaaaTest": 0,
+            "dd_custom_role": 0,
+            "emerson-user2": 0,
+            "test123-test-role": 0,
+            "new-role": 0,
+            "oauth_role_test": 0,
+            "pfizer": 0,
+            "prnvkv-test": 0,
+            "rahul-custom": 0,
+            "rishabh-lowest-role": 0,
+            "sample-test": 0,
+            "sandeep_test_2": 0,
+            "sandeep_test_3": 0,
+            "sysmonitor_with_enterprise_read": 0,
+            "test": 0,
+            "test-3rd-party": 0,
+            "test-rol1": 0,
+            "test-role": 0,
+            "test-role2": 0,
+            "test-udit-role": 0,
+            "test-udit-role2": 0,
+            "test-vinay-1": 0,
+            "test1": 0,
+            "test12444": 0,
+            "test_1001": 0,
+            "testadnan-delete": 0,
+            "udit-test-role": 0,
+            "udit-test-role2": 0,
+            "udit-test-role3": 0,
+            "vinay-lower-test": 0,
+            "vinay-test": 0
+        }
+    },
+    "next": {
+        "pageToken": "",
+        "orderBy": [],
+        "pageNum": 1,
+        "pageSize": 500,
+        "totalPages": 1
+    }
+}
