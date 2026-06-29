@@ -1,5 +1,8 @@
 # Mock Data Files
 
+> **Source:** Taken from [zededa/zededa-ai-agents](https://github.com/zededa/zededa-ai-agents)
+> (`mcp/mocks/`) with minor tweaks for the Claude Code MCP environment.
+
 This directory contains mock JSON files used when the MCP server runs in `USE_MOCK_API_MCP_DATA=true` mode.
 
 ## Purpose

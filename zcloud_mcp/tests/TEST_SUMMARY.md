@@ -1,5 +1,8 @@
 # Unit Tests Summary for zededa.py
 
+> **Source:** Taken from [zededa/zededa-ai-agents](https://github.com/zededa/zededa-ai-agents)
+> (`mcp/tests/`) with minor tweaks for the Claude Code MCP environment.
+
 ## Overview
 Successfully created comprehensive unit tests for the Zededa MCP server implementation with **31 test cases** covering all major functionality.
 

@@ -1,5 +1,8 @@
 # Unit Tests for Zededa MCP Server
 
+> **Source:** Taken from [zededa/zededa-ai-agents](https://github.com/zededa/zededa-ai-agents)
+> (`mcp/tests/`) with minor tweaks for the Claude Code MCP environment.
+
 This directory contains comprehensive unit tests for the Zededa MCP (Model Context Protocol) server implementation.
 
 ## Test Files Overview

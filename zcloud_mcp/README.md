@@ -4,6 +4,13 @@ FastMCP server that exposes 40+ ZedCloud API tools to Claude Code via the MCP pr
 Query and manage ZedCloud resources — edge nodes, applications, networks, IAM, Kubernetes
 clusters — through natural language without writing API calls by hand.
 
+## Source
+
+The code in this directory is taken directly from
+[zededa/zededa-ai-agents](https://github.com/zededa/zededa-ai-agents) (`mcp/` sub-tree),
+with minor tweaks to fit the Claude Code MCP environment (streamable-http transport,
+per-request Bearer token forwarding, shared `httpx` client, and project-level `.mcp.json`).
+
 ## Why this exists
 
 ZedCloud has a large API surface across 17+ services. Finding the right endpoint,
