@@ -23,8 +23,11 @@ Examples:
 
 import argparse
 import hashlib
+import os
 import re
+import subprocess
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 import ollama
@@ -55,6 +58,9 @@ INDEX_FILES = [
     ("pkg/edgeview/README.md", "edgeview"),
     ("CLAUDE.md",              "eve_docs"),
 ]
+
+# Set in main(); included in every point id + payload so versions don't collide.
+_VERSION = "master"
 
 
 # ---------------------------------------------------------------------------
@@ -204,6 +210,7 @@ def upsert_chunks(chunks: list[dict], source: str, doc_type: str, client: Qdrant
         dense_vec  = embed(chunk["text"])
         sparse_vec = bm25_embed(chunk["text"])
         payload = {
+            "version":    _VERSION,
             "source":     source,
             "section":    chunk["section"],
             "doc_type":   doc_type,
@@ -216,7 +223,7 @@ def upsert_chunks(chunks: list[dict], source: str, doc_type: str, client: Qdrant
         client.upsert(
             collection_name=COLLECTION,
             points=[PointStruct(
-                id=make_id(f"{source}#{chunk['section']}#{chunk.get('start_line', 0)}"),
+                id=make_id(f"{_VERSION}#{source}#{chunk['section']}#{chunk.get('start_line', 0)}"),
                 vector={"dense": dense_vec, "bm25": sparse_vec},
                 payload=payload,
             )],
@@ -383,7 +390,7 @@ def ensure_collection(client: QdrantClient, reset: bool) -> None:
 
     if COLLECTION in existing:
         info = client.get_collection(COLLECTION)
-        sparse_cfg = info.config.params.sparse_vectors_config or {}
+        sparse_cfg = getattr(info.config.params, "sparse_vectors", None) or {}
         if "bm25" not in sparse_cfg:
             print(
                 f"ERROR: Collection '{COLLECTION}' exists but lacks the 'bm25' sparse vector config.\n"
@@ -403,10 +410,59 @@ def ensure_collection(client: QdrantClient, reset: bool) -> None:
 
 
 # ---------------------------------------------------------------------------
+# Provenance meta point
+# ---------------------------------------------------------------------------
+
+def write_meta(client: QdrantClient, source_mode: str, branch: str, commit: str, ref: str) -> None:
+    payload = {
+        "doc_type":    "_meta",
+        "version":     _VERSION,
+        "source_mode": source_mode,
+        "branch":      branch,
+        "commit":      commit,
+        "ref":         ref,
+        "indexed_at":  datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+    client.upsert(
+        collection_name=COLLECTION,
+        points=[PointStruct(
+            id=make_id(f"__meta__#{_VERSION}"),
+            vector={"dense": embed(f"meta {_VERSION} {source_mode}"),
+                    "bm25":  bm25_embed(_VERSION)},
+            payload=payload,
+        )],
+    )
+    print(f"\nProvenance: version={_VERSION} mode={source_mode} branch={branch} "
+          f"commit={commit} at {payload['indexed_at']}")
+
+
+def _local_git(path: Path, *args: str) -> str:
+    try:
+        out = subprocess.run(["git", "-C", str(path), *args],
+                             capture_output=True, text=True, timeout=5)
+        return out.stdout.strip() or "unknown"
+    except Exception:
+        return "unknown"
+
+
+def _gh_commit(branch: str) -> str:
+    try:
+        resp = requests.get(f"{GITHUB_API}/{GITHUB_REPO}/commits/{branch}",
+                            headers=GH_HEADERS, timeout=15)
+        if resp.status_code == 200:
+            return resp.json().get("sha", "unknown")[:10]
+    except Exception:
+        pass
+    return "unknown"
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main():
+    global _VERSION
+
     parser = argparse.ArgumentParser(description="Index EVE OS docs + source into Qdrant")
     parser.add_argument("--source",    choices=["local", "github"], default="local")
     parser.add_argument("--eve-path",  default="/Users/Varuna_1/git/eve",
@@ -428,7 +484,11 @@ def main():
         if not eve_path.exists():
             print(f"ERROR: EVE path not found: {eve_path}", file=sys.stderr)
             sys.exit(1)
-        print(f"Source: local  ({eve_path})\n")
+
+        branch   = _local_git(eve_path, "rev-parse", "--abbrev-ref", "HEAD")
+        commit   = _local_git(eve_path, "rev-parse", "--short", "HEAD")
+        _VERSION = branch if branch != "unknown" else "local"
+        print(f"Source: local  ({eve_path})  version={_VERSION}  commit={commit}\n")
 
         for rel_dir, doc_type in INDEX_DIRS:
             print(f"[{doc_type}] {rel_dir}/")
@@ -441,9 +501,13 @@ def main():
         print(f"\n[source_code] pkg/pillar/cmd/*/run.go")
         total += local_index_source(eve_path, client)
 
+        write_meta(client, "local", branch, commit, str(eve_path))
+
     else:
-        branch = args.branch
-        print(f"Source: github  (lf-edge/eve  branch={branch})\n")
+        branch   = args.branch
+        _VERSION = branch
+        commit   = _gh_commit(branch)
+        print(f"Source: github  (lf-edge/eve  branch={branch}  commit={commit})\n")
 
         for rel_dir, doc_type in INDEX_DIRS:
             print(f"[{doc_type}] {rel_dir}/")
@@ -456,7 +520,9 @@ def main():
         print(f"\n[source_code] pkg/pillar/cmd/*/run.go")
         total += github_index_source(branch, client)
 
-    print(f"\nDone. {total} chunks indexed into '{COLLECTION}'.")
+        write_meta(client, "github", branch, commit, f"{GITHUB_REPO}@{branch}")
+
+    print(f"\nDone. {total} chunks indexed into '{COLLECTION}' (version={_VERSION}).")
 
 
 if __name__ == "__main__":

@@ -65,8 +65,17 @@ chunk text directly.
 | Tool | What it does |
 |------|-------------|
 | `kb_info()` | Shows chunk counts by doc_type, Qdrant URL, EVE path, and re-index command |
-| `search_eve_kb(query, doc_type, top_k)` | Hybrid search — returns docs inline, source_code as excerpt + `read_eve_file` hint |
-| `read_eve_file(path, start_line, end_line)` | Reads a file from local EVE clone; GitHub fallback if not found locally |
+| `search_eve_kb(query, doc_type, top_k, format)` | Hybrid search — returns docs inline, source_code as excerpt + `read_eve_file` hint |
+| `read_eve_file(path, start_line, end_line, format)` | Reads a file from local EVE clone; GitHub fallback if not found locally |
+
+### Agent-ready output (`format="json"`)
+
+`search_eve_kb` and `read_eve_file` default to `format="markdown"` (human-readable).
+Pass `format="json"` for a structured envelope `{kb, query, doc_type, version, count,
+warnings, results[]}`, where `source_code` results carry a machine-readable `fetch`
+action (`{tool: "read_eve_file", args: {...}}`). The envelope shape is **identical** to
+the zcloud-kb server (discriminated by the `kb` field), so a multi-KB agent consumes both
+uniformly. (`version` is `null`/empty until eve-kb is version-indexed — see below.)
 
 ## Prerequisites
 
