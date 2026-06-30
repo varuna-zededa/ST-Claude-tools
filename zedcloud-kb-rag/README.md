@@ -1,7 +1,8 @@
 # zedcloud-kb-rag
 
 Local RAG knowledge base for the ZedCloud microservices codebase. Indexes documentation,
-proto definitions, and service source code into Qdrant for semantic search via Claude Code.
+Swagger API specs, proto definitions, and service source code into Qdrant for semantic
+search via Claude Code.
 
 ## What gets indexed
 

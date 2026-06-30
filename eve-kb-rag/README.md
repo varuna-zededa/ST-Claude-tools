@@ -40,12 +40,16 @@ Three concrete use cases drove the design:
 
 Total: ~3100 chunks stored in Qdrant (`eve_kb` collection). Nothing leaves your machine.
 
+Every chunk is tagged with the git **branch** it was indexed from (provenance); `kb_info`
+reports the branch/commit/timestamp, and searches can be filtered to a specific EVE release
+via the `version` argument.
+
 ## How search works
 
-Two mechanisms run in parallel on every query and results are merged by score:
+Two mechanisms run in parallel on every query and are fused with Reciprocal Rank Fusion (RRF):
 
 1. **Dense vector search** — semantic similarity via `nomic-embed-text` embeddings (768-dim, cosine distance)
-2. **Keyword search** — exact `MatchText` on significant query terms against a Qdrant text payload index
+2. **BM25 sparse search** — keyword/term matching via a `Qdrant/bm25` sparse vector
 
 This hybrid catches both conceptually-similar results and exact EVE-specific terms (agent
 names, flag names, pubsub paths) that vector search alone sometimes misses.

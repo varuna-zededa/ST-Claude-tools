@@ -6,7 +6,7 @@ A collection of MCP server tools and RAG pipelines for Claude Code, used by the 
 
 | Folder | Description |
 |--------|-------------|
-| [zedcloud-kb-rag](./zedcloud-kb-rag/) | ZedCloud knowledge base — service docs, Swagger endpoints, and Go service source |
+| [zedcloud-kb-rag](./zedcloud-kb-rag/) | ZedCloud knowledge base — docs, Swagger endpoints, proto definitions, and Go service source |
 | [eve-kb-rag](./eve-kb-rag/) | EVE OS knowledge base — docs, pillar agent source, and edgeview |
 
 ## Setup
