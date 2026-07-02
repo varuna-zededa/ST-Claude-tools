@@ -8,6 +8,7 @@ A collection of MCP server tools and RAG pipelines for Claude Code, used by the 
 |---------------|-------------|------|
 | [zedcloud-kb-rag](./zedcloud-kb-rag/) | ZedCloud knowledge base — docs, Swagger endpoints, proto definitions, and Go service source | [README](./zedcloud-kb-rag/README.md) |
 | [eve-kb-rag](./eve-kb-rag/) | EVE OS knowledge base — docs, pillar agent source, and edgeview | [README](./eve-kb-rag/README.md) |
+| [zcli-kb](./zcli-kb/) | zcli command search — find commands, flags, and syntax without loading the full repo | [README](./zcli-kb/README.md) |
 | [skills/st-testplan-generator](./skills/st-testplan-generator/) | Claude Code skill for generating ZedCloud API and EVE device test plans | [SKILL.md](./skills/st-testplan-generator/SKILL.md) |
 | [CLAUDE.md](./CLAUDE.md) | Repo guide for Claude Code — structure, scripts, conventions, what not to commit | — |
 
@@ -43,6 +44,13 @@ Qdrant must be running at `http://localhost:6333` when you run `setup.sh`. Ollam
 | Requirement | Detail |
 |-------------|--------|
 | EVE repo | Cloned locally at `~/git/eve` (default) or any path passed via `--eve-path` |
+
+#### `zcli-kb`
+
+| Requirement | Detail |
+|-------------|--------|
+| zcli repo | Cloned locally at `~/git/zcli` (default) or any path passed via `--zcli-path` |
+| Qdrant / Ollama | **Not required** — this is a lookup tool, not a RAG pipeline |
 
 #### `skills/st-testplan-generator`
 
