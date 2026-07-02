@@ -40,6 +40,12 @@ eve-kb-rag/                 # EVE OS knowledge base RAG tool (same structure as 
   skills/eve-kb/SKILL.md
   setup.sh
   requirements.txt
+zcli-kb/                    # zcli command search — lookup tool, no Qdrant/Ollama needed
+  indexer/index.py          # parses zcli/modules/*.py → commands.json
+  mcp_server/server.py      # MCP server exposing search_zcli_kb, kb_info
+  skills/zcli-kb/SKILL.md
+  setup.sh
+  requirements.txt          # fastmcp only
 zcloud_mcp/                 # Live ZedCloud API MCP server (not a RAG tool)
   mcpserver.py              # MCP server entry point
   *.py                      # one file per ZedCloud resource type
