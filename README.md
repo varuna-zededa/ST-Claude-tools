@@ -86,3 +86,19 @@ To run a tool setup without installing skills:
 ```
 
 After any setup, restart Claude Code to activate the new MCP servers and skills.
+
+### Updating the index
+
+After the source repo changes, refresh the knowledge base index using `update-index.sh`:
+
+```bash
+./update-index.sh zedcloud-kb-rag                                        # local clone
+./update-index.sh zedcloud-kb-rag --source github --branch main
+./update-index.sh zedcloud-kb-rag --reset                                # wipe and rebuild
+./update-index.sh zedcloud-kb-rag --skip-source                          # API specs only (faster)
+
+./update-index.sh eve-kb-rag                                             # local clone
+./update-index.sh eve-kb-rag --source github --branch eve-9.13 --reset
+```
+
+Run `./update-index.sh` with no arguments to see all available options per tool.
