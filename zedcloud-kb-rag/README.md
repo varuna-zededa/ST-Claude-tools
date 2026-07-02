@@ -61,9 +61,7 @@ python indexer/index.py --source github
 Options:
 - `--reset` — wipe and rebuild the collection (use after major repo changes)
 - `--branch <name>` — GitHub branch to index (default: `main`)
-- `--skip-swagger` — skip swagger endpoint indexing
-- `--skip-protos` — skip proto indexing
-- `--skip-source` — skip Go source indexing (the largest/slowest part)
+- `--skip-source` — skip Go source indexing (largest/slowest; use when only API specs changed)
 
 First run takes ~10-20 minutes depending on machine speed.
 
