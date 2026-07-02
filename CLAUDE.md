@@ -10,6 +10,16 @@ A collection of Claude Code tools for the Systems Test team at Zededa. It contai
 2. **Live API MCP server** — `zcloud_mcp` talks directly to the ZedCloud API and exposes it as MCP tools. Not a RAG pipeline.
 3. **Shared skills** — `skills/` contains Claude Code skills that don't belong to a single tool, e.g. `st-testplan-generator`.
 
+## Audience
+
+All tools in this repo are built for **test engineers**, not developers. Users need to understand system behavior, find API endpoints, write test cases, and verify device-side behavior.
+
+When working in this repo, frame responses around:
+- "how to verify", "what API to call", "expected behavior", "test this by..."
+- Swagger/API docs, service behavior, and proto definitions — not Go internals or implementation detail
+- For EVE: CLI verification commands and collect-info tarball handoff to dev — not pillar internals or pubsub debugging
+- Source code results are secondary — useful for understanding what the API validates, not for coding against
+
 ## Repo structure
 
 ```
