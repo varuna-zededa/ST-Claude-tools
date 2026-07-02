@@ -61,6 +61,28 @@ Run the top-level `setup.sh` with the tool name:
 ./setup.sh eve-kb-rag --eve-path /custom/path/eve            # custom repo location
 ```
 
-Each tool creates its own `.venv`, writes a local `config.json`, installs its Claude Code skill, and registers its MCP server in `~/.mcp.json`.
+Each tool creates its own `.venv`, writes a local `config.json`, installs its Claude Code skill,
+registers its MCP server in `~/.mcp.json`, and **automatically installs all skills from `skills/`**.
 
-After setup, run the indexer for the tool (see the tool's own README for indexer options), then restart Claude Code to activate the new MCP server and skill.
+### Install skills only
+
+To install or update the Claude Code skills without running a full tool setup (no Qdrant or
+Ollama required):
+
+```bash
+./setup.sh skills
+```
+
+This copies all skills from `skills/` to `~/.claude/skills/` and is safe to re-run anytime
+to pick up skill updates from the repo.
+
+### Skip skills installation
+
+To run a tool setup without installing skills:
+
+```bash
+./setup.sh zedcloud-kb-rag --no-skills
+./setup.sh eve-kb-rag --no-skills
+```
+
+After any setup, restart Claude Code to activate the new MCP servers and skills.
