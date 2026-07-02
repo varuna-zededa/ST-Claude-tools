@@ -12,13 +12,13 @@ A collection of Claude Code tools for the Systems Test team at Zededa. It contai
 
 ## Audience
 
-All tools in this repo are built for **test engineers**, not developers. Users need to understand system behavior, find API endpoints, write test cases, and verify device-side behavior.
+These tools are built for **non-developers** who need to understand Zededa products — what the APIs do, how features behave, and how to interact with ZedCloud or EVE OS — without having to read through source code or implementation details. This includes test engineers, solutions engineers, support, and technical writers.
 
 When working in this repo, frame responses around:
-- "how to verify", "what API to call", "expected behavior", "test this by..."
-- Swagger/API docs, service behavior, and proto definitions — not Go internals or implementation detail
-- For EVE: CLI verification commands and collect-info tarball handoff to dev — not pillar internals or pubsub debugging
-- Source code results are secondary — useful for understanding what the API validates, not for coding against
+- What the product does and how to use it, not how it is implemented
+- "what API to call", "what does this feature do", "expected behavior", "how to verify..."
+- Swagger/API docs and service behavior docs are the primary value — source code is secondary and only useful for clarifying what the API validates
+- For EVE: CLI commands for verification and observation — not pillar internals, pubsub paths, or log debugging
 
 ## Repo structure
 
