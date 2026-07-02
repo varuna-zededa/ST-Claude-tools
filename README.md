@@ -4,11 +4,12 @@ A collection of MCP server tools and RAG pipelines for Claude Code, used by the 
 
 ## Tools
 
-| Folder | Description | README |
-|--------|-------------|--------|
+| Folder / File | Description | Docs |
+|---------------|-------------|------|
 | [zedcloud-kb-rag](./zedcloud-kb-rag/) | ZedCloud knowledge base — docs, Swagger endpoints, proto definitions, and Go service source | [README](./zedcloud-kb-rag/README.md) |
 | [eve-kb-rag](./eve-kb-rag/) | EVE OS knowledge base — docs, pillar agent source, and edgeview | [README](./eve-kb-rag/README.md) |
 | [skills/st-testplan-generator](./skills/st-testplan-generator/) | Claude Code skill for generating ZedCloud API and EVE device test plans | [SKILL.md](./skills/st-testplan-generator/SKILL.md) |
+| [CLAUDE.md](./CLAUDE.md) | Repo guide for Claude Code — structure, scripts, conventions, what not to commit | — |
 
 ---
 
