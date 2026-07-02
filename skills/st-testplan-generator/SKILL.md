@@ -34,6 +34,31 @@ This is a two-phase workflow: **collect** then **generate**. Work through both p
 
 ---
 
+## Skill Dependency Check
+
+Before doing anything else, check whether the following MCP tools are available in this session:
+
+| Tool | Skill | Purpose |
+|------|-------|---------|
+| `search_zcloud_kb`, `read_zcloud_file` | `zcloud-kb` | Cross-check and gap-fill ZedCloud API info |
+| `search_eve_kb`, `read_eve_file` | `eve-kb` | Validate and enrich EVE device test steps |
+
+**If either skill is missing**, notify the user immediately:
+
+> **Missing dependency: `<skill-name>` is not available in this session.**
+> To install it, follow the setup instructions at:
+> **https://github.com/varuna-zededa/ST-Claude-tools**
+> Run `./setup.sh <tool-name>`, then restart Claude Code and retry.
+
+**If both are unavailable:** Proceed using only the documents the user provides. Skip all
+`search_zcloud_kb`, `read_zcloud_file`, `search_eve_kb`, and `read_eve_file` steps in Phase 2.
+Note this at the top of the generated test plan so the user knows KB validation was not performed.
+
+**If only one is unavailable:** Skip only the steps that require the missing tool.
+Proceed normally with the available tool and note which KB was skipped.
+
+---
+
 ## Phase 1: Document Collection
 
 Ask the user for each of the following documents. Present them as a numbered list and make clear
@@ -81,6 +106,26 @@ Otherwise open the ticket URL in the browser.
   `mobilebasic` endpoint:
   `https://docs.google.com/document/d/<DOC_ID>/mobilebasic`
 - **Confluence**: Use `getConfluencePage` MCP tool if available, otherwise fetch via browser.
+
+### Source Correctness Hierarchy
+
+When information from multiple sources conflicts, apply this trust order — higher rank wins:
+
+| Rank | Source | Notes |
+|------|--------|-------|
+| 1 — lowest | Jira ticket description | Business intent and scope only — not implementation truth |
+| 2 | PRD / Design doc | Intended behavior at time of writing — may predate implementation changes |
+| 3 | `zcloud-kb` / `eve-kb` (when available) | Indexed from merged source and docs — more current than design docs |
+| 4 — highest | GitHub PR diff / commits | Ground truth — reflects what was actually merged and shipped |
+
+If `zcloud-kb` or `eve-kb` are unavailable, rank 3 is skipped and rank 2 (PRD/Design doc)
+becomes the second-highest source behind GitHub PR commits.
+
+Always apply this hierarchy when resolving conflicts between sources. Never silently choose one
+source over another — flag the conflict to the user with the sources involved and which rank
+was applied, then ask for confirmation before proceeding.
+
+---
 
 ### ZedCloud KB lookup (cross-check and gap-fill)
 
