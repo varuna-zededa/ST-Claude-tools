@@ -36,14 +36,12 @@ Qdrant must be running at `http://localhost:6333` when you run `setup.sh`. Ollam
 |-------------|--------|
 | ZedCloud repo | Cloned locally at `~/git/zedcloud` (default) or any path passed via `--zcloud-path` |
 | GitHub token *(optional)* | Set `GITHUB_TOKEN` to index directly from GitHub without a local clone |
-| Python packages | `qdrant-client`, `ollama`, `fastmcp`, `requests`, `fastembed`, `PyYAML` — installed automatically into `.venv` by setup |
 
 #### `eve-kb-rag`
 
 | Requirement | Detail |
 |-------------|--------|
 | EVE repo | Cloned locally at `~/git/eve` (default) or any path passed via `--eve-path` |
-| Python packages | `qdrant-client`, `ollama`, `fastmcp`, `requests`, `fastembed` — installed automatically into `.venv` by setup |
 
 #### `skills/st-testplan-generator`
 
