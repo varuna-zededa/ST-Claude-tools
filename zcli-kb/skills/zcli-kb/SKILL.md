@@ -1,11 +1,13 @@
 ---
 name: zcli-kb
 description: >
-  Search zcli commands for configuring ZedCloud features. Use when the user asks how to
-  configure, create, update, delete, or show any ZedCloud resource using zcli — even if
-  they say "what zcli command", "how do I configure X", "zcli flag for", "what flags does",
-  "how to set up X with zcli", or name a feature like "edge node", "network instance",
-  "project", "image", "cluster". Returns the exact command syntax with required and optional flags.
+  Search zcli commands for configuring ZedCloud features. Use when the user explicitly
+  mentions zcli — e.g. "what zcli command", "how do I configure X in zcli",
+  "zcli flag for", "what flags does zcli", "how to set up X with zcli", "zcli create",
+  "zcli update", "zcli show", or "using zcli" followed by a resource name like
+  "edge node", "network instance", "project", "image", "cluster".
+  Do NOT trigger on general ZedCloud questions without an explicit zcli mention.
+  Returns the exact command syntax with required and optional flags.
 ---
 
 # zcli-kb — ZedCloud CLI Command Search
@@ -14,10 +16,12 @@ You are helping the user find the right `zcli` command and its exact syntax.
 
 ## When this skill is active
 
-The user wants to:
+The user **explicitly mentions zcli** and wants to:
 - Configure, create, update, delete, or show a ZedCloud resource via zcli
-- Know what flags a command requires or supports
+- Know what flags a zcli command requires or supports
 - Find which zcli command handles a given feature or field
+
+Do NOT activate for general ZedCloud API questions — those go to `zcloud-kb`.
 
 ## How to use the MCP tools
 
