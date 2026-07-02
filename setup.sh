@@ -81,7 +81,7 @@ fi
 
 echo "==> Running setup for: $TOOL"
 echo ""
-bash "$TOOL_DIR/setup.sh" "${TOOL_ARGS[@]}"
+bash "$TOOL_DIR/setup.sh" ${TOOL_ARGS[@]+"${TOOL_ARGS[@]}"}
 
 if [[ "$SKIP_SKILLS" == false ]]; then
     echo ""
