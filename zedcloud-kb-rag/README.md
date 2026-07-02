@@ -23,9 +23,13 @@ a specific build. `kb_info` reports branch/commit/timestamp per indexed version.
 
 ## Prerequisites
 
-- Qdrant running locally: `docker run -p 6333:6333 qdrant/qdrant`
-- Ollama with `nomic-embed-text`: `ollama pull nomic-embed-text`
-- Local clone **or** a `GITHUB_TOKEN` with read access to `zededa/zedcloud`
+| Dependency | Install guide | Notes |
+|------------|--------------|-------|
+| Python 3.9+ | [python.org/downloads](https://www.python.org/downloads/) | Required to create the `.venv` |
+| Qdrant | [qdrant.tech/documentation/guides/installation](https://qdrant.tech/documentation/guides/installation/) | Must be running at `localhost:6333` before setup |
+| Docker *(recommended for Qdrant)* | [docs.docker.com/get-docker](https://docs.docker.com/get-docker/) | Easiest way to run Qdrant: `docker run -p 6333:6333 qdrant/qdrant` |
+| Ollama | [ollama.com/download](https://ollama.com/download) | Must be running; setup pulls `nomic-embed-text` automatically |
+| ZedCloud repo | — | Cloned locally at `~/git/zedcloud`, or set `GITHUB_TOKEN` to index from GitHub instead |
 
 ## Setup
 

@@ -83,13 +83,13 @@ uniformly. (`version` is `null`/empty until eve-kb is version-indexed — see be
 
 ## Prerequisites
 
-- Python 3.10+
-- [Qdrant](https://qdrant.tech/) running on `localhost:6333`
-- [Ollama](https://ollama.com/) with `nomic-embed-text` pulled
-
-```bash
-ollama pull nomic-embed-text
-```
+| Dependency | Install guide | Notes |
+|------------|--------------|-------|
+| Python 3.10+ | [python.org/downloads](https://www.python.org/downloads/) | Required to create the `.venv` |
+| Qdrant | [qdrant.tech/documentation/guides/installation](https://qdrant.tech/documentation/guides/installation/) | Must be running at `localhost:6333` before setup |
+| Docker *(recommended for Qdrant)* | [docs.docker.com/get-docker](https://docs.docker.com/get-docker/) | Easiest way to run Qdrant: `docker run -p 6333:6333 qdrant/qdrant` |
+| Ollama | [ollama.com/download](https://ollama.com/download) | Must be running; setup pulls `nomic-embed-text` automatically |
+| EVE repo | — | Cloned locally at `~/git/eve`, or use `--source github` with a `GITHUB_TOKEN` |
 
 ## Install (one-time per team member)
 

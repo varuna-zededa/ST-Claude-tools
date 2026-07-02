@@ -18,15 +18,15 @@ Install these before running any `setup.sh`.
 
 ### Required for all tools
 
-| Dependency | Version | How to install |
-|------------|---------|----------------|
-| Python 3 | ≥ 3.9 | `brew install python` or system package manager |
-| Qdrant | any | `docker run -p 6333:6333 qdrant/qdrant` |
-| Ollama | any | [ollama.com/download](https://ollama.com/download) |
-| `nomic-embed-text` model | any | `ollama pull nomic-embed-text` |
-| Claude Code CLI | any | [claude.ai/code](https://claude.ai/code) |
+| Dependency | Install guide | Notes |
+|------------|--------------|-------|
+| Python 3.9+ | [python.org/downloads](https://www.python.org/downloads/) | Required to create each tool's `.venv` |
+| Qdrant | [qdrant.tech/documentation/guides/installation](https://qdrant.tech/documentation/guides/installation/) | Must be running at `localhost:6333` before setup |
+| Docker *(recommended for Qdrant)* | [docs.docker.com/get-docker](https://docs.docker.com/get-docker/) | Easiest way to run Qdrant: `docker run -p 6333:6333 qdrant/qdrant` |
+| Ollama | [ollama.com/download](https://ollama.com/download) | Must be running; setup pulls `nomic-embed-text` automatically |
+| Claude Code | [claude.ai/code](https://claude.ai/code) | Required to use MCP servers and skills |
 
-Qdrant must be running at `http://localhost:6333` when you run `setup.sh`. Ollama must be running and have `nomic-embed-text` available — setup will pull it automatically if Ollama is running but the model is not yet downloaded.
+Qdrant must be running at `http://localhost:6333` when you run `setup.sh`. Ollama must be running — setup pulls `nomic-embed-text` automatically if the model is not yet downloaded.
 
 ### Per-tool requirements
 
